@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/law_Visualizer/static/css/main.29e2f79a.css",
-    "main.js": "/law_Visualizer/static/js/main.803d79af.js",
+    "main.css": "/law_Visualizer/static/css/main.c20e39f5.css",
+    "main.js": "/law_Visualizer/static/js/main.be286813.js",
     "static/js/453.96345a0f.chunk.js": "/law_Visualizer/static/js/453.96345a0f.chunk.js",
     "static/media/worldHigh.svg": "/law_Visualizer/static/media/worldHigh.ae98666aa5f5c2c1abeadeda5a6fff4e.svg",
     "index.html": "/law_Visualizer/index.html",
-    "main.29e2f79a.css.map": "/law_Visualizer/static/css/main.29e2f79a.css.map",
-    "main.803d79af.js.map": "/law_Visualizer/static/js/main.803d79af.js.map",
+    "main.c20e39f5.css.map": "/law_Visualizer/static/css/main.c20e39f5.css.map",
+    "main.be286813.js.map": "/law_Visualizer/static/js/main.be286813.js.map",
     "453.96345a0f.chunk.js.map": "/law_Visualizer/static/js/453.96345a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29e2f79a.css",
-    "static/js/main.803d79af.js"
+    "static/css/main.c20e39f5.css",
+    "static/js/main.be286813.js"
   ]
 }
