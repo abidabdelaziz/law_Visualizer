@@ -1,15 +1,46 @@
 import './App.css';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
 
 const MIN_SCALE = 1;
 const MAX_SCALE = 6;
+const INITIAL_SCALE = 2;
+const INITIAL_Y_OFFSET = 100;
 const ZOOM_STEP = 1.15;
 const REGION_CODE_PATTERN = /^[A-Z]{2}$/;
 const regionNames = typeof Intl !== 'undefined' && Intl.DisplayNames
   ? new Intl.DisplayNames(['en'], { type: 'region' })
   : null;
+const COUNTRY_ALIASES = {
+  'united states of america': 'united states',
+  usa: 'united states',
+  'russian federation': 'russia',
+  libya: 'libya in transition',
+  turkiye: 'turkey',
+  'republic of turkiye': 'turkey',
+  'viet nam': 'vietnam',
+  czechia: 'czech republic',
+  'cabo verde': 'cape verde',
+  'brunei darussalam': 'brunei',
+  'syrian arab republic': 'syria',
+  'iran islamic republic of': 'iran',
+  'lao peoples democratic republic': 'laos',
+  'korea republic of': 'south korea',
+  'korea democratic peoples republic of': 'north korea',
+};
+
+const normalizeCountryName = (value) => value
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9]+/g, ' ')
+  .trim();
+
+const canonicalCountryName = (value) => {
+  const normalized = normalizeCountryName(value || '');
+  return COUNTRY_ALIASES[normalized] || normalized;
+};
 
 function App() {
   const containerRef = useRef(null);
@@ -17,27 +48,17 @@ function App() {
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(nationIndex[0]);
   const [searchQuery, setSearchQuery] = useState('');
-  const [view, setView] = useState({ scale: 1, x: 0, y: 0 });
+  const [isCountryListOpen, setIsCountryListOpen] = useState(true);
+  const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
+  const countryByName = useMemo(() => {
+    const map = new Map();
 
-  useEffect(() => {
-    const svg = containerRef.current?.querySelector('svg');
-
-    if (!svg) {
-      return;
-    }
-
-    const selectedName = selectedCountry?.State;
-
-    svg.querySelectorAll('path[data-name]').forEach((path) => {
-      const isSelected = getCountryLabel(path) === selectedName;
-
-      if (isSelected) {
-        path.setAttribute('data-selected', 'true');
-      } else {
-        path.removeAttribute('data-selected');
-      }
+    nationIndex.forEach((country) => {
+      map.set(canonicalCountryName(country.State), country);
     });
-  }, [selectedCountry]);
+
+    return map;
+  }, []);
 
   useEffect(() => {
     const handlePointerMove = (event) => {
@@ -70,6 +91,24 @@ function App() {
     };
   }, []);
 
+  const getCenteredView = (scale) => {
+    const container = containerRef.current;
+
+    if (!container) {
+      return { scale, x: 0, y: 0 };
+    }
+
+    const rect = container.getBoundingClientRect();
+    const x = (rect.width - rect.width * scale) / 2;
+    const y = (rect.height - rect.height * scale) / 2 + INITIAL_Y_OFFSET;
+
+    return { scale, x, y };
+  };
+
+  useLayoutEffect(() => {
+    setView(getCenteredView(INITIAL_SCALE));
+  }, []);
+
   const clampScale = (value) => Math.min(MAX_SCALE, Math.max(MIN_SCALE, value));
 
   const zoomToPoint = (nextScale, clientX, clientY) => {
@@ -93,6 +132,10 @@ function App() {
   };
 
   const handleWheel = (event) => {
+    if (event.target instanceof Element && event.target.closest('.App-menuList')) {
+      return;
+    }
+
     event.preventDefault();
 
     const zoomDirection = event.deltaY < 0 ? ZOOM_STEP : 1 / ZOOM_STEP;
@@ -126,14 +169,23 @@ function App() {
   };
 
   const handleReset = () => {
-    setView({ scale: 1, x: 0, y: 0 });
+    setView(getCenteredView(INITIAL_SCALE));
   };
 
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
+    setIsCountryListOpen(false);
   };
 
-  const getCountryLabel = (countryPath) => {
+  const resolveCountry = useCallback((countryName) => {
+    if (!countryName) {
+      return null;
+    }
+
+    return countryByName.get(canonicalCountryName(countryName)) || null;
+  }, [countryByName]);
+
+  const getCountryLabel = useCallback((countryPath) => {
     const countryId = countryPath.getAttribute('id');
 
     if (countryId && regionNames && REGION_CODE_PATTERN.test(countryId)) {
@@ -145,7 +197,28 @@ function App() {
     }
 
     return countryPath.getAttribute('data-name') || countryId || 'Unknown country';
-  };
+  }, []);
+
+  useEffect(() => {
+    const svg = containerRef.current?.querySelector('svg');
+
+    if (!svg) {
+      return;
+    }
+
+    const selectedName = selectedCountry?.State;
+
+    svg.querySelectorAll('path[data-name]').forEach((path) => {
+      const matchedCountry = resolveCountry(getCountryLabel(path));
+      const isSelected = matchedCountry?.State === selectedName;
+
+      if (isSelected) {
+        path.setAttribute('data-selected', 'true');
+      } else {
+        path.removeAttribute('data-selected');
+      }
+    });
+  }, [selectedCountry, resolveCountry, getCountryLabel]);
 
   const updateHoveredCountry = (event) => {
     const target = event.target;
@@ -167,6 +240,28 @@ function App() {
       x: event.clientX,
       y: event.clientY,
     });
+  };
+
+  const handleMapClick = (event) => {
+    const target = event.target;
+
+    if (!(target instanceof Element)) {
+      return;
+    }
+
+    const countryPath = target.closest('path[data-name]');
+
+    if (!countryPath) {
+      return;
+    }
+
+    setIsCountryListOpen(false);
+
+    const match = resolveCountry(getCountryLabel(countryPath));
+
+    if (match) {
+      setSelectedCountry(match);
+    }
   };
 
   const filteredCountries = nationIndex.filter((country) =>
@@ -196,23 +291,29 @@ function App() {
             className="App-search"
             type="search"
             value={searchQuery}
-            onChange={(event) => setSearchQuery(event.target.value)}
+            onFocus={() => setIsCountryListOpen(true)}
+            onChange={(event) => {
+              setSearchQuery(event.target.value);
+              setIsCountryListOpen(true);
+            }}
             placeholder="Search states"
             aria-label="Search states"
           />
-          <div className="App-menuList" role="list" aria-label="States list">
-            {filteredCountries.map((country) => (
-              <button
-                key={country.State}
-                type="button"
-                className={`App-menuItem${selectedCountry?.State === country.State ? ' is-selected' : ''}`}
-                onClick={() => handleCountrySelect(country)}
-                aria-pressed={selectedCountry?.State === country.State}
-              >
-                {country.State}
-              </button>
-            ))}
-          </div>
+          {isCountryListOpen ? (
+            <div className="App-menuList" role="list" aria-label="States list">
+              {filteredCountries.map((country) => (
+                <button
+                  key={country.State}
+                  type="button"
+                  className={`App-menuItem${selectedCountry?.State === country.State ? ' is-selected' : ''}`}
+                  onClick={() => handleCountrySelect(country)}
+                  aria-pressed={selectedCountry?.State === country.State}
+                >
+                  {country.State}
+                </button>
+              ))}
+            </div>
+          ) : null}
         </div>
 
         <div className="App-details">
@@ -238,6 +339,7 @@ function App() {
         onPointerDown={handlePointerDown}
         onPointerMove={updateHoveredCountry}
         onPointerLeave={() => setHoveredCountry(null)}
+        onClick={handleMapClick}
         style={{
           transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})`,
           cursor: view.scale > 1 ? 'grab' : 'default',
