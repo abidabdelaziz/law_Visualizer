@@ -48,7 +48,7 @@ function App() {
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(nationIndex[0]);
   const [searchQuery, setSearchQuery] = useState('');
-  const [isCountryListOpen, setIsCountryListOpen] = useState(true);
+  const [isCountryListOpen, setIsCountryListOpen] = useState(false);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
     const map = new Map();
