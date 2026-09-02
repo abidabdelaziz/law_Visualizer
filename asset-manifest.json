@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/law_Visualizer/static/css/main.c20e39f5.css",
-    "main.js": "/law_Visualizer/static/js/main.be286813.js",
+    "main.css": "/law_Visualizer/static/css/main.98826102.css",
+    "main.js": "/law_Visualizer/static/js/main.a532a561.js",
     "static/js/453.96345a0f.chunk.js": "/law_Visualizer/static/js/453.96345a0f.chunk.js",
     "static/media/worldHigh.svg": "/law_Visualizer/static/media/worldHigh.ae98666aa5f5c2c1abeadeda5a6fff4e.svg",
+    "static/media/juriGlobe.png": "/law_Visualizer/static/media/juriGlobe.32f6f02f0041fb77cf71.png",
+    "static/media/uOttawa.png": "/law_Visualizer/static/media/uOttawa.a6fa2f96f61ecbe3faae.png",
+    "static/media/NYULaw.svg": "/law_Visualizer/static/media/NYULaw.9557868a2e00741ac808ba176b9cddd0.svg",
     "index.html": "/law_Visualizer/index.html",
-    "main.c20e39f5.css.map": "/law_Visualizer/static/css/main.c20e39f5.css.map",
-    "main.be286813.js.map": "/law_Visualizer/static/js/main.be286813.js.map",
+    "main.98826102.css.map": "/law_Visualizer/static/css/main.98826102.css.map",
+    "main.a532a561.js.map": "/law_Visualizer/static/js/main.a532a561.js.map",
     "453.96345a0f.chunk.js.map": "/law_Visualizer/static/js/453.96345a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c20e39f5.css",
-    "static/js/main.be286813.js"
+    "static/css/main.98826102.css",
+    "static/js/main.a532a561.js"
   ]
 }
