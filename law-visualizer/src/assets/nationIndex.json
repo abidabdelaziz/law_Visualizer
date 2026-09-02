@@ -884,6 +884,19 @@
     "GDP (billions)": "235.6"
   },
   {
+    "State": "Greenland",
+    "Legal System": "Civil Law",
+    "Form of State": "Autonomous Territory",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Mixed",
+    "Parliamentary Upper House / Senate": null,
+    "Parliamentary Lower House / National Assembly": "Inatsisartut",
+    "Language Category": "Unilingual",
+    "Official Languages": "Greenlandic",
+    "Population (millions)": "0.056",
+    "GDP (billions)": "2.7"
+  },
+  {
     "State": "Grenada",
     "Legal System": "Common law",
     "Form of State": "Unitary",
@@ -2521,6 +2534,19 @@
     "Population (millions)": "90.7",
     "GDP (billions)": "186.2"
   },
+  {
+  "State": "Western Sahara",
+  "Legal System": "Mixed (Civil Law and Islamic Law)",
+  "Form of State": "Disputed / Non-Self-Governing Territory",
+  "Form of Government": "Semi-Presidential (SADR claim) / Constitutional Monarchy (Moroccan administration)",
+  "Constitutional Control": "Centralized",
+  "Parliamentary Upper House / Senate": null,
+  "Parliamentary Lower House / National Assembly": "Sahrawi National Council (Majlis al-Watani)",
+  "Language Category": "Multilingual",
+  "Official Languages": "Arabic (Spanish widely used)",
+  "Population (millions)": "0.6",
+  "GDP (billions)": "1.2 (estimated)"
+ },
   {
     "State": "Yemen",
     "Legal System": "Muslim Law/Civil Law/Common law/Customary Mixed",

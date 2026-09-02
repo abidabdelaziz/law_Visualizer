@@ -2,6 +2,9 @@ import './App.css';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
+import nyuLawLogo from './assets/NYULaw.svg';
+import uOttawaLogo from './assets/uOttawa.png';
+import juriglobeLogo from './assets/juriGlobe.png';
 
 const MIN_SCALE = 1;
 const MAX_SCALE = 6;
@@ -88,6 +91,26 @@ function App() {
     return () => {
       window.removeEventListener('pointermove', handlePointerMove);
       window.removeEventListener('pointerup', handlePointerUp);
+    };
+  }, []);
+
+  useEffect(() => {
+    const container = containerRef.current;
+
+    if (!container) {
+      return;
+    }
+
+    const preventNativeZoom = (event) => {
+      if (event.ctrlKey) {
+        event.preventDefault();
+      }
+    };
+
+    container.addEventListener('wheel', preventNativeZoom, { passive: false });
+
+    return () => {
+      container.removeEventListener('wheel', preventNativeZoom);
     };
   }, []);
 
@@ -272,6 +295,7 @@ function App() {
 
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
+      <h1 className="App-title">Visual Law Index</h1>
       <div className="App-sidebar">
         <div className="App-toolbar">
           <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
@@ -356,6 +380,12 @@ function App() {
           {hoveredCountry.name}
         </div>
       ) : null}
+      <div className="App-logoGroup" aria-label="Partner institutions">
+        <img className="App-logo App-logo--nyu" src={nyuLawLogo} alt="NYU Law" />
+        <img className="App-logo App-logo--uottawa" src={uOttawaLogo} alt="uOttawa" />
+        <img className="App-logo App-logo--juriglobe" src={juriglobeLogo} alt="JuriGlobe" />
+
+      </div>
     </div>
   );
 }
