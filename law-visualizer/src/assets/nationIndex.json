@@ -8,9 +8,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Dari, Pashtou",
-    "Population (millions)": "31.6",
-    "GDP (billions)": "20"
+    "Official Languages": "Dari, Pashtou"
   },
   {
     "State": "South Africa",
@@ -21,9 +19,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Afrikaans, +",
-    "Population (millions)": "54",
-    "GDP (billions)": "350.1"
+    "Official Languages": "English, Afrikaans, +"
   },
   {
     "State": "Albania",
@@ -34,9 +30,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Albanian",
-    "Population (millions)": "2.9",
-    "GDP (billions)": "13.2"
+    "Official Languages": "Albanian"
   },
   {
     "State": "Algeria",
@@ -47,9 +41,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +",
-    "Population (millions)": "38.9",
-    "GDP (billions)": "213.5"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Germany",
@@ -60,9 +52,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "German",
-    "Population (millions)": "81",
-    "GDP (billions)": "3868.3"
+    "Official Languages": "German"
   },
   {
     "State": "Andorra",
@@ -73,9 +63,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Catalan",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "3.2"
+    "Official Languages": "Catalan"
   },
   {
     "State": "Angola",
@@ -86,9 +74,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "24.2",
-    "GDP (billions)": "138.4"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Antigua and Barbuda",
@@ -99,9 +85,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "1.2"
+    "Official Languages": "English"
   },
   {
     "State": "Saudi Arabia",
@@ -112,9 +96,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "30.9",
-    "GDP (billions)": "753.8"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Argentina",
@@ -125,9 +107,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "43",
-    "GDP (billions)": "537.7"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Armenia",
@@ -138,9 +118,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Armenian",
-    "Population (millions)": "13",
-    "GDP (billions)": "11.6"
+    "Official Languages": "Armenian"
   },
   {
     "State": "Australia",
@@ -151,9 +129,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "23.5",
-    "GDP (billions)": "1454.7"
+    "Official Languages": "English"
   },
   {
     "State": "Austria",
@@ -164,9 +140,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "German, +",
-    "Population (millions)": "8.5",
-    "GDP (billions)": "436.9"
+    "Official Languages": "German, +"
   },
   {
     "State": "Azerbaijan",
@@ -177,9 +151,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Azeri",
-    "Population (millions)": "9.5",
-    "GDP (billions)": "75.2"
+    "Official Languages": "Azeri"
   },
   {
     "State": "Bahamas",
@@ -190,9 +162,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.4",
-    "GDP (billions)": "8.5"
+    "Official Languages": "English"
   },
   {
     "State": "Bahrain",
@@ -203,9 +173,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "1.4",
-    "GDP (billions)": "33.9"
+    "Official Languages": "Arab"
   },
   {
     "State": "Bangladesh",
@@ -216,9 +184,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Ind. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Bengali",
-    "Population (millions)": "159.1",
-    "GDP (billions)": "172.9"
+    "Official Languages": "Bengali"
   },
   {
     "State": "Barbados",
@@ -229,9 +195,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "10.3",
-    "GDP (billions)": "4.4"
+    "Official Languages": "English"
   },
   {
     "State": "Belarus",
@@ -242,9 +206,7 @@
     "Parliamentary Upper House / Senate": "Ind. Prop. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Belarusian, Russian",
-    "Population (millions)": "195",
-    "GDP (billions)": "76.1"
+    "Official Languages": "Belarusian, Russian"
   },
   {
     "State": "Belgium",
@@ -255,9 +217,7 @@
     "Parliamentary Upper House / Senate": "Prop. Nom.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "German, French, Dutch",
-    "Population (millions)": "11.2",
-    "GDP (billions)": "531.5"
+    "Official Languages": "German, French, Dutch"
   },
   {
     "State": "Belize",
@@ -268,9 +228,7 @@
     "Parliamentary Upper House / Senate": "Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.4",
-    "GDP (billions)": "1.7"
+    "Official Languages": "English"
   },
   {
     "State": "Benin",
@@ -281,9 +239,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "10.6",
-    "GDP (billions)": "9.6"
+    "Official Languages": "French"
   },
   {
     "State": "Bhutan",
@@ -294,9 +250,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Dzong-ka",
-    "Population (millions)": "0.8",
-    "GDP (billions)": "2"
+    "Official Languages": "Dzong-ka"
   },
   {
     "State": "Bolivia",
@@ -307,9 +261,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Prop.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "10.6",
-    "GDP (billions)": "33"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Bosnia and Herzegovina",
@@ -320,9 +272,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Bosnian, Croatian, Serbian",
-    "Population (millions)": "3.8",
-    "GDP (billions)": "18.5"
+    "Official Languages": "Bosnian, Croatian, Serbian"
   },
   {
     "State": "Botswana",
@@ -333,9 +283,7 @@
     "Parliamentary Upper House / Senate": "Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Nom",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "2.2",
-    "GDP (billions)": "15.8"
+    "Official Languages": "English"
   },
   {
     "State": "Brazil",
@@ -346,9 +294,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "206.1",
-    "GDP (billions)": "2416.6"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Brunei",
@@ -359,9 +305,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nom",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Malay",
-    "Population (millions)": "10.4",
-    "GDP (billions)": "17.1"
+    "Official Languages": "English, Malay"
   },
   {
     "State": "Bulgaria",
@@ -372,9 +316,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Bulgarian",
-    "Population (millions)": "7.2",
-    "GDP (billions)": "56.7"
+    "Official Languages": "Bulgarian"
   },
   {
     "State": "Burkina Faso",
@@ -385,9 +327,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "17.6",
-    "GDP (billions)": "12.5"
+    "Official Languages": "French"
   },
   {
     "State": "Burundi",
@@ -398,9 +338,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Kirundi",
-    "Population (millions)": "10.8",
-    "GDP (billions)": "3.1"
+    "Official Languages": "French, Kirundi"
   },
   {
     "State": "Cambodia",
@@ -411,9 +349,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Khmer",
-    "Population (millions)": "15.3",
-    "GDP (billions)": "16.8"
+    "Official Languages": "Khmer"
   },
   {
     "State": "Cameroon",
@@ -424,9 +360,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Ind. Prop+. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
     "Language Category": "Plurilingual",
-    "Official Languages": "French English",
-    "Population (millions)": "22.8",
-    "GDP (billions)": "32.1"
+    "Official Languages": "French English"
   },
   {
     "State": "Canada",
@@ -437,9 +371,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, French, +",
-    "Population (millions)": "35.5",
-    "GDP (billions)": "1785.4"
+    "Official Languages": "English, French, +"
   },
   {
     "State": "Cabo Verde",
@@ -450,9 +382,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese, +",
-    "Population (millions)": "0.5",
-    "GDP (billions)": "1.9"
+    "Official Languages": "Portuguese, +"
   },
   {
     "State": "Central African Republic",
@@ -463,9 +393,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj Ind. Maj.",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Sango",
-    "Population (millions)": "4.8",
-    "GDP (billions)": "1.7"
+    "Official Languages": "French, Sango"
   },
   {
     "State": "Chile",
@@ -476,9 +404,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "17.8",
-    "GDP (billions)": "258.1"
+    "Official Languages": "Spanish"
   },
   {
     "State": "China",
@@ -489,9 +415,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Ind. Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Chinese",
-    "Population (millions)": "1372.1",
-    "GDP (billions)": "10701.2"
+    "Official Languages": "Chinese"
   },
   {
     "State": "Cyprus",
@@ -502,9 +426,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Greek, Turkish",
-    "Population (millions)": "1.2",
-    "GDP (billions)": "23.2"
+    "Official Languages": "Greek, Turkish"
   },
   {
     "State": "Colombia",
@@ -515,9 +437,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "47.8",
-    "GDP (billions)": "377.7"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Comoros Islands",
@@ -528,9 +448,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Ind. Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, French, Sikomor",
-    "Population (millions)": "0.8",
-    "GDP (billions)": "0.6"
+    "Official Languages": "Arabic, French, Sikomor"
   },
   {
     "State": "Congo",
@@ -541,9 +459,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "4.5",
-    "GDP (billions)": "14.2"
+    "Official Languages": "French"
   },
   {
     "State": "North Korea",
@@ -554,9 +470,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Korean",
-    "Population (millions)": "25",
-    "GDP (billions)": null
+    "Official Languages": "Korean"
   },
   {
     "State": "South Korea",
@@ -567,9 +481,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Korean",
-    "Population (millions)": "50.4",
-    "GDP (billions)": "1410.4"
+    "Official Languages": "Korean"
   },
   {
     "State": "Costa Rica",
@@ -580,9 +492,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "4.8",
-    "GDP (billions)": "49.6"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Ivory Coast",
@@ -593,9 +503,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj Ind. Maj.+ Nom",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "22.2",
-    "GDP (billions)": "34.3"
+    "Official Languages": "French"
   },
   {
     "State": "Croatia",
@@ -606,9 +514,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Croatian",
-    "Population (millions)": "4.2",
-    "GDP (billions)": "57.1"
+    "Official Languages": "Croatian"
   },
   {
     "State": "Cuba",
@@ -619,9 +525,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "11.4",
-    "GDP (billions)": "77.1"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Denmark",
@@ -632,9 +536,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Danish, +",
-    "Population (millions)": "5.6",
-    "GDP (billions)": "342.4"
+    "Official Languages": "Danish, +"
   },
   {
     "State": "Djibouti",
@@ -645,9 +547,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Arabic",
-    "Population (millions)": "0.9",
-    "GDP (billions)": "1.6"
+    "Official Languages": "French, Arabic"
   },
   {
     "State": "Dominica",
@@ -658,9 +558,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.5"
+    "Official Languages": "English"
   },
   {
     "State": "Egypt",
@@ -671,9 +569,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "89.6",
-    "GDP (billions)": "301.5"
+    "Official Languages": "Arabic"
   },
   {
     "State": "El Salvador",
@@ -684,9 +580,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "6.1",
-    "GDP (billions)": "25.2"
+    "Official Languages": "Spanish"
   },
   {
     "State": "United Arab Emirates",
@@ -697,9 +591,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Ind. Maj. + Nom.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "9.1",
-    "GDP (billions)": "399.5"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Ecuador",
@@ -710,9 +602,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +",
-    "Population (millions)": "15.9",
-    "GDP (billions)": "100.9"
+    "Official Languages": "Spanish, +"
   },
   {
     "State": "Eritrea",
@@ -723,9 +613,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arab, Tigrinya",
-    "Population (millions)": "5.1",
-    "GDP (billions)": "1381.3"
+    "Official Languages": "Arabic, Tigrinya"
   },
   {
     "State": "Spain",
@@ -736,9 +624,7 @@
     "Parliamentary Upper House / Senate": "Maj. Ind. Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +",
-    "Population (millions)": "46.5",
-    "GDP (billions)": "1381.3"
+    "Official Languages": "Spanish, +"
   },
   {
     "State": "Estonia",
@@ -749,9 +635,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Estonian",
-    "Population (millions)": "1.3",
-    "GDP (billions)": "26.5"
+    "Official Languages": "Estonian"
   },
   {
     "State": "United States of America",
@@ -762,9 +646,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "319.1",
-    "GDP (billions)": "17419"
+    "Official Languages": "English, +"
   },
   {
     "State": "Ethiopia",
@@ -775,9 +657,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Amharic, +",
-    "Population (millions)": "97",
-    "GDP (billions)": "55.6"
+    "Official Languages": "Amharic, +"
   },
   {
     "State": "Fiji Islands",
@@ -788,9 +668,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "10.9",
-    "GDP (billions)": "4.5"
+    "Official Languages": "English, +"
   },
   {
     "State": "Finland",
@@ -801,9 +679,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Finnish, Swedish",
-    "Population (millions)": "5.5",
-    "GDP (billions)": "272.2"
+    "Official Languages": "Finnish, Swedish"
   },
   {
     "State": "France",
@@ -814,9 +690,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Prop.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "66.8",
-    "GDP (billions)": "2829.2"
+    "Official Languages": "French"
   },
   {
     "State": "Gabon",
@@ -827,9 +701,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "1.7",
-    "GDP (billions)": "18.2"
+    "Official Languages": "French"
   },
   {
     "State": "Gambia",
@@ -840,9 +712,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Nom.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "1.9",
-    "GDP (billions)": "10.9"
+    "Official Languages": "English"
   },
   {
     "State": "Georgia",
@@ -853,9 +723,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Georgian",
-    "Population (millions)": "3.7",
-    "GDP (billions)": "16.5"
+    "Official Languages": "Georgian"
   },
   {
     "State": "Ghana",
@@ -866,9 +734,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "26.8",
-    "GDP (billions)": "38.6"
+    "Official Languages": "English"
   },
   {
     "State": "Greece",
@@ -879,9 +745,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Greek",
-    "Population (millions)": "10.9",
-    "GDP (billions)": "235.6"
+    "Official Languages": "Greek"
   },
   {
     "State": "Greenland",
@@ -892,9 +756,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Inatsisartut",
     "Language Category": "Unilingual",
-    "Official Languages": "Greenlandic",
-    "Population (millions)": "0.056",
-    "GDP (billions)": "2.7"
+    "Official Languages": "Greenlandic"
   },
   {
     "State": "Grenada",
@@ -905,9 +767,7 @@
     "Parliamentary Upper House / Senate": "Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.9"
+    "Official Languages": "English"
   },
   {
     "State": "Guatemala",
@@ -918,9 +778,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "16",
-    "GDP (billions)": "58.8"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Guinea",
@@ -931,9 +789,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "102",
-    "GDP (billions)": "6.6"
+    "Official Languages": "French"
   },
   {
     "State": "Equatorial Guinea",
@@ -944,9 +800,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Spanish, French",
-    "Population (millions)": "0.8",
-    "GDP (billions)": "3.1"
+    "Official Languages": "Spanish, French"
   },
   {
     "State": "Guinea-Bissau",
@@ -957,9 +811,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "1.8",
-    "GDP (billions)": "1"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Guyana",
@@ -970,9 +822,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.8",
-    "GDP (billions)": "3.1"
+    "Official Languages": "English"
   },
   {
     "State": "Haiti",
@@ -983,9 +833,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Creole, French",
-    "Population (millions)": "10.6",
-    "GDP (billions)": "8.7"
+    "Official Languages": "Creole, French"
   },
   {
     "State": "Honduras",
@@ -996,9 +844,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "8",
-    "GDP (billions)": "19.4"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Hungary",
@@ -1009,9 +855,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Hungarian",
-    "Population (millions)": "9.9",
-    "GDP (billions)": "138.3"
+    "Official Languages": "Hungarian"
   },
   {
     "State": "India",
@@ -1022,9 +866,7 @@
     "Parliamentary Upper House / Senate": "Ind. Prop. Nom",
     "Parliamentary Lower House / National Assembly": "Maj. Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Hindi,",
-    "Population (millions)": "1295.3",
-    "GDP (billions)": "2048.5"
+    "Official Languages": "English, Hindi,"
   },
   {
     "State": "Indonesia",
@@ -1035,9 +877,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Bahasa Indonesia",
-    "Population (millions)": "254.5",
-    "GDP (billions)": "888.5"
+    "Official Languages": "Bahasa Indonesia"
   },
   {
     "State": "Iran",
@@ -1048,9 +888,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Persian (Farsi)",
-    "Population (millions)": "78.1",
-    "GDP (billions)": "425.3"
+    "Official Languages": "Persian (Farsi)"
   },
   {
     "State": "Iraq",
@@ -1061,9 +899,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arab, Kurdish, +",
-    "Population (millions)": "34.8",
-    "GDP (billions)": "223.5"
+    "Official Languages": "Arabic, Kurdish, +"
   },
   {
     "State": "Ireland",
@@ -1074,9 +910,7 @@
     "Parliamentary Upper House / Senate": "Ind. Prop. + Nom.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Irish",
-    "Population (millions)": "4.6",
-    "GDP (billions)": "250.8"
+    "Official Languages": "English, Irish"
   },
   {
     "State": "Iceland",
@@ -1087,9 +921,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Icelandic",
-    "Population (millions)": "0.3",
-    "GDP (billions)": "17"
+    "Official Languages": "Icelandic"
   },
   {
     "State": "Israel",
@@ -1100,9 +932,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, Hebrew",
-    "Population (millions)": "8.2",
-    "GDP (billions)": "305.7"
+    "Official Languages": "Arabic, Hebrew"
   },
   {
     "State": "Italy",
@@ -1113,9 +943,7 @@
     "Parliamentary Upper House / Senate": "Prop. Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Italian",
-    "Population (millions)": "60.8",
-    "GDP (billions)": "2141.2"
+    "Official Languages": "Italian"
   },
   {
     "State": "Jamaica",
@@ -1126,9 +954,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "2.7",
-    "GDP (billions)": "13.9"
+    "Official Languages": "English"
   },
   {
     "State": "Japan",
@@ -1139,9 +965,7 @@
     "Parliamentary Upper House / Senate": "Maj+ Prop",
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Japanese",
-    "Population (millions)": "127.1",
-    "GDP (billions)": "4601.5"
+    "Official Languages": "Japanese"
   },
   {
     "State": "Jordan",
@@ -1152,9 +976,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "6.6",
-    "GDP (billions)": "35.8"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Kazakhstan",
@@ -1165,9 +987,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Kazakh, Russian",
-    "Population (millions)": "17.3",
-    "GDP (billions)": "217.9"
+    "Official Languages": "Kazakh, Russian"
   },
   {
     "State": "Kenya",
@@ -1178,9 +998,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swahili",
-    "Population (millions)": "44.9",
-    "GDP (billions)": "44.9"
+    "Official Languages": "English, Swahili"
   },
   {
     "State": "Kyrgyzstan",
@@ -1191,9 +1009,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Kyrgyz, Russian",
-    "Population (millions)": "5.8",
-    "GDP (billions)": "5.8"
+    "Official Languages": "Kyrgyz, Russian"
   },
   {
     "State": "Kiribati",
@@ -1204,9 +1020,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Kiribati",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "02"
+    "Official Languages": "English, Kiribati"
   },
   {
     "State": "Kosovo",
@@ -1217,9 +1031,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Albanian, Serbian",
-    "Population (millions)": "1.8",
-    "GDP (billions)": "7.4"
+    "Official Languages": "Albanian, Serbian"
   },
   {
     "State": "Kuwait",
@@ -1230,9 +1042,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "3.8",
-    "GDP (billions)": "163.6"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Laos",
@@ -1243,9 +1053,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Lao",
-    "Population (millions)": "6.7",
-    "GDP (billions)": "12"
+    "Official Languages": "Lao"
   },
   {
     "State": "Lesotho",
@@ -1256,9 +1064,7 @@
     "Parliamentary Upper House / Senate": "Nom.",
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Sesotho",
-    "Population (millions)": "2.1",
-    "GDP (billions)": "22"
+    "Official Languages": "English, Sesotho"
   },
   {
     "State": "Latvia",
@@ -1269,9 +1075,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Latvian",
-    "Population (millions)": "2",
-    "GDP (billions)": "31.3"
+    "Official Languages": "Latvian"
   },
   {
     "State": "Lebanon",
@@ -1282,9 +1086,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +",
-    "Population (millions)": "4.5",
-    "GDP (billions)": "45.7"
+    "Official Languages": "Arabic, +"
   },
   {
     "State": "Liberia",
@@ -1295,9 +1097,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "4.4",
-    "GDP (billions)": "2"
+    "Official Languages": "English"
   },
   {
     "State": "Libya (in transition)",
@@ -1308,9 +1108,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": null,
-    "GDP (billions)": null
+    "Official Languages": "Arabic"
   },
   {
     "State": "Liechtenstein",
@@ -1321,9 +1119,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "German",
-    "Population (millions)": "0",
-    "GDP (billions)": "5.5"
+    "Official Languages": "German"
   },
   {
     "State": "Lithuania",
@@ -1334,9 +1130,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Lithuanian",
-    "Population (millions)": "2.9",
-    "GDP (billions)": "48.4"
+    "Official Languages": "Lithuanian"
   },
   {
     "State": "Luxembourg",
@@ -1347,9 +1141,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "German, French, Luxemburgish",
-    "Population (millions)": "0.6",
-    "GDP (billions)": "64.9"
+    "Official Languages": "German, French, Luxemburgish"
   },
   {
     "State": "Macedonia (Fyrom)",
@@ -1360,9 +1152,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Macedonian, +",
-    "Population (millions)": "2.1",
-    "GDP (billions)": "11.3"
+    "Official Languages": "Macedonian, +"
   },
   {
     "State": "Madagascar",
@@ -1373,9 +1163,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Malagasy",
-    "Population (millions)": "23.6",
-    "GDP (billions)": "10.6"
+    "Official Languages": "French, Malagasy"
   },
   {
     "State": "Malaysia",
@@ -1386,9 +1174,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. + Nom",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Malay",
-    "Population (millions)": "29.9",
-    "GDP (billions)": "338.1"
+    "Official Languages": "Malay"
   },
   {
     "State": "Malawi",
@@ -1399,9 +1185,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "16.7",
-    "GDP (billions)": "4.3"
+    "Official Languages": "English, +"
   },
   {
     "State": "Maldives Islands",
@@ -1412,9 +1196,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Dhivehi",
-    "Population (millions)": "10.4",
-    "GDP (billions)": "3.1"
+    "Official Languages": "Dhivehi"
   },
   {
     "State": "Mali",
@@ -1425,9 +1207,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "17.1",
-    "GDP (billions)": "12"
+    "Official Languages": "French"
   },
   {
     "State": "Malta",
@@ -1438,9 +1218,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Maltese",
-    "Population (millions)": "0.4",
-    "GDP (billions)": "9.6"
+    "Official Languages": "English, Maltese"
   },
   {
     "State": "Morocco",
@@ -1451,9 +1229,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +",
-    "Population (millions)": "33.9",
-    "GDP (billions)": "110"
+    "Official Languages": "Arabic, +"
   },
   {
     "State": "Marshall, Islands",
@@ -1464,9 +1240,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.2"
+    "Official Languages": "English"
   },
   {
     "State": "Mauritius, Island",
@@ -1477,9 +1251,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "English French",
-    "Population (millions)": "1.3",
-    "GDP (billions)": "12.6"
+    "Official Languages": "English French"
   },
   {
     "State": "Mauritania",
@@ -1490,9 +1262,7 @@
     "Parliamentary Upper House / Senate": "Maj.",
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +",
-    "Population (millions)": "4",
-    "GDP (billions)": "5.1"
+    "Official Languages": "Arabic, +"
   },
   {
     "State": "Mexico",
@@ -1503,9 +1273,7 @@
     "Parliamentary Upper House / Senate": "Maj. Prop.",
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +",
-    "Population (millions)": "125.4",
-    "GDP (billions)": "1294.7"
+    "Official Languages": "Spanish, +"
   },
   {
     "State": "Micronesia",
@@ -1516,9 +1284,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.4"
+    "Official Languages": "English, +"
   },
   {
     "State": "Moldova",
@@ -1529,9 +1295,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Moldovan (Romanian)",
-    "Population (millions)": "3.6",
-    "GDP (billions)": "8"
+    "Official Languages": "Moldovan (Romanian)"
   },
   {
     "State": "Monaco",
@@ -1542,9 +1306,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "0",
-    "GDP (billions)": null
+    "Official Languages": "French"
   },
   {
     "State": "Mongolia",
@@ -1555,9 +1317,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Mongolian",
-    "Population (millions)": "2.9",
-    "GDP (billions)": "12"
+    "Official Languages": "Mongolian"
   },
   {
     "State": "Montenegro",
@@ -1568,9 +1328,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Montenegrin",
-    "Population (millions)": "0.6",
-    "GDP (billions)": "4.6"
+    "Official Languages": "Montenegrin"
   },
   {
     "State": "Mozambique",
@@ -1581,9 +1339,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "27.2",
-    "GDP (billions)": "15.9"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Myanmar",
@@ -1594,9 +1350,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Burmese",
-    "Population (millions)": "53.4",
-    "GDP (billions)": "64.3"
+    "Official Languages": "Burmese"
   },
   {
     "State": "Namibia",
@@ -1607,9 +1361,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.",
     "Parliamentary Lower House / National Assembly": "Prop. Nom.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "24",
-    "GDP (billions)": "13"
+    "Official Languages": "English"
   },
   {
     "State": "Nauru",
@@ -1620,9 +1372,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "-",
-    "GDP (billions)": null
+    "Official Languages": "English"
   },
   {
     "State": "Nepal",
@@ -1633,9 +1383,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Nepali",
-    "Population (millions)": "28.2",
-    "GDP (billions)": "19.8"
+    "Official Languages": "Nepali"
   },
   {
     "State": "Nicaragua",
@@ -1646,9 +1394,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "6",
-    "GDP (billions)": "11.8"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Niger",
@@ -1659,9 +1405,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "19.1",
-    "GDP (billions)": "8.2"
+    "Official Languages": "French"
   },
   {
     "State": "Nigeria",
@@ -1672,9 +1416,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "177.5",
-    "GDP (billions)": "568.5"
+    "Official Languages": "English, +"
   },
   {
     "State": "Norway",
@@ -1685,9 +1427,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Norwegian",
-    "Population (millions)": "5.1",
-    "GDP (billions)": "499.8"
+    "Official Languages": "Norwegian"
   },
   {
     "State": "New Zealand",
@@ -1698,9 +1438,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "45",
-    "GDP (billions)": "200"
+    "Official Languages": "English, +"
   },
   {
     "State": "Oman",
@@ -1711,9 +1449,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "42",
-    "GDP (billions)": "81.8"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Uganda",
@@ -1724,9 +1460,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj (dir. et Ind.) + Nom",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "37.8",
-    "GDP (billions)": "27"
+    "Official Languages": "English"
   },
   {
     "State": "Uzbekistan",
@@ -1737,9 +1471,7 @@
     "Parliamentary Upper House / Senate": "Maj + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Uzbek, +",
-    "Population (millions)": "30.8",
-    "GDP (billions)": "62.6"
+    "Official Languages": "Uzbek, +"
   },
   {
     "State": "Pakistan",
@@ -1750,9 +1482,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Urdu",
-    "Population (millions)": "185",
-    "GDP (billions)": "243.6"
+    "Official Languages": "English, Urdu"
   },
   {
     "State": "Palau",
@@ -1763,9 +1493,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "0",
-    "GDP (billions)": "0.3"
+    "Official Languages": "English, +"
   },
   {
     "State": "Palestine (Authority)",
@@ -1776,9 +1504,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "4.3",
-    "GDP (billions)": "12.7"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Panama",
@@ -1789,9 +1515,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "3.9",
-    "GDP (billions)": "46.2"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Papua New Guinea",
@@ -1802,9 +1526,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "7.5",
-    "GDP (billions)": "16.9"
+    "Official Languages": "English, +"
   },
   {
     "State": "Paraguay",
@@ -1815,9 +1537,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Spanish, Guarani",
-    "Population (millions)": "6.6",
-    "GDP (billions)": "30.9"
+    "Official Languages": "Spanish, Guarani"
   },
   {
     "State": "Netherlands",
@@ -1828,9 +1548,7 @@
     "Parliamentary Upper House / Senate": "Ind. Prop.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Dutch",
-    "Population (millions)": "16.9",
-    "GDP (billions)": "879.3"
+    "Official Languages": "Dutch"
   },
   {
     "State": "Peru",
@@ -1841,9 +1559,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +",
-    "Population (millions)": "31",
-    "GDP (billions)": "202.6"
+    "Official Languages": "Spanish, +"
   },
   {
     "State": "Philippines",
@@ -1854,9 +1570,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj+ Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Tagalog (Filipino)",
-    "Population (millions)": "99.1",
-    "GDP (billions)": "284.8"
+    "Official Languages": "English, Tagalog (Filipino)"
   },
   {
     "State": "Poland",
@@ -1867,9 +1581,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Polish",
-    "Population (millions)": "38",
-    "GDP (billions)": "545"
+    "Official Languages": "Polish"
   },
   {
     "State": "Portugal",
@@ -1880,9 +1592,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "10.4",
-    "GDP (billions)": "230.1"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Qatar",
@@ -1893,9 +1603,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nom",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "2.2",
-    "GDP (billions)": "210.1"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Democratic Republic of Congo",
@@ -1906,9 +1614,7 @@
     "Parliamentary Upper House / Senate": "Ind. Prop. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "French, +",
-    "Population (millions)": "74.9",
-    "GDP (billions)": "33.1"
+    "Official Languages": "French, +"
   },
   {
     "State": "Dominican Republic",
@@ -1919,9 +1625,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "10.4",
-    "GDP (billions)": "64.1"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Czech Republic",
@@ -1932,9 +1636,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Czech",
-    "Population (millions)": "10.5",
-    "GDP (billions)": "205.3"
+    "Official Languages": "Czech"
   },
   {
     "State": "Romania",
@@ -1945,9 +1647,7 @@
     "Parliamentary Upper House / Senate": "Maj.+ Prop.",
     "Parliamentary Lower House / National Assembly": "Maj. Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Romanian",
-    "Population (millions)": "19.9",
-    "GDP (billions)": "199"
+    "Official Languages": "Romanian"
   },
   {
     "State": "United Kingdom",
@@ -1958,9 +1658,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": "65",
-    "GDP (billions)": "2988.9"
+    "Official Languages": "English, +"
   },
   {
     "State": "Russia",
@@ -1971,9 +1669,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.+ Nom",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Russian, +",
-    "Population (millions)": "143.8",
-    "GDP (billions)": "1860.6"
+    "Official Languages": "Russian, +"
   },
   {
     "State": "Rwanda",
@@ -1984,9 +1680,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj+ . Nom.",
     "Parliamentary Lower House / National Assembly": "Prop. Ind. Maj.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, French, Kinyarwanda",
-    "Population (millions)": "11.3",
-    "GDP (billions)": "7.9"
+    "Official Languages": "English, French, Kinyarwanda"
   },
   {
     "State": "Saint Kitts and Nevis",
@@ -1997,9 +1691,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Nom.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.9"
+    "Official Languages": "English"
   },
   {
     "State": "San Marino",
@@ -2010,9 +1702,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Italian",
-    "Population (millions)": "0",
-    "GDP (billions)": null
+    "Official Languages": "Italian"
   },
   {
     "State": "St. Vincent and the Grenadines",
@@ -2023,9 +1713,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Nom.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "0.7"
+    "Official Languages": "English"
   },
   {
     "State": "St. Lucia",
@@ -2036,9 +1724,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.2",
-    "GDP (billions)": "14"
+    "Official Languages": "English"
   },
   {
     "State": "Solomon Islands",
@@ -2049,9 +1735,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "0.6",
-    "GDP (billions)": "1.2"
+    "Official Languages": "English"
   },
   {
     "State": "Samoa",
@@ -2062,9 +1746,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Samoan",
-    "Population (millions)": "02",
-    "GDP (billions)": "0.8"
+    "Official Languages": "English, Samoan"
   },
   {
     "State": "Sao Tome and Principe",
@@ -2075,9 +1757,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese",
-    "Population (millions)": "0.2",
-    "GDP (billions)": "0.3"
+    "Official Languages": "Portuguese"
   },
   {
     "State": "Senegal",
@@ -2088,9 +1768,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "14.7",
-    "GDP (billions)": "15.7"
+    "Official Languages": "French"
   },
   {
     "State": "Serbia",
@@ -2101,9 +1779,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Serbian",
-    "Population (millions)": "7.1",
-    "GDP (billions)": "43.9"
+    "Official Languages": "Serbian"
   },
   {
     "State": "Seychelles",
@@ -2114,9 +1790,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Creole, French",
-    "Population (millions)": "0.1",
-    "GDP (billions)": "1.4"
+    "Official Languages": "English, Creole, French"
   },
   {
     "State": "Sierra Leone",
@@ -2127,9 +1801,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "6.3",
-    "GDP (billions)": "4.8"
+    "Official Languages": "English"
   },
   {
     "State": "Singapore",
@@ -2140,9 +1812,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Chinese, Malay, Tamil",
-    "Population (millions)": "5.5",
-    "GDP (billions)": "307.9"
+    "Official Languages": "English, Chinese, Malay, Tamil"
   },
   {
     "State": "Slovakia",
@@ -2153,9 +1823,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Slovak",
-    "Population (millions)": "5.4",
-    "GDP (billions)": "100.2"
+    "Official Languages": "Slovak"
   },
   {
     "State": "Slovenia",
@@ -2166,9 +1834,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Slovenian",
-    "Population (millions)": "2.1",
-    "GDP (billions)": "49.5"
+    "Official Languages": "Slovenian"
   },
   {
     "State": "Somalia (in transition)",
@@ -2179,9 +1845,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Plurilingual",
-    "Official Languages": "Somali, Arabic",
-    "Population (millions)": null,
-    "GDP (billions)": null
+    "Official Languages": "Somali, Arabic"
   },
   {
     "State": "Sudan",
@@ -2192,9 +1856,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "39.4",
-    "GDP (billions)": "73.8"
+    "Official Languages": "Arabic"
   },
   {
     "State": "South Sudan (in transition)",
@@ -2205,9 +1867,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
-    "Population (millions)": null,
-    "GDP (billions)": null
+    "Official Languages": "English, +"
   },
   {
     "State": "Sri Lanka",
@@ -2218,9 +1878,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Sinhalese, Tamil",
-    "Population (millions)": "20.8",
-    "GDP (billions)": "78.8"
+    "Official Languages": "Sinhalese, Tamil"
   },
   {
     "State": "Sweden",
@@ -2231,9 +1889,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Swedish",
-    "Population (millions)": "9.7",
-    "GDP (billions)": "571.1"
+    "Official Languages": "Swedish"
   },
   {
     "State": "Swiss",
@@ -2244,9 +1900,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Prop.",
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Plurilingual",
-    "Official Languages": "German, French, Italian, +",
-    "Population (millions)": "8.2",
-    "GDP (billions)": "701"
+    "Official Languages": "German, French, Italian, +"
   },
   {
     "State": "Suriname",
@@ -2257,9 +1911,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Dutch",
-    "Population (millions)": "0.5",
-    "GDP (billions)": "5.2"
+    "Official Languages": "Dutch"
   },
   {
     "State": "Swaziland",
@@ -2270,9 +1922,7 @@
     "Parliamentary Upper House / Senate": "Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Ind. Maj. Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swazi",
-    "Population (millions)": "1.3",
-    "GDP (billions)": "4.4"
+    "Official Languages": "English, Swazi"
   },
   {
     "State": "Syria",
@@ -2283,9 +1933,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "22.2",
-    "GDP (billions)": "19.3"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Tajikistan",
@@ -2296,9 +1944,7 @@
     "Parliamentary Upper House / Senate": "Ind. Maj.+ Nom.",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Tajik",
-    "Population (millions)": "8.3",
-    "GDP (billions)": "9.2"
+    "Official Languages": "Tajik"
   },
   {
     "State": "Taiwan",
@@ -2309,9 +1955,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Chinese",
-    "Population (millions)": "23.4",
-    "GDP (billions)": "518.8"
+    "Official Languages": "Chinese"
   },
   {
     "State": "Tanzania",
@@ -2322,9 +1966,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swahili",
-    "Population (millions)": "51.8",
-    "GDP (billions)": "48.1"
+    "Official Languages": "English, Swahili"
   },
   {
     "State": "Chad",
@@ -2335,9 +1977,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "French Arabic",
-    "Population (millions)": "13.6",
-    "GDP (billions)": "13.9"
+    "Official Languages": "French Arabic"
   },
   {
     "State": "Thailand",
@@ -2348,9 +1988,7 @@
     "Parliamentary Upper House / Senate": "Maj",
     "Parliamentary Lower House / National Assembly": "Maj. Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Thai",
-    "Population (millions)": "67.7",
-    "GDP (billions)": "404.8"
+    "Official Languages": "Thai"
   },
   {
     "State": "East Timor",
@@ -2361,9 +1999,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "Portuguese, Tetum",
-    "Population (millions)": "1.2",
-    "GDP (billions)": "1.4"
+    "Official Languages": "Portuguese, Tetum"
   },
   {
     "State": "Togo",
@@ -2374,9 +2010,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "French",
-    "Population (millions)": "7.1",
-    "GDP (billions)": "4.5"
+    "Official Languages": "French"
   },
   {
     "State": "Tonga",
@@ -2387,9 +2021,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Tongan",
-    "Population (millions)": "10.1",
-    "GDP (billions)": "0.4"
+    "Official Languages": "English, Tongan"
   },
   {
     "State": "Trinidad and Tobago",
@@ -2400,9 +2032,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "1.4",
-    "GDP (billions)": "28.9"
+    "Official Languages": "English"
   },
   {
     "State": "Tunisia",
@@ -2413,9 +2043,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "11",
-    "GDP (billions)": "48.6"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Turkmenistan",
@@ -2426,9 +2054,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Russian, Turkmen",
-    "Population (millions)": "5.3",
-    "GDP (billions)": "47.9"
+    "Official Languages": "Russian, Turkmen"
   },
   {
     "State": "Turkey",
@@ -2439,9 +2065,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Turkish",
-    "Population (millions)": "75.9",
-    "GDP (billions)": "798.4"
+    "Official Languages": "Turkish"
   },
   {
     "State": "Tuvalu",
@@ -2452,9 +2076,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Tuvalian",
-    "Population (millions)": "0",
-    "GDP (billions)": "10"
+    "Official Languages": "English, Tuvalian"
   },
   {
     "State": "Ukraine",
@@ -2465,9 +2087,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Ukrainian, +",
-    "Population (millions)": "45.4",
-    "GDP (billions)": "131.8"
+    "Official Languages": "Ukrainian, +"
   },
   {
     "State": "Uruguay",
@@ -2478,9 +2098,7 @@
     "Parliamentary Upper House / Senate": "Prop",
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "3.4",
-    "GDP (billions)": "57.5"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Vanuatu",
@@ -2491,9 +2109,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Prop",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Bichelamar, French",
-    "Population (millions)": "0.3",
-    "GDP (billions)": "0.8"
+    "Official Languages": "English, Bichelamar, French"
   },
   {
     "State": "Vatican/Holy See",
@@ -2504,9 +2120,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nom",
     "Language Category": "Plurilingual",
-    "Official Languages": "Italian, Latin,+",
-    "Population (millions)": "-",
-    "GDP (billions)": null
+    "Official Languages": "Italian, Latin,+"
   },
   {
     "State": "Venezuela",
@@ -2517,9 +2131,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj + Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish",
-    "Population (millions)": "30.7",
-    "GDP (billions)": "381.3"
+    "Official Languages": "Spanish"
   },
   {
     "State": "Vietnam",
@@ -2530,9 +2142,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "Vietnamese",
-    "Population (millions)": "90.7",
-    "GDP (billions)": "186.2"
+    "Official Languages": "Vietnamese"
   },
   {
   "State": "Western Sahara",
@@ -2543,9 +2153,7 @@
   "Parliamentary Upper House / Senate": null,
   "Parliamentary Lower House / National Assembly": "Sahrawi National Council (Majlis al-Watani)",
   "Language Category": "Multilingual",
-  "Official Languages": "Arabic (Spanish widely used)",
-  "Population (millions)": "0.6",
-  "GDP (billions)": "1.2 (estimated)"
+  "Official Languages": "Arabic (Spanish widely used)"
  },
   {
     "State": "Yemen",
@@ -2556,9 +2164,7 @@
     "Parliamentary Upper House / Senate": "Nom",
     "Parliamentary Lower House / National Assembly": "Maj.",
     "Language Category": "Unilingual",
-    "Official Languages": "Arab",
-    "Population (millions)": "26.2",
-    "GDP (billions)": "36"
+    "Official Languages": "Arabic"
   },
   {
     "State": "Zambia",
@@ -2569,9 +2175,7 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "15.7",
-    "GDP (billions)": "27.1"
+    "Official Languages": "English"
   },
   {
     "State": "Zimbabwe",
@@ -2582,8 +2186,6 @@
     "Parliamentary Upper House / Senate": "Prop + Ind. Maj. Nom.",
     "Parliamentary Lower House / National Assembly": "Maj+ .Prop.",
     "Language Category": "Unilingual",
-    "Official Languages": "English",
-    "Population (millions)": "15.2",
-    "GDP (billions)": "14.2"
+    "Official Languages": "English"
   }
 ]

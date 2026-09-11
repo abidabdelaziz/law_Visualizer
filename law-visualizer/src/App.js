@@ -2,9 +2,6 @@ import './App.css';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
-import nyuLawLogo from './assets/NYULaw.svg';
-import uOttawaLogo from './assets/uOttawa.png';
-import juriglobeLogo from './assets/juriGlobe.png';
 
 const MIN_SCALE = 1;
 const MAX_SCALE = 6;
@@ -381,10 +378,10 @@ function App() {
         </div>
       ) : null}
       <div className="App-logoGroup" aria-label="Partner institutions">
-        <img className="App-logo App-logo--nyu" src={nyuLawLogo} alt="NYU Law" />
-        <img className="App-logo App-logo--uottawa" src={uOttawaLogo} alt="uOttawa" />
-        <img className="App-logo App-logo--juriglobe" src={juriglobeLogo} alt="JuriGlobe" />
-
+        <p className="App-attribution">
+          This data visualization was made with data from the <a href="https://www.juriglobe.com/" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
+             published by JuriGlobe and the Faculty of Law at the University of Ottawa.
+        </p>
       </div>
     </div>
   );
