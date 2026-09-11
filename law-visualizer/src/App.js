@@ -4,7 +4,7 @@ import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
 
 const MIN_SCALE = 1;
-const MAX_SCALE = 6;
+const MAX_SCALE = 12;
 const INITIAL_SCALE = 2;
 const INITIAL_Y_OFFSET = 100;
 const ZOOM_STEP = 1.15;
@@ -13,12 +13,14 @@ const regionNames = typeof Intl !== 'undefined' && Intl.DisplayNames
   ? new Intl.DisplayNames(['en'], { type: 'region' })
   : null;
 const COUNTRY_ALIASES = {
+  'bosnia herzegovina': 'bosnia and herzegovina',
   'united states of america': 'united states',
   usa: 'united states',
   'russian federation': 'russia',
   libya: 'libya in transition',
   turkiye: 'turkey',
   'republic of turkiye': 'turkey',
+  turkey: 'turkey',
   'viet nam': 'vietnam',
   czechia: 'czech republic',
   'cabo verde': 'cape verde',
@@ -28,6 +30,21 @@ const COUNTRY_ALIASES = {
   'lao peoples democratic republic': 'laos',
   'korea republic of': 'south korea',
   'korea democratic peoples republic of': 'north korea',
+  'myanmar burma': 'myanmar',
+  'palestinian territories': 'palestine authority',
+  palestine: 'palestine authority',
+  eswatini: 'swaziland',
+  switzerland: 'swiss',
+  'south sudan': 'south sudan in transition',
+  'republic of congo': 'congo',
+  'republic of the congo': 'congo',
+  'congo republic': 'congo',
+  'cote d ivoire': 'ivory coast',
+  "cote d'ivoire": 'ivory coast',
+  'cote divoire': 'ivory coast',
+  'côte d ivoire': 'ivory coast',
+  "côte d'ivoire": 'ivory coast',
+  'côte divoire': 'ivory coast',
 };
 
 const normalizeCountryName = (value) => value
@@ -40,6 +57,51 @@ const normalizeCountryName = (value) => value
 const canonicalCountryName = (value) => {
   const normalized = normalizeCountryName(value || '');
   return COUNTRY_ALIASES[normalized] || normalized;
+};
+
+const getCountryMatchKey = (value) => {
+  if (!value) {
+    return null;
+  }
+
+  const rawValue = String(value).trim();
+  const upperValue = rawValue.toUpperCase();
+
+  if (upperValue === 'TR') {
+    return 'Turkey';
+  }
+
+  if (upperValue === 'CI') {
+    return 'Ivory Coast';
+  }
+
+  if (upperValue === 'SS') {
+    return 'South Sudan (in transition)';
+  }
+
+  if (upperValue === 'CG') {
+    return 'Congo';
+  }
+
+  if (upperValue === 'PS') {
+    return 'Palestine (Authority)';
+  }
+
+  if (upperValue === 'SZ') {
+    return 'Swaziland';
+  }
+
+  const normalized = canonicalCountryName(rawValue);
+
+  if (normalized === 'turkey') {
+    return 'Turkey';
+  }
+
+  if (normalized === 'ivory coast') {
+    return 'Ivory Coast';
+  }
+
+  return rawValue;
 };
 
 function App() {
@@ -198,25 +260,48 @@ function App() {
   };
 
   const resolveCountry = useCallback((countryName) => {
-    if (!countryName) {
+    const normalizedName = getCountryMatchKey(countryName);
+
+    if (!normalizedName) {
       return null;
     }
 
-    return countryByName.get(canonicalCountryName(countryName)) || null;
+    return countryByName.get(canonicalCountryName(normalizedName)) || null;
   }, [countryByName]);
 
   const getCountryLabel = useCallback((countryPath) => {
     const countryId = countryPath.getAttribute('id');
+    const pathName = countryPath.getAttribute('data-name');
+    const rawName = pathName ? pathName.replace(/\u2019/g, "'") : '';
 
+    if (countryId === 'TR' || /turkiye|turkey/i.test(rawName || '')) {
+      return 'Turkey';
+    }
+
+    if (countryId === 'CI' || /cote.*ivoire|côte.*ivoire|ivory coast/i.test(rawName || '')) {
+      return 'Ivory Coast';
+    }
+
+    if (countryId === 'SS' || /south sudan/i.test(rawName || '')) {
+      return 'South Sudan (in transition)';
+    }
+
+    if (countryId === 'CG' || /^(republic of congo|republic of the congo|congo republic)$/i.test(rawName || '')) {
+      return 'Congo';
+    }
+
+    if (rawName) {
+      return rawName;
+    }
+    //fallback for other countries that are not in the data-name attribute but have a valid country code 
     if (countryId && regionNames && REGION_CODE_PATTERN.test(countryId)) {
       const englishName = regionNames.of(countryId);
-
       if (englishName) {
-        return englishName;
+        return englishName === 'Türkiye' ? 'Turkey' : englishName;
       }
     }
 
-    return countryPath.getAttribute('data-name') || countryId || 'Unknown country';
+    return countryId || 'Unknown country';
   }, []);
 
   useEffect(() => {
@@ -229,8 +314,12 @@ function App() {
     const selectedName = selectedCountry?.State;
 
     svg.querySelectorAll('path[data-name]').forEach((path) => {
-      const matchedCountry = resolveCountry(getCountryLabel(path));
+      const label = getCountryLabel(path);
+      const matchedCountry = resolveCountry(label) || resolveCountry(path.getAttribute('id'));
       const isSelected = matchedCountry?.State === selectedName;
+
+      path.style.cursor = 'pointer';
+      path.style.pointerEvents = 'all';
 
       if (isSelected) {
         path.setAttribute('data-selected', 'true');

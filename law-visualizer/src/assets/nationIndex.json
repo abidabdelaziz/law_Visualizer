@@ -639,7 +639,7 @@
   },
   {
     "State": "United States of America",
-    "Legal System": "(except LOUISIANA: Civil Law/Common Law) Common law",
+    "Legal System": "Common law (except for Lousiana: mixed civil/common law)",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
@@ -1914,7 +1914,7 @@
     "Official Languages": "Dutch"
   },
   {
-    "State": "Swaziland",
+    "State": "Eswatini",
     "Legal System": "Civil Law/Customary Mixed",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",

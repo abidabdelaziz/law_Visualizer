@@ -35,6 +35,11 @@
   touch-action: none;
 }
 
+.App-map path[data-name] {
+  cursor: pointer;
+  pointer-events: all;
+}
+
 .App-map path[data-selected='true'] {
   fill: #f59e0b !important;
   stroke: #fef3c7 !important;
