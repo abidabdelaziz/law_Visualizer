@@ -457,7 +457,8 @@ function App() {
 
     setIsCountryListOpen(false);
 
-    const match = resolveCountry(getCountryLabel(countryPath));
+    const match = resolveCountry(getCountryLabel(countryPath))
+      || resolveCountry(countryPath.getAttribute('id'));
 
     if (match) {
       setSelectedCountry(match);

@@ -67,6 +67,19 @@ test("selects Laos from the map when the LA path is clicked", () => {
   expect(laosPath).toHaveAttribute('data-selected', 'true');
 });
 
+test('selects Greenland from the map when the GL path is clicked', () => {
+  render(<App />);
+
+  const greenlandPath = document.querySelector('path[id="GL"]');
+
+  expect(greenlandPath).not.toBeNull();
+
+  fireEvent.click(greenlandPath);
+
+  expect(screen.getByText('Greenland')).toBeInTheDocument();
+  expect(greenlandPath).toHaveAttribute('data-selected', 'true');
+});
+
 test('shows countries for a selected legal system', () => {
   render(<App />);
 
