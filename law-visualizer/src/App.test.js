@@ -27,6 +27,79 @@ test('selects South Sudan from the map when the SS path is clicked', () => {
   expect(southSudanPath).toHaveAttribute('data-selected', 'true');
 });
 
+test('selects Somalia from the map when the SO path is clicked', () => {
+  render(<App />);
+
+  const somaliaPath = document.querySelector('path[id="SO"]');
+
+  expect(somaliaPath).not.toBeNull();
+
+  fireEvent.click(somaliaPath);
+
+  expect(screen.getByText('Somalia (in transition)')).toBeInTheDocument();
+  expect(somaliaPath).toHaveAttribute('data-selected', 'true');
+});
+
+test('selects North Macedonia from the map when the MK path is clicked', () => {
+  render(<App />);
+
+  const northMacedoniaPath = document.querySelector('path[id="MK"]');
+
+  expect(northMacedoniaPath).not.toBeNull();
+
+  fireEvent.click(northMacedoniaPath);
+
+  expect(screen.getByText('Macedonia (Fyrom)')).toBeInTheDocument();
+  expect(northMacedoniaPath).toHaveAttribute('data-selected', 'true');
+});
+
+test("selects Laos from the map when the LA path is clicked", () => {
+  render(<App />);
+
+  const laosPath = document.querySelector('path[id="LA"]');
+
+  expect(laosPath).not.toBeNull();
+
+  fireEvent.click(laosPath);
+
+  expect(screen.getByText('Laos')).toBeInTheDocument();
+  expect(laosPath).toHaveAttribute('data-selected', 'true');
+});
+
+test('shows countries for a selected legal system', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByText('Civil Law', { selector: '.App-legendLabel' }));
+
+  expect(screen.getByRole('list', { name: 'Civil Law countries' })).toBeInTheDocument();
+  expect(screen.getByText('Civil Law', { selector: '.App-menuTitle' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Albania' })).toBeInTheDocument();
+});
+
+test('restores Country details when a map country is selected from a legal-system list', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByText('Civil Law', { selector: '.App-legendLabel' }));
+  fireEvent.click(document.querySelector('path[id="SO"]'));
+
+  expect(screen.getByText('Country details', { selector: '.App-menuTitle' })).toBeInTheDocument();
+  expect(screen.queryByRole('list', { name: 'Civil Law countries' })).not.toBeInTheDocument();
+  expect(screen.getByText('Somalia (in transition)')).toBeInTheDocument();
+});
+
+test('selects France when the French Guiana map path is clicked', () => {
+  render(<App />);
+
+  const frenchGuianaPath = document.querySelector('path[id="GF"]');
+
+  expect(frenchGuianaPath).not.toBeNull();
+
+  fireEvent.click(frenchGuianaPath);
+
+  expect(screen.getByText('France')).toBeInTheDocument();
+  expect(frenchGuianaPath).toHaveAttribute('data-selected', 'true');
+});
+
 test('selects Palestine from the map when the PS path is clicked', () => {
   render(<App />);
 

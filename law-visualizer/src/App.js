@@ -3,7 +3,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
 
-const MIN_SCALE = 1;
+const MIN_SCALE = 2;
 const MAX_SCALE = 12;
 const INITIAL_SCALE = 2;
 const INITIAL_Y_OFFSET = 100;
@@ -27,7 +27,7 @@ const COUNTRY_ALIASES = {
   'brunei darussalam': 'brunei',
   'syrian arab republic': 'syria',
   'iran islamic republic of': 'iran',
-  'lao peoples democratic republic': 'laos',
+  'lao people s democratic republic': 'laos',
   'korea republic of': 'south korea',
   'korea democratic peoples republic of': 'north korea',
   'myanmar burma': 'myanmar',
@@ -36,6 +36,8 @@ const COUNTRY_ALIASES = {
   eswatini: 'swaziland',
   switzerland: 'swiss',
   'south sudan': 'south sudan in transition',
+  somalia: 'somalia in transition',
+  'north macedonia': 'macedonia fyrom',
   'republic of congo': 'congo',
   'republic of the congo': 'congo',
   'congo republic': 'congo',
@@ -45,6 +47,7 @@ const COUNTRY_ALIASES = {
   'côte d ivoire': 'ivory coast',
   "côte d'ivoire": 'ivory coast',
   'côte divoire': 'ivory coast',
+  'french guiana': 'france',
 };
 
 const normalizeCountryName = (value) => value
@@ -58,6 +61,22 @@ const canonicalCountryName = (value) => {
   const normalized = normalizeCountryName(value || '');
   return COUNTRY_ALIASES[normalized] || normalized;
 };
+
+const legalSystemCounts = nationIndex.reduce((counts, country) => {
+  const legalSystem = country['Legal System'];
+
+  if (legalSystem) {
+    counts[legalSystem] = (counts[legalSystem] || 0) + 1;
+  }
+
+  return counts;
+}, {});
+
+const legalSystems = Object.keys(legalSystemCounts).sort((first, second) => first.localeCompare(second));
+const legalSystemColors = legalSystems.reduce((colors, legalSystem, index) => {
+  colors[legalSystem] = `hsl(${Math.round((index * 360) / legalSystems.length)} 72% 58%)`;
+  return colors;
+}, {});
 
 const getCountryMatchKey = (value) => {
   if (!value) {
@@ -111,6 +130,8 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState(nationIndex[0]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isCountryListOpen, setIsCountryListOpen] = useState(false);
+  const [isLegendOpen, setIsLegendOpen] = useState(true);
+  const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
     const map = new Map();
@@ -254,9 +275,29 @@ function App() {
     setView(getCenteredView(INITIAL_SCALE));
   };
 
+  const handleCenter = () => {
+    const container = containerRef.current;
+
+    if (!container) {
+      return;
+    }
+
+    const rect = container.getBoundingClientRect();
+
+    setView((currentView) => ({
+      scale: currentView.scale,
+      x: (rect.width - rect.width * currentView.scale) / 2,
+      y: (rect.height - rect.height * currentView.scale) / 2,
+    }));
+  };
+
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
     setIsCountryListOpen(false);
+  };
+
+  const handleLegalSystemSelect = (legalSystem) => {
+    setSelectedLegalSystem(legalSystem);
   };
 
   const resolveCountry = useCallback((countryName) => {
@@ -317,9 +358,18 @@ function App() {
       const label = getCountryLabel(path);
       const matchedCountry = resolveCountry(label) || resolveCountry(path.getAttribute('id'));
       const isSelected = matchedCountry?.State === selectedName;
+      const legalSystem = matchedCountry?.['Legal System'];
 
       path.style.cursor = 'pointer';
       path.style.pointerEvents = 'all';
+
+      if (legalSystemColors[legalSystem]) {
+        path.style.fill = legalSystemColors[legalSystem];
+        path.setAttribute('data-legal-system', legalSystem);
+      } else {
+        path.style.removeProperty('fill');
+        path.removeAttribute('data-legal-system');
+      }
 
       if (isSelected) {
         path.setAttribute('data-selected', 'true');
@@ -370,18 +420,56 @@ function App() {
 
     if (match) {
       setSelectedCountry(match);
+      setSelectedLegalSystem(null);
     }
   };
 
   const filteredCountries = nationIndex.filter((country) =>
     country.State.toLowerCase().includes(searchQuery.trim().toLowerCase())
   );
+  const legalSystemCountries = selectedLegalSystem
+    ? nationIndex.filter((country) => country['Legal System'] === selectedLegalSystem)
+    : [];
 
   const detailEntries = selectedCountry ? Object.entries(selectedCountry) : [];
 
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
       <h1 className="App-title">Visual Law Index</h1>
+      <aside className="App-legend" aria-label="Legal system legend">
+        <div className="App-legendHeader">
+          <div className="App-menuTitle">Legal systems</div>
+          <button
+            className={`App-legendToggle${isLegendOpen ? '' : ' is-collapsed'}`}
+            type="button"
+            onClick={() => setIsLegendOpen((isOpen) => !isOpen)}
+            aria-controls="legal-system-legend-list"
+            aria-expanded={isLegendOpen}
+            aria-label={isLegendOpen ? 'Collapse legal systems legend' : 'Expand legal systems legend'}
+          />
+        </div>
+        {isLegendOpen ? (
+          <div className="App-legendList" id="legal-system-legend-list">
+            {legalSystems.map((legalSystem) => (
+              <button
+                className={`App-legendItem${selectedLegalSystem === legalSystem ? ' is-selected' : ''}`}
+                key={legalSystem}
+                type="button"
+                onClick={() => handleLegalSystemSelect(legalSystem)}
+                aria-pressed={selectedLegalSystem === legalSystem}
+              >
+                <span
+                  className="App-legendSwatch"
+                  style={{ backgroundColor: legalSystemColors[legalSystem] }}
+                  aria-hidden="true"
+                />
+                <span className="App-legendLabel">{legalSystem}</span>
+                <span className="App-legendCount">{legalSystemCounts[legalSystem]}</span>
+              </button>
+            ))}
+          </div>
+        ) : null}
+      </aside>
       <div className="App-sidebar">
         <div className="App-toolbar">
           <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
@@ -389,6 +477,9 @@ function App() {
           </button>
           <button type="button" onClick={handleReset} aria-label="Reset zoom">
             Reset
+          </button>
+          <button type="button" onClick={handleCenter} aria-label="Center map">
+            Center
           </button>
           <button type="button" onClick={handleZoomIn} aria-label="Zoom in">
             +
@@ -416,6 +507,7 @@ function App() {
                   key={country.State}
                   type="button"
                   className={`App-menuItem${selectedCountry?.State === country.State ? ' is-selected' : ''}`}
+                  style={{ '--legal-system-color': legalSystemColors[country['Legal System']] }}
                   onClick={() => handleCountrySelect(country)}
                   aria-pressed={selectedCountry?.State === country.State}
                 >
@@ -427,18 +519,40 @@ function App() {
         </div>
 
         <div className="App-details">
-          <div className="App-menuTitle">Country details</div>
-          {selectedCountry ? (
-            <div className="App-detailGrid">
-              {detailEntries.map(([label, value]) => (
-                <div className="App-detailRow" key={label}>
-                  <div className="App-detailLabel">{label}</div>
-                  <div className="App-detailValue">{value ?? 'N/A'}</div>
-                </div>
-              ))}
-            </div>
+          {selectedLegalSystem ? (
+            <>
+              <div className="App-menuTitle">{selectedLegalSystem}</div>
+              <div className="App-menuList App-legalSystemCountries" role="list" aria-label={`${selectedLegalSystem} countries`}>
+                {legalSystemCountries.map((country) => (
+                  <button
+                    key={country.State}
+                    type="button"
+                    className={`App-menuItem${selectedCountry?.State === country.State ? ' is-selected' : ''}`}
+                    style={{ '--legal-system-color': legalSystemColors[selectedLegalSystem] }}
+                    onClick={() => handleCountrySelect(country)}
+                    aria-pressed={selectedCountry?.State === country.State}
+                  >
+                    {country.State}
+                  </button>
+                ))}
+              </div>
+            </>
           ) : (
-            <div className="App-empty">Select a state to view its data.</div>
+            <>
+              <div className="App-menuTitle">Country details</div>
+              {selectedCountry ? (
+                <div className="App-detailGrid">
+                  {detailEntries.map(([label, value]) => (
+                    <div className="App-detailRow" key={label}>
+                      <div className="App-detailLabel">{label}</div>
+                      <div className="App-detailValue">{value ?? 'N/A'}</div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="App-empty">Select a state to view its data.</div>
+              )}
+            </>
           )}
         </div>
       </div>
@@ -468,7 +582,7 @@ function App() {
       ) : null}
       <div className="App-logoGroup" aria-label="Partner institutions">
         <p className="App-attribution">
-          This data visualization was made with data from the <a href="https://www.juriglobe.com/" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
+          This data visualization was made with data from the <a href="https://juri-globe.ca/en/allcategories-en-gb/3350-category-en-gb/index-of-states-and-their-corresponding-legal-and-constitutional-systems" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
              published by JuriGlobe and the Faculty of Law at the University of Ottawa.
         </p>
       </div>
