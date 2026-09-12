@@ -195,6 +195,20 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    const closeStateListOnOutsideClick = (event) => {
+      if (!(event.target instanceof Element) || !event.target.closest('.App-menu')) {
+        setIsCountryListOpen(false);
+      }
+    };
+
+    document.addEventListener('pointerdown', closeStateListOnOutsideClick);
+
+    return () => {
+      document.removeEventListener('pointerdown', closeStateListOnOutsideClick);
+    };
+  }, []);
+
   const getCenteredView = (scale) => {
     const container = containerRef.current;
 
@@ -528,7 +542,7 @@ function App() {
             aria-label="Search states"
           />
           {isCountryListOpen ? (
-            <div className="App-menuList" role="list" aria-label="States list">
+            <div className="App-menuList App-stateList" role="list" aria-label="States list">
               {filteredCountries.map((country) => (
                 <button
                   key={country.State}
