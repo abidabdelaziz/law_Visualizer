@@ -132,6 +132,7 @@ function App() {
   const [isCountryListOpen, setIsCountryListOpen] = useState(false);
   const [isLegendOpen, setIsLegendOpen] = useState(true);
   const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
+  const [detailsLegalSystem, setDetailsLegalSystem] = useState(null);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
     const map = new Map();
@@ -235,7 +236,10 @@ function App() {
   };
 
   const handleWheel = (event) => {
-    if (event.target instanceof Element && event.target.closest('.App-menuList')) {
+    if (
+      event.target instanceof Element
+      && event.target.closest('.App-menuList, .App-details')
+    ) {
       return;
     }
 
@@ -293,10 +297,32 @@ function App() {
 
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
+    setSelectedLegalSystem(null);
+    setDetailsLegalSystem(null);
     setIsCountryListOpen(false);
   };
 
+  const handleLegalSystemCountrySelect = (country, legalSystem) => {
+    setSelectedCountry(country);
+    setSelectedLegalSystem(null);
+    setDetailsLegalSystem(legalSystem);
+  };
+
+  const handleBackToLegalSystem = () => {
+    setSelectedLegalSystem(detailsLegalSystem);
+    setDetailsLegalSystem(null);
+  };
+
   const handleLegalSystemSelect = (legalSystem) => {
+    const countries = nationIndex.filter((country) => country['Legal System'] === legalSystem);
+
+    if (countries.length === 1) {
+      setSelectedCountry(countries[0]);
+      setSelectedLegalSystem(null);
+      setDetailsLegalSystem(null);
+      return;
+    }
+
     setSelectedLegalSystem(legalSystem);
   };
 
@@ -421,6 +447,7 @@ function App() {
     if (match) {
       setSelectedCountry(match);
       setSelectedLegalSystem(null);
+      setDetailsLegalSystem(null);
     }
   };
 
@@ -529,7 +556,7 @@ function App() {
                     type="button"
                     className={`App-menuItem${selectedCountry?.State === country.State ? ' is-selected' : ''}`}
                     style={{ '--legal-system-color': legalSystemColors[selectedLegalSystem] }}
-                    onClick={() => handleCountrySelect(country)}
+                    onClick={() => handleLegalSystemCountrySelect(country, selectedLegalSystem)}
                     aria-pressed={selectedCountry?.State === country.State}
                   >
                     {country.State}
@@ -539,7 +566,19 @@ function App() {
             </>
           ) : (
             <>
-              <div className="App-menuTitle">Country details</div>
+              <div className="App-detailsHeader">
+                <div className="App-menuTitle">Country details</div>
+                {detailsLegalSystem ? (
+                  <button
+                    className="App-backButton"
+                    type="button"
+                    onClick={handleBackToLegalSystem}
+                    aria-label={`Back to ${detailsLegalSystem} countries`}
+                  >
+                    <span aria-hidden="true">←</span>
+                  </button>
+                ) : null}
+              </div>
               {selectedCountry ? (
                 <div className="App-detailGrid">
                   {detailEntries.map(([label, value]) => (

@@ -1,5 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
+import nationIndex from './assets/nationIndex.json';
 
 test('selects Ivory Coast from the map when the CI path is clicked', () => {
   render(<App />);
@@ -74,6 +75,53 @@ test('shows countries for a selected legal system', () => {
   expect(screen.getByRole('list', { name: 'Civil Law countries' })).toBeInTheDocument();
   expect(screen.getByText('Civil Law', { selector: '.App-menuTitle' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Albania' })).toBeInTheDocument();
+});
+
+test('navigates from a legal-system country list to details and back', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByText('Civil Law', { selector: '.App-legendLabel' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Albania' }));
+
+  expect(screen.getByText('Country details', { selector: '.App-menuTitle' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Back to Civil Law countries' })).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: 'Back to Civil Law countries' }));
+
+  expect(screen.getByRole('list', { name: 'Civil Law countries' })).toBeInTheDocument();
+  expect(screen.queryByRole('button', { name: 'Back to Civil Law countries' })).not.toBeInTheDocument();
+});
+
+test('opens details from the States list without a back arrow', () => {
+  render(<App />);
+
+  fireEvent.focus(screen.getByRole('searchbox', { name: 'Search states' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Albania' }));
+
+  expect(screen.getByText('Country details', { selector: '.App-menuTitle' })).toBeInTheDocument();
+  expect(screen.queryByRole('button', { name: /Back to/ })).not.toBeInTheDocument();
+});
+
+test('shows Country details directly for a legal system with one country', () => {
+  const countryByLegalSystem = nationIndex.reduce((groups, country) => {
+    const legalSystem = country['Legal System'];
+
+    if (legalSystem) {
+      groups[legalSystem] = [...(groups[legalSystem] || []), country];
+    }
+
+    return groups;
+  }, {});
+  const [legalSystem, countries] = Object.entries(countryByLegalSystem)
+    .find(([, groupedCountries]) => groupedCountries.length === 1);
+
+  render(<App />);
+
+  fireEvent.click(screen.getByText(legalSystem, { selector: '.App-legendLabel' }));
+
+  expect(screen.getByText('Country details', { selector: '.App-menuTitle' })).toBeInTheDocument();
+  expect(screen.getByText(countries[0].State)).toBeInTheDocument();
+  expect(screen.queryByRole('list', { name: `${legalSystem} countries` })).not.toBeInTheDocument();
 });
 
 test('restores Country details when a map country is selected from a legal-system list', () => {
