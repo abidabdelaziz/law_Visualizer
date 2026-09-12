@@ -1,33 +1,33 @@
 [
-  {
-    "State": "Afghanistan",
-    "Legal System": "Muslim Law",
-    "Form of State": "Unitary",
-    "Form of Government": "Presidential",
-    "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Indirect, Majoritarian, Nominations",
-    "Parliamentary Lower House / National Assembly": "Majoritarian",
-    "Language Category": "Plurilingual",
-    "Official Languages": "Dari, Pashtou",
-    "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/afghanistan1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Islamic Republic of Afghanistan Legal System and Research"
-      },
-      {
-        "href": "https://guides.loc.gov/law-afghanistan",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Afghanistan"
-      }
-    ]
-  },
+ {
+   "State": "Afghanistan",
+   "Legal System": "Muslim Law",
+   "Form of State": "Unitary",
+   "Form of Government": "Presidential",
+   "Constitutional Control": "Centralized",
+   "Parliamentary Upper House / Senate": "Indirect, Majoritarian, Nominations",
+   "Parliamentary Lower House / National Assembly": "Maj",
+   "Language Category": "Plurilingual",
+   "Official Languages": "Dari, Pashtou",
+   "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/afghanistan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Islamic Republic of Afghanistan Legal System and Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-afghanistan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Afghanistan"
+     }
+   ]
+ },
   {
     "State": "South Africa",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -39,24 +39,24 @@
     "Language Category": "Plurilingual",
     "Official Languages": "English, Afrikaans, +",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/south_africa1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Researching South African Law"
-      },
-      {
-        "href": "https://guides.loc.gov/law-south-africa",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: South Africa"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/south_africa1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching South African Law"
+     },
+     {
+       "href": "https://guides.loc.gov/law-south-africa",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: South Africa"
+     }
+   ]
+ },
   {
     "State": "Albania",
     "Legal System": "Civil Law",
@@ -68,27 +68,27 @@
     "Language Category": "Unilingual",
     "Official Languages": "Albanian",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/albania1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Researching the Albanian Legal System"
-      },
-      {
-        "href": "https://guides.loc.gov/law-albania",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Albania"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/albania1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Albanian Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-albania",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Albania"
+     }
+   ]
+ },
   {
     "State": "Algeria",
-    "Legal System": "Mixed Civil Law/Muslim Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
@@ -97,24 +97,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "Arabic",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/algeria1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Algerian Legal Research"
-      },
-      {
-        "href": "https://guides.loc.gov/law-algeria",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Algeria"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/algeria1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Algerian Legal Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-algeria",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Algeria"
+     }
+   ]
+ },
   {
     "State": "Germany",
     "Legal System": "Civil Law",
@@ -126,32 +126,32 @@
     "Language Category": "Unilingual",
     "Official Languages": "German",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/germany_business1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: German Business and Commercial Laws - Guide to Translations into English and Select Auxiliary Sources"
-      },
-      {
-        "href": "https://www.nyulawglobal.org/globalex/germany1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Legal Research in Germany Between Print and Electronic Media - An Overview"
-      },
-      {
-        "href": "https://guides.loc.gov/law-germany",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Germany"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/germany_business1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex:German Business and Commercial Laws – Guide to Translations into English and Select Auxiliary Sources"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/germany1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Germany Between Print and Electronic Media – An Overview"
+     },
+{
+       "href": "https://guides.loc.gov/law-germany",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Germany"
+    }
+   ]
+ },
   {
     "State": "Andorra",
     "Legal System": "Customary Law",
@@ -163,16 +163,16 @@
     "Language Category": "Unilingual",
     "Official Languages": "Catalan",
     "Research Guides": [
-      {
-        "href": "https://guides.loc.gov/law-andorra",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Andorra"
-      }
-    ]
-  },
+    {
+       "href": "https://guides.loc.gov/law-andorra",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Andorra"
+     }
+  ]
+ },
   {
     "State": "Angola",
     "Legal System": "Civil Law",
@@ -184,23 +184,23 @@
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/angola1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Republic of Angola - Legal System and Research"
-      },
-      {
-        "href": "https://guides.loc.gov/law-angola",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Angola"
-      }
-    ]
+    {
+       "href": "https://www.nyulawglobal.org/globalex/angola1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Republic of Angola – Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-angola",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Angola"
+     }
+ ]
   },
   {
     "State": "Antigua and Barbuda",
@@ -209,19 +209,19 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": "Nominations",
-    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English",
     "Research Guides": [
-      {
-        "href": "https://guides.loc.gov/law-antigua-barbuda",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Antigua and Barbuda"
-      }
-    ]
+     {
+       "href": "https://guides.loc.gov/law-antigua-barbuda",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Antigua and Barbuda"
+     }
+]
   },
   {
     "State": "Saudi Arabia",
@@ -234,24 +234,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "Arabic",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/saudi_arabia1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Overview of the Saudi Arabian Legal System"
-      },
-      {
-        "href": "https://guides.loc.gov/law-saudi-arabia",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Saudi Arabia"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/saudi_arabia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Saudi Arabian Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-saudi-arabia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Saudi Arabia"
+     }
+   ]
+ },
   {
     "State": "Argentina",
     "Legal System": "Civil Law",
@@ -263,24 +263,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "Spanish",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/argentina1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Researching the Argentine Legal System"
-      },
-      {
-        "href": "https://guides.loc.gov/law-argentina",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Argentina"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/argentina1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Argentine Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-argentina",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Argentina"
+     }
+   ]
+ },
   {
     "State": "Armenia",
     "Legal System": "Civil Law",
@@ -292,24 +292,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "Armenian",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/armenia1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Researching the Armenian Legal System"
-      },
-      {
-        "href": "https://guides.loc.gov/law-armenia",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Armenia"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/armenia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Armenian Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-armenia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Armenia"
+     }
+   ]
+ },
   {
     "State": "Australia",
     "Legal System": "Common Law",
@@ -321,24 +321,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "English",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/australia1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Researching the Resources for the Australian Federal Legal System with Some Reference to the State Level"
-      },
-      {
-        "href": "https://guides.loc.gov/law-australia",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Australia"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/australia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Resources for the Australian Federal Legal System with Some Reference to the State Level"
+     },
+     {
+       "href": "https://guides.loc.gov/law-australia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Australia"
+     }
+   ]
+ },
   {
     "State": "Austria",
     "Legal System": "Civil Law",
@@ -350,24 +350,24 @@
     "Language Category": "Unilingual",
     "Official Languages": "German, +",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/austria1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: A Brief Overview of the Austrian Legal Information System and Laws"
-      },
-      {
-        "href": "https://guides.loc.gov/law-austria",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Austria"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/austria1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Brief Overview of the Austrian Legal Information System and Laws"
+     },
+     {
+       "href": "https://guides.loc.gov/law-austria",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Austria"
+     }
+   ]
+ },
   {
     "State": "Azerbaijan",
     "Legal System": "Civil Law",
@@ -375,31 +375,31 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Azeri",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/azerbaijan1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: A Guide to the Republic of Azerbaijan Law Research"
-      },
-      {
-        "href": "https://guides.loc.gov/law-azerbaijan",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Azerbaijan"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/azerbaijan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Guide to the Republic of Azerbaijan Law Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-azerbaijan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Azerbaijan"
+     }
+   ]
+ },
   {
     "State": "Bahamas",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
@@ -408,16 +408,16 @@
     "Language Category": "Unilingual",
     "Official Languages": "English",
     "Research Guides": [
-      {
-        "href": "https://guides.loc.gov/law-bahamas",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Bahamas"
-      }
-    ]
-  },
+     {
+       "href": "https://guides.loc.gov/law-bahamas",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bahamas"
+     }
+   ]
+ },
   {
     "State": "Bahrain",
     "Legal System": "Mixed Muslim Law, Civil Law, Common Law, Customary Law",
@@ -429,27 +429,27 @@
     "Language Category": "Unilingual",
     "Official Languages": "Arab",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/bahrain1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: The Legal System of the Kingdom of Bahrain (Bahrain)"
-      },
-      {
-        "href": "https://guides.loc.gov/law-bahrain",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Bahrain"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bahrain1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System of the Kingdom of Bahrain (Bahrain)"
+     },
+     {
+       "href": "https://guides.loc.gov/law-bahrain",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bahrain"
+     }
+   ]
+ },
   {
     "State": "Bangladesh",
-    "Legal System": "Mixed Muslim Law/Common Law",
+    "Legal System": "Mixed Muslim Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
@@ -458,27 +458,27 @@
     "Language Category": "Unilingual",
     "Official Languages": "Bengali",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/bangladesh1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: The Legal System of the Peoples' Republic of Bangladesh"
-      },
-      {
-        "href": "https://guides.loc.gov/law-bangladesh",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Bangladesh"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bangladesh1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System of the Peoples’ Republic of Bangladesh"
+     },
+     {
+       "href": "https://guides.loc.gov/law-bangladesh",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bangladesh"
+     }
+   ]
+ },
   {
     "State": "Barbados",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
@@ -487,16 +487,16 @@
     "Language Category": "Unilingual",
     "Official Languages": "English",
     "Research Guides": [
-      {
-        "href": "https://guides.loc.gov/law-barbados",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Barbados"
-      }
-    ]
-  },
+     {
+       "href": "https://guides.loc.gov/law-barbados",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Barbados"
+     }
+   ]
+ },
   {
     "State": "Belarus",
     "Legal System": "Civil Law",
@@ -508,24 +508,24 @@
     "Language Category": "Plurilingual",
     "Official Languages": "Belarusian, Russian",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/belarus1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "GlobaLex: Legal Research in Belarus"
-      },
-      {
-        "href": "https://guides.loc.gov/law-belarus",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Belarus"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/belarus1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Belarus"
+     },
+     {
+       "href": "https://guides.loc.gov/law-belarus",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Belarus"
+     }
+   ]
+ },
   {
     "State": "Belgium",
     "Legal System": "Civil Law",
@@ -537,35 +537,45 @@
     "Language Category": "Plurilingual",
     "Official Languages": "German, French, Dutch",
     "Research Guides": [
-      {
-        "href": "https://www.nyulawglobal.org/globalex/belgium1.html",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link",
-        "title": "Open the Link",
-        "text": "GlobaLex: Research Guide to Belgian Law"
-      },
-      {
-        "href": "https://guides.loc.gov/law-belgium",
-        "target": "_blank",
-        "rel": "noopener noreferrer",
-        "aria-label": "Open the Link (Link, opens in a new tab)",
-        "title": "Open the Link",
-        "text": "Library of Congress: Guide to Law Online: Belgium"
-      }
-    ]
-  },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/belgium1.html ",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Belgian Law"
+     },
+     {
+       "href": "https://guides.loc.gov/law-belgium",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Belgium"
+     }
+   ]
+ },
   {
     "State": "Belize",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-belize",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Belize"
+     }
+   ]
+ },
   {
     "State": "Benin",
     "Legal System": "Civil Law",
@@ -573,73 +583,171 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/benin1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction au Système Juridique et Judiciaire du Bénin (French)"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/benin1_eng.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction au Système Juridique et Judiciaire du Bénin (English)"
+     },
+    {
+       "href": "https://guides.loc.gov/law-benin",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Benin"
+     }
+   ]
+ },
   {
     "State": "Bhutan",
-    "Legal System": "Customary/Common law Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Dzong-ka"
-  },
+    "Official Languages": "Dzong-ka",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bhutan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Legal System of the Kingdom of Bhutan"
+     },
+     {
+       "href": "https://guides.loc.gov/law-bhutan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bhutan"
+     }
+   ]
+ },
   {
     "State": "Bolivia",
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
-    "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Maj. + Prop.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Constitutional Control": "Civil Law",
+    "Parliamentary Upper House / Senate": "Majoritarian + Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bolivian_legal_framework1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Bolivian Legal Framework"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bolivia1.htmll",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Bolivian Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-bolivia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bolivia"
+     }
+   ]
+ },
   {
     "State": "Bosnia and Herzegovina",
     "Legal System": "Civil Law",
     "Form of State": "Federal",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Bosnian, Croatian, Serbian"
-  },
+    "Official Languages": "Bosnian, Croatian, Serbian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bosnia_herzegovina.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Bosnia and Herzegovina"
+     },
+    {
+       "href": "https://guides.loc.gov/law-bosnia-herzegovina",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Guide to Law Online: Bosnia and Herzegovina"
+     }
+   ]
+ }, 
   {
     "State": "Botswana",
-    "Legal System": "Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj. Nom.",
-    "Parliamentary Lower House / National Assembly": "Nom",
+    "Parliamentary Upper House / Senate": "Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/botswana1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Botswana’s Legal System and Legal Research"
+     }
+   ]
+ }, 
   {
     "State": "Brazil",
     "Legal System": "Civil Law",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
-    "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Constitutional Control": "Civil Law",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese"
   },
   {
     "State": "Brunei",
-    "Legal System": "Muslim Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Muslim Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Nom",
+    "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Malay"
   },
@@ -650,29 +758,29 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Bulgarian"
   },
   {
     "State": "Burkina Faso",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Burundi",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Nom",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "French, Kirundi"
   },
@@ -682,30 +790,30 @@
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Khmer"
   },
   {
     "State": "Cameroon",
-    "Legal System": "Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Ind. Prop+. Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Indirect Prop+. Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "French English"
   },
   {
     "State": "Canada",
-    "Legal System": "Common law (moins Québec: Civil Law/Common Law)",
+    "Legal System": "Common Law (except Québec: Civil Law, Common Law)",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Plurilingual",
     "Official Languages": "English, French, +"
   },
@@ -716,7 +824,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese, +"
   },
@@ -726,8 +834,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj Ind. Maj.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "French, Sango"
   },
@@ -736,31 +844,31 @@
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
-    "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Constitutional Control": "Civil Law",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "China",
-    "Legal System": "Civil Law/Customary (except Hong Kong: Common law/Customary and Macao: Civil Law) Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law (except Hong Kong: Common Law, Customary Law, Civil Law (Macau)",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Ind. Maj",
+    "Parliamentary Lower House / National Assembly": "Indirect Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Chinese"
   },
   {
     "State": "Cyprus",
-    "Legal System": "Mixed Common law/Civil Law",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Greek, Turkish"
   },
@@ -769,53 +877,53 @@
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
-    "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Constitutional Control": "Civil Law",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Comoros Islands",
-    "Legal System": "Mixed Civil Law/Muslim Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Ind. Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Indirect Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "Arabic, French, Sikomor"
   },
   {
     "State": "Congo",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "North Korea",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Korean"
   },
   {
     "State": "South Korea",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Korean"
   },
@@ -826,18 +934,18 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Ivory Coast",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj Ind. Maj.+ Nom",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Indirect Majoritarian + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
@@ -848,7 +956,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Croatian"
   },
@@ -859,7 +967,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
@@ -870,40 +978,40 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Danish, +"
   },
   {
     "State": "Djibouti",
-    "Legal System": "Mixed Civil Law/Muslim Law/Customary",
+    "Legal System": "Mixed Civil Law, Muslim Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "French, Arabic"
   },
   {
     "State": "Dominica",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Egypt",
-    "Legal System": "Mixed Muslim Law/Civil Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -912,20 +1020,20 @@
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
-    "Constitutional Control": "Mixed",
+    "Constitutional Control": "Civil Law",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "United Arab Emirates",
-    "Legal System": "Mixed Muslim Law/Customary",
+    "Legal System": "Mixed Muslim Law, Customary Law",
     "Form of State": "Federal",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Ind. Maj. + Nom.",
+    "Parliamentary Lower House / National Assembly": "Indirect Majoritarian + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -936,18 +1044,18 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish, +"
   },
   {
     "State": "Eritrea",
-    "Legal System": "Civil Law/Customary/Muslim Law Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "Arabic, Tigrinya"
   },
@@ -957,8 +1065,7 @@
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj. Ind. Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Majoritarian Indirect Proportional",    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish, +"
   },
@@ -969,40 +1076,40 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Estonian"
   },
   {
     "State": "United States of America",
-    "Legal System": "Common law (except for Lousiana: mixed civil/common law)",
+    "Legal System": "Common Law (except for Lousiana: mixed Civil Law, Common Law)",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
   {
     "State": "Ethiopia",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Amharic, +"
   },
   {
     "State": "Fiji Islands",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
@@ -1013,7 +1120,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Finnish, Swedish"
   },
@@ -1023,30 +1130,30 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Prop.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Gabon",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Gambia",
-    "Legal System": "Muslim Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Muslim Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1057,18 +1164,18 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Georgian"
   },
   {
     "State": "Ghana",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1079,7 +1186,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Greek"
   },
@@ -1096,12 +1203,12 @@
   },
   {
     "State": "Grenada",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1112,51 +1219,51 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Guinea",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Equatorial Guinea",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Spanish, French"
   },
   {
     "State": "Guinea-Bissau",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese"
   },
   {
     "State": "Guyana",
-    "Legal System": "Common law/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1166,8 +1273,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "Creole, French"
   },
@@ -1178,7 +1285,7 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
@@ -1189,62 +1296,61 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
     "Official Languages": "Hungarian"
   },
   {
     "State": "India",
-    "Legal System": "Common law/Muslim Law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Muslim Law,Customary Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Ind. Prop. Nom",
-    "Parliamentary Lower House / National Assembly": "Maj. Nom.",
+    "Parliamentary Upper House / Senate": "Indirect Proportional Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Hindi,"
   },
   {
     "State": "Indonesia",
-    "Legal System": "Civil Law/Muslim Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Muslim Law /Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Bahasa Indonesia"
   },
   {
     "State": "Iran",
-    "Legal System": "Mixed Muslim Law/Civil Law",
+    "Legal System": "Mixed Muslim Law, Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Persian (Farsi)"
   },
   {
     "State": "Iraq",
-    "Legal System": "Mixed Civil Law/Muslim Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Arabic, Kurdish, +"
   },
   {
     "State": "Ireland",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Ind. Prop. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Proportional + Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Irish"
   },
@@ -1255,18 +1361,18 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Icelandic"
   },
   {
     "State": "Israel",
-    "Legal System": "Civil Law/Common law/Juit/Muslim Law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Jewish Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Arabic, Hebrew"
   },
@@ -1276,41 +1382,40 @@
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Prop. Nom",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Proportional Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Italian"
   },
   {
     "State": "Jamaica",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Japan",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj+ Prop",
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian Proportional",    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Japanese"
   },
   {
     "State": "Jordan",
-    "Legal System": "Civil Law/Muslim Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Muslim Law /Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -1320,19 +1425,19 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Kazakh, Russian"
   },
   {
     "State": "Kenya",
-    "Legal System": "Common law/Customary/Muslim Law Mixed",
+    "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Swahili"
   },
@@ -1343,18 +1448,18 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Kyrgyz, Russian"
   },
   {
     "State": "Kiribati",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Kiribati"
   },
@@ -1365,18 +1470,18 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Albanian, Serbian"
   },
   {
     "State": "Kuwait",
-    "Legal System": "Mixed Muslim Law/Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -1387,18 +1492,18 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Lao"
   },
   {
     "State": "Lesotho",
-    "Legal System": "Common law/Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Sesotho"
   },
@@ -1409,29 +1514,29 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Latvian"
   },
   {
     "State": "Lebanon",
-    "Legal System": "Mixed Civil Law/Muslim Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic, +"
   },
   {
     "State": "Liberia",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1453,7 +1558,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "German"
   },
@@ -1464,8 +1569,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
     "Official Languages": "Lithuanian"
   },
   {
@@ -1475,7 +1579,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "German, French, Luxemburgish"
   },
@@ -1486,40 +1590,40 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Macedonian, +"
   },
   {
     "State": "Madagascar",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "French, Malagasy"
   },
   {
     "State": "Malaysia",
-    "Legal System": "Muslim Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Ind. Maj. + Nom",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Malay"
   },
   {
     "State": "Malawi",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
@@ -1530,73 +1634,73 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Dhivehi"
   },
   {
     "State": "Mali",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Malta",
-    "Legal System": "Mixed Civil Law/Common law",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Maltese"
   },
   {
     "State": "Morocco",
-    "Legal System": "Mixed Muslim Law/Civil Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic, +"
   },
   {
     "State": "Marshall, Islands",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Mauritius, Island",
-    "Legal System": "Mixed Civil Law/Common law",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "English French"
   },
   {
     "State": "Mauritania",
-    "Legal System": "Muslim Law/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj.",
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian ",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic, +"
   },
@@ -1606,20 +1710,19 @@
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Maj. Prop.",
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish, +"
   },
   {
     "State": "Micronesia",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
   {
@@ -1629,7 +1732,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Moldovan (Romanian)"
   },
@@ -1640,18 +1743,17 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Mongolia",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Mongolian"
   },
@@ -1662,62 +1764,62 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Montenegrin"
   },
   {
     "State": "Mozambique",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese"
   },
   {
     "State": "Myanmar",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Burmese"
   },
   {
     "State": "Namibia",
-    "Legal System": "Common law/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.",
-    "Parliamentary Lower House / National Assembly": "Prop. Nom.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
+    "Parliamentary Lower House / National Assembly": "Proportional Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Nauru",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Nepal",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj. Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Nepali"
   },
@@ -1728,29 +1830,28 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Niger",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Nigeria",
-    "Legal System": "Common law/Muslim Law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
@@ -1761,40 +1862,40 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Norwegian"
   },
   {
     "State": "New Zealand",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
   {
     "State": "Oman",
-    "Legal System": "Muslim Law/Customary/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
   {
     "State": "Uganda",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj (dir. et Ind.) + Nom",
+    "Parliamentary Lower House / National Assembly": "Majoritarian (dir. et Indirect) + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -1804,41 +1905,41 @@
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj + Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Uzbek, +"
   },
   {
     "State": "Pakistan",
-    "Legal System": "Muslim Law/Common law Mixed",
+    "Legal System": "Mixed Common Law, Muslim Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Urdu"
   },
   {
     "State": "Palau",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Federal",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
   {
     "State": "Palestine (Authority)",
-    "Legal System": "Civil Law/Muslim Law Mixed",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -1849,18 +1950,18 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Papua New Guinea",
-    "Legal System": "Mixed Customary/Common law",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
@@ -1870,8 +1971,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Spanish, Guarani"
   },
@@ -1881,8 +1982,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": null,
-    "Parliamentary Upper House / Senate": "Ind. Prop.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Dutch"
   },
@@ -1893,19 +1994,18 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish, +"
   },
   {
     "State": "Philippines",
-    "Legal System": "Common law/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj+ Prop",
-    "Language Category": "Plurilingual",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Plurilingual",
     "Official Languages": "English, Tagalog (Filipino)"
   },
   {
@@ -1914,8 +2014,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Polish"
   },
@@ -1926,29 +2026,29 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese"
   },
   {
     "State": "Qatar",
-    "Legal System": "Muslim Law/Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Muslim Law, Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Nom",
+    "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
   {
     "State": "Democratic Republic of Congo",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Prop. Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
+    "Parliamentary Upper House / Senate": "Indirect Proportional Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "French, +"
   },
@@ -1958,8 +2058,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
@@ -1969,8 +2069,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Czech"
   },
@@ -1980,19 +2080,19 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj.+ Prop.",
-    "Parliamentary Lower House / National Assembly": "Maj. Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian + Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Romanian"
   },
   {
     "State": "United Kingdom",
-    "Legal System": "Common law (except Scotland: Civil Law/Common law and GUERNSEY and JERSEY: Customary)",
+    "Legal System": "Common Law (except Scotland: Civil Law, Common Law and Guernsey and Jersey: Customary Law)",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": null,
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English, +"
   },
@@ -2002,30 +2102,30 @@
     "Form of State": "Federal",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.+ Nom",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Russian, +"
   },
   {
     "State": "Rwanda",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj+ . Nom.",
-    "Parliamentary Lower House / National Assembly": "Prop. Ind. Maj.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian . Nominations",
+    "Parliamentary Lower House / National Assembly": "Proportional Indirect Majoritarian ",
     "Language Category": "Plurilingual",
     "Official Languages": "English, French, Kinyarwanda"
   },
   {
     "State": "Saint Kitts and Nevis",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Federal",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
@@ -2036,73 +2136,73 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Italian"
   },
   {
     "State": "St. Vincent and the Grenadines",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "St. Lucia",
-    "Legal System": "Civil Law/Common law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Solomon Islands",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Samoa",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Samoan"
   },
   {
     "State": "Sao Tome and Principe",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese"
   },
   {
     "State": "Senegal",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
@@ -2113,40 +2213,39 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Serbian"
   },
   {
     "State": "Seychelles",
-    "Legal System": "Common law/Civil Law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Prop",
-    "Language Category": "Plurilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Plurilingual",
     "Official Languages": "English, Creole, French"
   },
   {
     "State": "Sierra Leone",
-    "Legal System": "Common law/Customary Mixed",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Singapore",
-    "Legal System": "Mixed Common law/Muslim Law",
+    "Legal System": "Mixed Common Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Chinese, Malay, Tamil"
   },
@@ -2157,7 +2256,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Slovak"
   },
@@ -2167,8 +2266,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Slovenian"
   },
@@ -2185,12 +2284,12 @@
   },
   {
     "State": "Sudan",
-    "Legal System": "Muslim Law/Common law Mixed",
+    "Legal System": "Mixed Common Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -2207,12 +2306,12 @@
   },
   {
     "State": "Sri Lanka",
-    "Legal System": "Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Sinhalese, Tamil"
   },
@@ -2223,7 +2322,7 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Swedish"
   },
@@ -2233,8 +2332,8 @@
     "Form of State": "Federal",
     "Form of Government": "Directorial",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj. + Prop.",
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Upper House / Senate": "Majoritarian + Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "German, French, Italian, +"
   },
@@ -2245,29 +2344,29 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Dutch"
   },
   {
     "State": "Eswatini",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Maj. + Nom.",
-    "Parliamentary Lower House / National Assembly": "Ind. Maj. Nom.",
+    "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Indirect Majoritarian Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Swazi"
   },
   {
     "State": "Syria",
-    "Legal System": "Civil Law/Muslim Law Mixed",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -2277,8 +2376,8 @@
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Ind. Maj.+ Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Tajik"
   },
@@ -2289,30 +2388,28 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
     "Official Languages": "Chinese"
   },
   {
     "State": "Tanzania",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Swahili"
   },
   {
     "State": "Chad",
-    "Legal System": "Mixed Civil Law/Customary",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop",
-    "Language Category": "Plurilingual",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Plurilingual",
     "Official Languages": "French Arabic"
   },
   {
@@ -2321,63 +2418,62 @@
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Maj",
-    "Parliamentary Lower House / National Assembly": "Maj. Prop",
-    "Language Category": "Unilingual",
+    "Parliamentary Upper House / Senate": "Majoritarian",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Unilingual",
     "Official Languages": "Thai"
   },
   {
     "State": "East Timor",
-    "Legal System": "Mixed Civil Law/Muslim Law/Customary",
+    "Legal System": "Mixed Civil Law, Muslim Law /Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "Portuguese, Tetum"
   },
   {
     "State": "Togo",
-    "Legal System": "Civil Law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "French"
   },
   {
     "State": "Tonga",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Monarchical",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj.+ Nom.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Tongan"
   },
   {
     "State": "Trinidad and Tobago",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Tunisia",
-    "Legal System": "Mixed Civil Law/Muslim Law",
+    "Legal System": "Mixed Civil Law, Muslim Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
@@ -2388,7 +2484,7 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "Russian, Turkmen"
   },
@@ -2399,18 +2495,18 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Turkish"
   },
   {
     "State": "Tuvalu",
-    "Legal System": "Common law",
+    "Legal System": "Common Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Tuvalian"
   },
@@ -2421,7 +2517,7 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj. + Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Ukrainian, +"
   },
@@ -2431,19 +2527,19 @@
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
-    "Parliamentary Upper House / Senate": "Prop",
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Upper House / Senate": "Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
   {
     "State": "Vanuatu",
-    "Legal System": "Civil Law/Customary/Common law Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Prop",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
     "Official Languages": "English, Bichelamar, French"
   },
@@ -2454,7 +2550,7 @@
     "Form of Government": "Monarchical",
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Nom",
+    "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Plurilingual",
     "Official Languages": "Italian, Latin,+"
   },
@@ -2465,7 +2561,7 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj + Prop.",
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "Spanish"
   },
@@ -2476,13 +2572,13 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "Vietnamese"
   },
   {
   "State": "Western Sahara",
-  "Legal System": "Mixed (Civil Law and Islamic Law)",
+  "Legal System": "Mixed Civil Law, Muslim Law",
   "Form of State": "Disputed / Non-Self-Governing Territory",
   "Form of Government": "Semi-Presidential (SADR claim) / Constitutional Monarchy (Moroccan administration)",
   "Constitutional Control": "Centralized",
@@ -2493,35 +2589,36 @@
  },
   {
     "State": "Yemen",
-    "Legal System": "Muslim Law/Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Muslim Law, Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Nom",
-    "Parliamentary Lower House / National Assembly": "Maj.",
+    "Parliamentary Upper House / Senate": "Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
     "Official Languages": "Arabic"
   },
   {
     "State": "Zambia",
-    "Legal System": "Mixed Common law/Customary",
+    "Legal System": "Mixed Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Diffuse",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Maj",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   },
   {
     "State": "Zimbabwe",
-    "Legal System": "Civil Law/Common law/Customary Mixed",
+    "Legal System": "Mixed Civil Law, Common Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Prop + Ind. Maj. Nom.",
-    "Parliamentary Lower House / National Assembly": "Maj+ .Prop.",
+    "Parliamentary Upper House / Senate": "Proportional + Indirect Majoritarian Nominations",
+    "Parliamentary Lower House / National Assembly": "Majoritarian .Proportional",
     "Language Category": "Unilingual",
     "Official Languages": "English"
   }
 ]
+
