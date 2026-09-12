@@ -131,6 +131,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isCountryListOpen, setIsCountryListOpen] = useState(false);
   const [isLegendOpen, setIsLegendOpen] = useState(true);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
   const [detailsLegalSystem, setDetailsLegalSystem] = useState(null);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
@@ -252,7 +253,7 @@ function App() {
   const handleWheel = (event) => {
     if (
       event.target instanceof Element
-      && event.target.closest('.App-menuList, .App-details')
+      && event.target.closest('.App-menuList, .App-details, .App-legend')
     ) {
       return;
     }
@@ -511,7 +512,7 @@ function App() {
           </div>
         ) : null}
       </aside>
-      <div className="App-sidebar">
+      <div className={`App-sidebar${isSidebarCollapsed ? ' is-collapsed' : ''}`}>
         <div className="App-toolbar">
           <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
             -
@@ -525,6 +526,13 @@ function App() {
           <button type="button" onClick={handleZoomIn} aria-label="Zoom in">
             +
           </button>
+          <button
+            className="App-collapseButton"
+            type="button"
+            onClick={() => setIsSidebarCollapsed((isCollapsed) => !isCollapsed)}
+            aria-expanded={!isSidebarCollapsed}
+            aria-label={isSidebarCollapsed ? 'Expand controls' : 'Collapse controls'}
+          />
         </div>
 
         <div className="App-menu">
