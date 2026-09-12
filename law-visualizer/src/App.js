@@ -477,7 +477,7 @@ function App() {
 
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
-      <h1 className="App-title">Visual Law Index</h1>
+      <h1 className="App-title">The Law Lense</h1>
       <aside className="App-legend" aria-label="Legal system legend">
         <div className="App-legendHeader">
           <div className="App-menuTitle">Legal systems</div>
@@ -606,7 +606,27 @@ function App() {
                   {detailEntries.map(([label, value]) => (
                     <div className="App-detailRow" key={label}>
                       <div className="App-detailLabel">{label}</div>
-                      <div className="App-detailValue">{value ?? 'N/A'}</div>
+                      <div className="App-detailValue">
+                        {label === 'Research Guides' && Array.isArray(value) ? (
+                          <ul className="App-researchGuides">
+                            {value.map((guide) => (
+                              <li key={guide.href}>
+                                <a
+                                  href={guide.href}
+                                  target={guide.target}
+                                  rel={guide.rel}
+                                  aria-label={guide['aria-label']}
+                                  title={guide.title}
+                                >
+                                  {guide.text}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : (
+                          value ?? 'N/A'
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>

@@ -8,7 +8,25 @@
     "Parliamentary Upper House / Senate": "Ind. Maj. + Nom.",
     "Parliamentary Lower House / National Assembly": "Maj",
     "Language Category": "Plurilingual",
-    "Official Languages": "Dari, Pashtou"
+    "Official Languages": "Dari, Pashtou",
+    "Research Guides": [
+      {
+        "href": "https://www.nyulawglobal.org/globalex/afghanistan1.html",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "aria-label": "Open the Link (Link, opens in a new tab)",
+        "title": "Open the Link",
+        "text": "Islamic Republic of Afghanistan Legal System and Research"
+      },
+      {
+        "href": "https://guides.loc.gov/law-afghanistan",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "aria-label": "Open the Link (Link, opens in a new tab)",
+        "title": "Open the Link",
+        "text": "Guide to Law Online: Afghanistan"
+      }
+    ]
   },
   {
     "State": "South Africa",

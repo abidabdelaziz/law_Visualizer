@@ -483,7 +483,22 @@
 }
 
 .App-title {
-  display: none;
+  top: 16px;
+  left: 50%;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  transform: translateX(-50%);
+  color: #e8eef4;
+  background: transparent;
+  box-shadow: none;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(6, 14, 24, 0.7);
 }
 
 .App-map {
@@ -647,21 +662,46 @@
 
 .App-detailRow {
   padding: 7px 8px;
-  border: 1px solid rgba(220, 231, 239, 0.24);
+  border: 1px solid rgba(220, 231, 239, 0.14);
   border-radius: 5px;
-  background: var(--dashboard-panel-light);
+  background: rgba(90, 108, 124, 0.38);
 }
 
 .App-detailLabel {
   margin-bottom: 2px;
-  color: #10202f;
+  color: #cddbe4;
   font-size: 9px;
 }
 
 .App-detailValue {
-  color: #172837;
-  font-size: 10px;
+  color: #edf3f7;
+  font-size: 11px;
+  font-weight: 600;
   line-height: 1.25;
+}
+
+.App-researchGuides {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.App-researchGuides li {
+  padding-left: 2px;
+}
+
+.App-researchGuides a {
+  color: #d6e7f1;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.App-researchGuides a:hover,
+.App-researchGuides a:focus-visible {
+  color: #ffffff;
 }
 
 .App-legend {
