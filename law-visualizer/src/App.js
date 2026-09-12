@@ -6,7 +6,7 @@ import nationIndex from './assets/nationIndex.json';
 const MIN_SCALE = 2;
 const MAX_SCALE = 12;
 const INITIAL_SCALE = 2;
-const INITIAL_Y_OFFSET = 100;
+const INITIAL_Y_OFFSET = 200;
 const ZOOM_STEP = 1.15;
 const REGION_CODE_PATTERN = /^[A-Z]{2}$/;
 const regionNames = typeof Intl !== 'undefined' && Intl.DisplayNames
@@ -305,7 +305,7 @@ function App() {
     setView((currentView) => ({
       scale: currentView.scale,
       x: (rect.width - rect.width * currentView.scale) / 2,
-      y: (rect.height - rect.height * currentView.scale) / 2,
+      y: (rect.height - rect.height * currentView.scale) / 2 + 200,
     }));
   };
 

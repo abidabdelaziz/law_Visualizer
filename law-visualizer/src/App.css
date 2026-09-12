@@ -159,7 +159,7 @@
   z-index: 4;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 0 0 12px 12px;
+  border-radius: 12px;
   background: rgba(15, 23, 42, 0.96);
   overflow-x: hidden;
   overflow-y: auto;
