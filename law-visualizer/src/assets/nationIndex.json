@@ -6,7 +6,7 @@
    "Form of Government": "Presidential",
    "Constitutional Control": "Centralized",
    "Parliamentary Upper House / Senate": "Indirect, Majoritarian, Nominations",
-   "Parliamentary Lower House / National Assembly": "Maj",
+   "Parliamentary Lower House / National Assembly": "Majoritarian",
    "Language Category": "Plurilingual",
    "Official Languages": "Dari, Pashtou",
    "Research Guides": [
@@ -142,7 +142,7 @@
        "title": "Open the Link",
        "text": "GlobaLex: Legal Research in Germany Between Print and Electronic Media – An Overview"
      },
-{
+     {
        "href": "https://guides.loc.gov/law-germany",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -163,7 +163,7 @@
     "Language Category": "Unilingual",
     "Official Languages": "Catalan",
     "Research Guides": [
-    {
+     {
        "href": "https://guides.loc.gov/law-andorra",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -184,7 +184,7 @@
     "Language Category": "Unilingual",
     "Official Languages": "Portuguese",
     "Research Guides": [
-    {
+     {
        "href": "https://www.nyulawglobal.org/globalex/angola1.html",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -192,7 +192,7 @@
        "title": "Open the Link",
        "text": "GlobaLex: Republic of Angola – Legal System and Research"
      },
-    {
+     {
        "href": "https://guides.loc.gov/law-angola",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -464,7 +464,7 @@
        "rel": "noopener noreferrer",
        "aria-label": "Open the Link (Link, opens in a new tab)",
        "title": "Open the Link",
-       "text": "GlobaLex: The Legal System of the Peoples’ Republic of Bangladesh"
+       "text": "GlobaLex: The Legal System of the Peoples' Republic of Bangladesh"
      },
      {
        "href": "https://guides.loc.gov/law-bangladesh",
@@ -603,7 +603,7 @@
        "title": "Open the Link",
        "text": "GlobaLex: Introduction au Système Juridique et Judiciaire du Bénin (English)"
      },
-    {
+     {
        "href": "https://guides.loc.gov/law-benin",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -669,7 +669,7 @@
        "title": "Open the Link",
        "text": "GlobaLex: The Bolivian Legal System"
      },
-    {
+     {
        "href": "https://guides.loc.gov/law-bolivia",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -698,7 +698,7 @@
        "title": "Open the Link",
        "text": "GlobaLex: Legal Research in Bosnia and Herzegovina"
      },
-    {
+     {
        "href": "https://guides.loc.gov/law-bosnia-herzegovina",
        "target": "_blank",
        "rel": "noopener noreferrer",
@@ -725,7 +725,15 @@
        "rel": "noopener noreferrer",
        "aria-label": "Open the Link (Link, opens in a new tab)",
        "title": "Open the Link",
-       "text": "GlobaLex: Botswana’s Legal System and Legal Research"
+       "text": "GlobaLex: Botswana's Legal System and Legal Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-botswana",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Botswana"
      }
    ]
  }, 
@@ -738,8 +746,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese"
-  },
+    "Official Languages": "Portuguese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/brazil1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Brazil"
+     },
+     {
+       "href": "https://guides.loc.gov/law-brazil",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Brazil"
+     }
+   ]
+ }, 
   {
     "State": "Brunei",
     "Legal System": "Mixed Muslim Law, Common Law, Customary Law",
@@ -749,7 +775,17 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Malay"
+    "Official Languages": "English, Malay",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-bruneil",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Brunei"
+     }
+   ]
   },
   {
     "State": "Bulgaria",
@@ -760,8 +796,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Bulgarian"
-  },
+    "Official Languages": "Bulgarian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/bulgaria1.htmll",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Bulgarian Legal System and Legal Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-bulgaria",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Bulgaria"
+     }
+   ]
+ }, 
   {
     "State": "Burkina Faso",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -771,8 +825,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/burkina_faso1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Burkina Faso: A Bird's-Eye View of the Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-burkina-faso",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Burkina Faso"
+     }
+   ]
+ }, 
   {
     "State": "Burundi",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -782,8 +854,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Kirundi"
-  },
+    "Official Languages": "French, Kirundi",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/burundi1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Burundi Legal System and Research "
+     },
+     {
+       "href": "https://guides.loc.gov/law-burundi",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Burundi"
+     }
+   ]
+ }, 
   {
     "State": "Cambodia",
     "Legal System": "Civil Law",
@@ -793,8 +883,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Khmer"
-  },
+    "Official Languages": "Khmer",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/cambodia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Cambodian History, Governance and Legal Sources"
+     },
+     {
+       "href": "https://guides.loc.gov/law-cambodia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Cambodia"
+     }
+   ]
+ }, 
   {
     "State": "Cameroon",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -804,8 +912,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Indirect Prop+. Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "French English"
-  },
+    "Official Languages": "French English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/cameroon1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Cameroonian Law"
+     },
+     {
+       "href": "https://guides.loc.gov/law-cameroon",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Cameroon"
+     }
+   ]
+ },
   {
     "State": "Canada",
     "Legal System": "Common Law (except Québec: Civil Law, Common Law)",
@@ -815,8 +941,26 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, French, +"
-  },
+    "Official Languages": "English, French, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/canada1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Canadian Law"
+     },
+     {
+       "href": "https://guides.loc.gov/law-canada",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Canada"
+     }
+   ]
+ },
   {
     "State": "Cabo Verde",
     "Legal System": "Civil Law",
@@ -826,8 +970,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese, +"
-  },
+    "Official Languages": "Portuguese, +",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-cabo-verde",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Cabo Verde"
+     }
+   ]
+},
   {
     "State": "Central African Republic",
     "Legal System": "Civil Law",
@@ -837,8 +991,18 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Sango"
-  },
+    "Official Languages": "French, Sango",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-central-african-republic",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Central African Republic"
+     }
+   ]
+},
   {
     "State": "Chile",
     "Legal System": "Civil Law",
@@ -848,8 +1012,26 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/chile1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Essential Issues of the Chilean Legal System"
+     },
+     {
+       "href": "https://guides.loc.gov/law-chile",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Chile"
+     }
+   ]
+ },
   {
     "State": "China",
     "Legal System": "Mixed Civil Law, Customary Law (except Hong Kong: Common Law, Customary Law, Civil Law (Macau)",
@@ -859,8 +1041,42 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Indirect Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Chinese"
-  },
+    "Official Languages": "Chinese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/china1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Finding Chinese Law on the Internet"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/hong_kong1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: One Country, Two Systems of Legal Research: Finding the Law of China's Hong Kong Special Administrative Region"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/macau1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Macau Special Administrative Region of People's Republic of China Jurisdiction"   
+     },
+     {
+       "href": "https://guides.loc.gov/law-china",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: China" 
+     }
+   ]
+ }, 
   {
     "State": "Cyprus",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -870,8 +1086,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Greek, Turkish"
-  },
+    "Official Languages": "Greek, Turkish",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-cyprus",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Cyprus"
+     }
+   ]
+ }, 
   {
     "State": "Colombia",
     "Legal System": "Civil Law",
@@ -881,8 +1107,26 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/colombia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Introduction to Colombian Governmental Institutions and Primary Legal Sources"
+     },
+     {
+       "href": "https://guides.loc.gov/law-colombia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Colombia"
+     }
+   ]
+ },
   {
     "State": "Comoros Islands",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -892,8 +1136,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Indirect Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, French, Sikomor"
-  },
+    "Official Languages": "Arabic, French, Sikomor",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/comoros.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction to the Law and Legal System of the Islands of Comoros"
+     },
+     {
+       "href": "https://guides.loc.gov/law-comoros",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Comoros"
+     }
+   ]
+ },
   {
     "State": "Congo",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -903,8 +1165,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/congo_brazzaville1.html#introduction",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System of the Republic of the Congo (Congo-Brazzaville): Overview and Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-republic-of-the-congo/introduction",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Republic of the Congo"
+      }
+   ]
+ },
   {
     "State": "North Korea",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -914,8 +1194,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Korean"
-  },
+    "Official Languages": "Korean",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/north_korea1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the North Korean Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-north-korea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: North Korea"
+     }
+   ]
+ }, 
   {
     "State": "South Korea",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -925,8 +1223,34 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Korean"
-  },
+    "Official Languages": "Korean",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/south_korea1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: South Korean Law Research on the Internet"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/south_korean_legal_resources1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Research and Bibliography for Korean Law Resources in English"
+     },
+    {
+       "href": "https://guides.loc.gov/law-south-korea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: South Korea"
+     }
+   ]
+ }, 
   {
     "State": "Costa Rica",
     "Legal System": "Civil Law",
@@ -936,8 +1260,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/costa_rica1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Costa Rica"
+     },
+    {
+       "href": "https://guides.loc.gov/law-costa-rica",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Costa Rica"
+     }
+   ]
+ }, 
   {
     "State": "Ivory Coast",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -947,8 +1289,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian Indirect Majoritarian + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/cote_divoire1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System in Côte d'Ivoire"
+     },
+    {
+       "href": "https://guides.loc.gov/law-cote-divoire",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Côte d'Ivoire"
+    }
+   ]
+ },
   {
     "State": "Croatia",
     "Legal System": "Civil Law",
@@ -958,8 +1318,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Croatian"
-  },
+    "Official Languages": "Croatian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/croatia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Croatian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-croatia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Croatia"
+     }
+   ]
+ }, 
   {
     "State": "Cuba",
     "Legal System": "Civil Law",
@@ -969,8 +1347,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/cuba1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Cuba"
+     },
+    {
+       "href": "https://guides.loc.gov/law-cuba",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Cuba"
+    }
+   ]
+ }, 
   {
     "State": "Denmark",
     "Legal System": "Civil Law",
@@ -980,8 +1376,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Danish, +"
-  },
+    "Official Languages": "Danish, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/denmark1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Law in Denmark"
+     },
+    {
+       "href": "https://guides.loc.gov/law-denmark",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Denmark"
+    }
+   ]
+ }, 
   {
     "State": "Djibouti",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1002,8 +1416,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-dominica",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Dominica"
+     }
+   ]
+ },
   {
     "State": "Egypt",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1013,8 +1437,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/egypt1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Overview of the Egyptian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-egypt",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Egypt"
+    }
+   ]
+ }, 
   {
     "State": "El Salvador",
     "Legal System": "Civil Law",
@@ -1024,8 +1466,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/el_salvador1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Guide to Legal Research in El Salvador"
+     },
+    {
+       "href": "https://guides.loc.gov/law-el-salvador",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: El Salvador"
+    }
+   ]
+ }, 
   {
     "State": "United Arab Emirates",
     "Legal System": "Mixed Muslim Law, Customary Law",
@@ -1035,8 +1495,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Indirect Majoritarian + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/united_arab_emirates1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the United Arab Emirates Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-united-arab-emirates",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: United Arab Emirates"
+    }
+   ]
+ }, 
   {
     "State": "Ecuador",
     "Legal System": "Civil Law",
@@ -1046,8 +1524,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +"
-  },
+    "Official Languages": "Spanish, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/ecuador1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Basic Structure of the Ecuadorian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-ecuador",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Ecuador"
+    }
+   ]
+ }, 
   {
     "State": "Eritrea",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1057,18 +1553,63 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, Tigrinya"
-  },
+    "Official Languages": "Arabic, Tigrinya",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/eritrea1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction to Eritrean Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-eritrea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Eritrea"
+    }
+   ]
+ }, 
   {
     "State": "Spain",
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
-    "Parliamentary Upper House / Senate": "Majoritarian Indirect Proportional",    "Parliamentary Lower House / National Assembly": "Proportional",
+    "Parliamentary Upper House / Senate": "Majoritarian Indirect Proportional",
+    "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +"
-  },
+    "Official Languages": "Spanish, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/spain1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Spanish Legal System and Legal Research"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/researching-the-law-of-the-spanish-autonomous-communities1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Law of the Spanish Autonomous Communities"
+     },
+    {
+       "href": "https://guides.loc.gov/law-spain",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Spain"
+    }
+   ]
+ }, 
   {
     "State": "Estonia",
     "Legal System": "Civil Law",
@@ -1078,8 +1619,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Estonian"
-  },
+    "Official Languages": "Estonian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/estonia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Estonian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-estonia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Estonia "
+    }
+   ]
+ }, 
   {
     "State": "United States of America",
     "Legal System": "Common Law (except for Lousiana: mixed Civil Law, Common Law)",
@@ -1089,8 +1648,50 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/united_states1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The U.S. Federal Legal System Web-Based Public Accessible Sources"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/us_fee-based_legal_databases1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Guide to Fee-Based U. S. Legal Research Databases"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/puerto_rico.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Laws of Puerto Rico"
+    },
+    {
+       "href": "https://guides.loc.gov/us-federal-law",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: U.S. Federal"
+    },
+   {
+       "href": "https://guides.loc.gov/us-states-territories",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: U.S. States and Territories"
+     }
+   ]
+ }, 
   {
     "State": "Ethiopia",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1100,8 +1701,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Amharic, +"
-  },
+    "Official Languages": "Amharic, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/ethiopia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction to the Ethiopian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-ethiopia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Ethiopia"
+    }
+   ]
+ }, 
   {
     "State": "Fiji Islands",
     "Legal System": "Common Law",
@@ -1111,8 +1730,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-fiji",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Fiji"
+    }
+  ]  
+},
   {
     "State": "Finland",
     "Legal System": "Civil Law",
@@ -1122,8 +1751,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Finnish, Swedish"
-  },
+    "Official Languages": "Finnish, Swedish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/finland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Finnish Law on the Internet"
+     },
+    {
+       "href": "https://guides.loc.gov/law-finland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Finland"
+    }
+   ]
+ }, 
   {
     "State": "France",
     "Legal System": "Civil Law",
@@ -1133,8 +1780,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Proportional",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/france1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching French Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-france",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: France"
+    }
+   ]
+ }, 
   {
     "State": "Gabon",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1144,8 +1809,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/gabon1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Le Système Juridique Gabonais et la Recherche Juridique"
+     },
+    {
+       "href": "https://guides.loc.gov/law-gabon",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress:Guide to Law Online: Gabon"
+    }
+   ]
+ }, 
   {
     "State": "Gambia",
     "Legal System": "Mixed Muslim Law, Common Law, Customary Law",
@@ -1155,8 +1838,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/gambia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Gambian Legal Information"
+     },
+    {
+       "href": "https://guides.loc.gov/law-gambia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Gambia"
+    }
+   ]
+ }, 
   {
     "State": "Georgia",
     "Legal System": "Civil Law",
@@ -1166,8 +1867,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Georgian"
-  },
+    "Official Languages": "Georgian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/georgia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Georgian Legal Research"
+     },
+    {
+       "href": "https://www.loc.gov/item/guide-to-law-online/georgia/",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Georgia"
+    }
+   ]
+ }, 
   {
     "State": "Ghana",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1177,8 +1896,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/ghana1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Ghanaian Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-ghana",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Ghana"
+    }
+   ]
+ }, 
   {
     "State": "Greece",
     "Legal System": "Civil Law",
@@ -1188,8 +1925,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Greek"
-  },
+    "Official Languages": "Greek",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/greece1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Description of the Structure of the Hellenic Republic, the Greek Legal System, and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-greece",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Greece"
+    }
+   ]
+ }, 
   {
     "State": "Greenland",
     "Legal System": "Civil Law",
@@ -1199,8 +1954,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Inatsisartut",
     "Language Category": "Unilingual",
-    "Official Languages": "Greenlandic"
-  },
+    "Official Languages": "Greenlandic",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-greenland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Greenland (Part of the Kingdom of Denmark)"
+    }
+   ]
+ }, 
   {
     "State": "Grenada",
     "Legal System": "Common Law",
@@ -1210,8 +1975,18 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-grenada",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Grenada"
+    }
+   ]
+ }, 
   {
     "State": "Guatemala",
     "Legal System": "Civil Law",
@@ -1221,8 +1996,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/guatemala1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Guatemala"
+     },
+    {
+       "href": "https://guides.loc.gov/law-guatemala",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Guatemala"
+    }
+   ]
+ }, 
   {
     "State": "Guinea",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1232,8 +2025,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/guinea1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Guinean Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-guinea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress:"
+    }
+   ]
+ }, 
   {
     "State": "Equatorial Guinea",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1243,8 +2054,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Spanish, French"
-  },
+    "Official Languages": "Spanish, French",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-equatorial-guinea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Equatorial Guinea"
+    }
+   ]
+ }, 
   {
     "State": "Guinea-Bissau",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1254,8 +2075,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese"
-  },
+    "Official Languages": "Portuguese",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-guinea-bissau",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Guinea-Bissau"
+    }
+   ]
+ }, 
   {
     "State": "Guyana",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -1265,8 +2096,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/guyana1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Guyana Law and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-guyana",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Guyana"
+    }
+   ]
+ }, 
   {
     "State": "Haiti",
     "Legal System": "Civil Law",
@@ -1276,8 +2125,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "Creole, French"
-  },
+    "Official Languages": "Creole, French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/haiti1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Haitian Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-haiti",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Haiti"
+    }
+   ]
+ }, 
   {
     "State": "Honduras",
     "Legal System": "Civil Law",
@@ -1287,8 +2154,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+   "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/honduras1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Honduras"
+     },
+    {
+       "href": "https://guides.loc.gov/law-honduras",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Honduras"
+    }
+   ]
+ }, 
   {
     "State": "Hungary",
     "Legal System": "Civil Law",
@@ -1296,9 +2181,28 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "Hungarian"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "Hungarian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/hungary1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Introduction to Hungarian Law Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-hungary",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Hungary"
+    }
+   ]
+ }, 
   {
     "State": "India",
     "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
@@ -1308,8 +2212,34 @@
     "Parliamentary Upper House / Senate": "Indirect Proportional Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Hindi,"
-  },
+    "Official Languages": "English, Hindi,",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/india1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Guide to Indian Laws"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/india_legal_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: India's Legal Research and Legal System"
+    }, 
+    {
+       "href": "https://guides.loc.gov/law-india",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: India"
+    }
+   ]
+ }, 
   {
     "State": "Indonesia",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1319,8 +2249,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Bahasa Indonesia"
-  },
+    "Official Languages": "Bahasa Indonesia",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/indonesia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Indonesian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-indonesia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Indonesia"
+    }
+   ]
+ }, 
   {
     "State": "Iran",
     "Legal System": "Mixed Muslim Law, Civil Law",
@@ -1330,8 +2278,34 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Persian (Farsi)"
-  },
+    "Official Languages": "Persian (Farsi)",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/iran_legal_system_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Overview of the Iranian Legal System"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/iran1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System and Research of the Islamic Republic of Iran"
+    },
+    {
+       "href": "https://guides.loc.gov/law-iran",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Iran "
+    }
+   ]
+ }, 
   {
     "State": "Iraq",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1341,8 +2315,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, Kurdish, +"
-  },
+    "Official Languages": "Arabic, Kurdish, +",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-iraq",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Iraq"
+    }
+   ]
+ }, 
   {
     "State": "Ireland",
     "Legal System": "Common Law",
@@ -1352,8 +2336,26 @@
     "Parliamentary Upper House / Senate": "Indirect Proportional + Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Irish"
-  },
+    "Official Languages": "English, Irish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/ireland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Irish Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-ireland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Ireland"
+    }
+   ]
+ }, 
   {
     "State": "Iceland",
     "Legal System": "Civil Law",
@@ -1363,8 +2365,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Icelandic"
-  },
+    "Official Languages": "Icelandic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/iceland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Icelandic Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-iceland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Iceland"
+    }
+   ]
+ }, 
   {
     "State": "Israel",
     "Legal System": "Mixed Civil Law, Common Law, Jewish Law, Muslim Law",
@@ -1374,8 +2394,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Arabic, Hebrew"
-  },
+    "Official Languages": "Arabic, Hebrew",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/israel1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of Legal Research in Israel"
+     },
+    {
+       "href": "https://guides.loc.gov/law-israel",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Israel"
+    }
+   ]
+ }, 
   {
     "State": "Italy",
     "Legal System": "Civil Law",
@@ -1385,8 +2423,26 @@
     "Parliamentary Upper House / Senate": "Proportional Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Italian"
-  },
+    "Official Languages": "Italian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/italy1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Italian Legal Research and Resources on the Web"
+     },
+    {
+       "href": "https://guides.loc.gov/law-italy",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Italy"
+    }
+   ]
+ }, 
   {
     "State": "Jamaica",
     "Legal System": "Common Law",
@@ -1396,18 +2452,55 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/jamaica1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Jamaican Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-jamaica",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Jamaica"
+    }
+   ]
+ }, 
   {
     "State": "Japan",
     "Legal System": "Mixed Civil Law, Customary Law",
     "Form of State": "Unitary",
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Diffuse",
-    "Parliamentary Upper House / Senate": "Majoritarian Proportional",    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
+    "Parliamentary Upper House / Senate": "Majoritarian Proportional",
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Japanese"
-  },
+    "Official Languages": "Japanese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/japan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Japanese Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-japan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Japan"
+    }
+   ]
+ }, 
   {
     "State": "Jordan",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1417,8 +2510,26 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/jordan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Hashemite Kingdom of Jordan Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-jordan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Jordan"
+    }
+   ]
+ }, 
   {
     "State": "Kazakhstan",
     "Legal System": "Civil Law",
@@ -1428,8 +2539,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Kazakh, Russian"
-  },
+    "Official Languages": "Kazakh, Russian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/kazakhstan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Laws of the Republic of Kazakhstan – Web Based Resources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-kazakhstan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Kazakhstan"
+    }
+   ]
+ }, 
   {
     "State": "Kenya",
     "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
@@ -1439,8 +2568,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swahili"
-  },
+    "Official Languages": "English, Swahili",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/kenya1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Kenyan Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-kenya",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Kenya"
+    }
+   ]
+ }, 
   {
     "State": "Kyrgyzstan",
     "Legal System": "Civil Law",
@@ -1450,8 +2597,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Kyrgyz, Russian"
-  },
+    "Official Languages": "Kyrgyz, Russian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/kyrgyz1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal System and Legal Research in the Kyrgyz Republic"
+     },
+    {
+       "href": "https://www.loc.gov/item/guide-to-law-online/kyrgyz-republic-kyrgyzstan/",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Kyrgyz Republic (Kyrgyzstan)"
+    }
+   ]
+ }, 
   {
     "State": "Kiribati",
     "Legal System": "Common Law",
@@ -1461,8 +2626,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Kiribati"
-  },
+    "Official Languages": "English, Kiribati",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-kiribati",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Kiribati"
+    }
+   ]
+ }, 
   {
     "State": "Kosovo",
     "Legal System": "Civil Law",
@@ -1472,8 +2647,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Albanian, Serbian"
-  },
+    "Official Languages": "Albanian, Serbian",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-kosovo",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Kosovo"
+    }
+   ]
+ }, 
   {
     "State": "Kuwait",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1483,8 +2668,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/kuwait1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Kuwait Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-kuwait",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Kuwait"
+    }
+   ]
+ }, 
   {
     "State": "Laos",
     "Legal System": "Civil Law",
@@ -1494,8 +2697,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Lao"
-  },
+    "Official Languages": "Lao",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/laos1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Legal System of the Lao People's Democratic Republic"
+     },
+    {
+       "href": "https://guides.loc.gov/law-laos",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Laos"
+    }
+   ]
+ }, 
   {
     "State": "Lesotho",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -1505,8 +2726,26 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Sesotho"
-  },
+    "Official Languages": "English, Sesotho",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/lesotho1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Law and Legal Research in Lesotho"
+     },
+    {
+       "href": "https://guides.loc.gov/law-lesotho",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Lesotho"
+    }
+   ]
+ }, 
   {
     "State": "Latvia",
     "Legal System": "Civil Law",
@@ -1516,8 +2755,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Latvian"
-  },
+    "Official Languages": "Latvian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/latvia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Latvian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-latvia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Latvia"
+    }
+   ]
+ }, 
   {
     "State": "Lebanon",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1527,8 +2784,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +"
-  },
+    "Official Languages": "Arabic, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/lebanon1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introducing the Lebanese Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-lebanon",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Lebanon"
+    }
+   ]
+ }, 
   {
     "State": "Liberia",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1538,10 +2813,28 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/liberia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Liberian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-liberia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Liberia"
+    }
+   ]
+ }, 
   {
-    "State": "Libya (in transition)",
+    "State": "Libya",
     "Legal System": null,
     "Form of State": null,
     "Form of Government": null,
@@ -1549,7 +2842,25 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/libya1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Libya's Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-libya",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Libya"
+    }
+   ] 
   },
   {
     "State": "Liechtenstein",
@@ -1560,8 +2871,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "German"
-  },
+    "Official Languages": "German",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-liechtenstein",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Liechtenstein"
+    }
+   ]
+ }, 
   {
     "State": "Lithuania",
     "Legal System": "Civil Law",
@@ -1569,9 +2890,28 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "Lithuanian"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "Lithuanian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/lithuania1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Lithuanian Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-lithuania",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Lithuania"
+    }
+   ]
+ }, 
   {
     "State": "Luxembourg",
     "Legal System": "Civil Law",
@@ -1581,10 +2921,28 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "German, French, Luxemburgish"
-  },
+    "Official Languages": "German, French, Luxemburgish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/luxembourg1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System and Legal Research in Luxembourg"
+     },
+    {
+       "href": "https://guides.loc.gov/law-luxembourg",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Luxembourg"
+    }
+   ]
+ }, 
   {
-    "State": "Macedonia (Fyrom)",
+    "State": "North Macedonia",
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
     "Form of Government": "Semi-Presidential",
@@ -1592,8 +2950,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Macedonian, +"
-  },
+    "Official Languages": "Macedonian, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/north_macedonia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introducing the Legal System of North Macedonia"
+     },
+    {
+       "href": "https://guides.loc.gov/law-north-macedonia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: North Macedonia"
+    }
+   ]
+ }, 
   {
     "State": "Madagascar",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1603,8 +2979,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Malagasy"
-  },
+    "Official Languages": "French, Malagasy",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/madagascar1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Law and Legal Systems in Madagascar: A Political Siege"
+     },
+    {
+       "href": "https://guides.loc.gov/law-madagascar",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Madagascar"
+    }
+   ]
+ }, 
   {
     "State": "Malaysia",
     "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
@@ -1614,8 +3008,42 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Malay"
-  },
+    "Official Languages": "Malay",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/malaysia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Overview of Malaysian Legal System and Research"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sources_law_malaysia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction to the Malaysian Legal System and Sources of Law"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/researching_islamic_law_malaysian_sources1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Islamic Law – Malaysian Sources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-malaysia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Malaysia"
+    }
+   ]
+ }, 
   {
     "State": "Malawi",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1625,8 +3053,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/malawi1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Malawi Legal System and Research Resources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-malawi",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Malawi"
+    }
+   ]
+ },
   {
     "State": "Maldives Islands",
     "Legal System": "Muslim Law",
@@ -1636,8 +3082,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Dhivehi"
-  },
+    "Official Languages": "Dhivehi",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/maldives1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal System and Research of Maldives"
+     },
+    {
+       "href": "https://guides.loc.gov/law-maldives",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Maldives"
+    }
+   ]
+ }, 
   {
     "State": "Mali",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1647,8 +3111,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mali1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Mali"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mali",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mali"
+    }
+   ]
+ }, 
   {
     "State": "Malta",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -1658,8 +3140,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Maltese"
-  },
+    "Official Languages": "English, Maltese",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-malta",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Malta"
+    }
+   ]
+ }, 
   {
     "State": "Morocco",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1669,8 +3161,34 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +"
-  },
+    "Official Languages": "Arabic, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/morocco1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Introduction to the Moroccan Legal System"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/maroc_juridique.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Le Maroc Juridique"
+     },
+    {
+       "href": "https://guides.loc.gov/law-morocco",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Morocco"
+    }
+   ]
+ }, 
   {
     "State": "Marshall, Islands",
     "Legal System": "Common Law",
@@ -1680,8 +3198,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-marshall-Islands",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Marshall Islands"
+    }
+   ]
+ }, 
   {
     "State": "Mauritius, Island",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -1691,8 +3219,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "English French"
-  },
+    "Official Languages": "English French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mauritius.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Mauritian Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mauritius",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mauritius"
+    }
+   ]
+ }, 
   {
     "State": "Mauritania",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1702,8 +3248,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian ",
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic, +"
-  },
+    "Official Languages": "Arabic, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mauritania1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Law and Legal Systems in Mauritania"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mauritania",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mauritania"
+    }
+   ]
+ }, 
   {
     "State": "Mexico",
     "Legal System": "Civil Law",
@@ -1713,8 +3277,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian Proportional",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +"
-  },
+    "Official Languages": "Spanish, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mexico1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Mexican Law and Mexican Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mexico",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mexico"
+    }
+   ]
+ }, 
   {
     "State": "Micronesia",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1722,9 +3304,20 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Mixed",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "English, +",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-micronesia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Micronesia, Federated States of"
+    }
+   ]
+ }, 
   {
     "State": "Moldova",
     "Legal System": "Civil Law",
@@ -1734,8 +3327,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Moldovan (Romanian)"
-  },
+    "Official Languages": "Moldovan (Romanian)",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/moldova1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Moldova"
+     },
+    {
+       "href": "https://guides.loc.gov/law-moldova",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Moldova"
+    }
+   ]
+ }, 
   {
     "State": "Monaco",
     "Legal System": "Civil Law",
@@ -1743,9 +3354,20 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "French",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-monaco",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Monaco"
+    }
+   ]
+ }, 
   {
     "State": "Mongolia",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1755,8 +3377,34 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Mongolian"
-  },
+    "Official Languages": "Mongolian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mongolia_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Mongolian Legal System and Laws"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mongolia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Mongolian Legal System and Laws: a Brief Overview"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mongolia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mongolia"
+    }
+   ]
+ }, 
   {
     "State": "Montenegro",
     "Legal System": "Civil Law",
@@ -1766,8 +3414,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Montenegrin"
-  },
+    "Official Languages": "Montenegrin",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-montenegro",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Montenegro"
+    }
+   ]
+ }, 
   {
     "State": "Mozambique",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1777,8 +3435,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese"
-  },
+    "Official Languages": "Portuguese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/mozambique1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Republic of Mozambique – Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-mozambique",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Mozambique"
+    }
+   ]
+ }, 
   {
     "State": "Myanmar",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1788,8 +3464,18 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Burmese"
-  },
+    "Official Languages": "Burmese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/myanmar1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System of the Republic of the Union of Myanmar"
+    }
+   ]
+ }, 
   {
     "State": "Namibia",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -1799,8 +3485,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
     "Parliamentary Lower House / National Assembly": "Proportional Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/namibia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Namibian Law and the Namibian Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-namibia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Namibia"
+    }
+   ]
+ }, 
   {
     "State": "Nauru",
     "Legal System": "Common Law",
@@ -1810,8 +3514,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-nauru",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Nauru"
+    }
+   ]
+ }, 
   {
     "State": "Nepal",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1821,8 +3535,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Nepali"
-  },
+    "Official Languages": "Nepali",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/nepal1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Legal System of Kingdom of Nepal"
+     },
+    {
+       "href": "https://guides.loc.gov/law-nepal",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Nepal"
+    }
+   ]
+ }, 
   {
     "State": "Nicaragua",
     "Legal System": "Civil Law",
@@ -1832,8 +3564,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/nicaragua1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Nicaragua"
+     },
+    {
+       "href": "https://guides.loc.gov/law-nicaragua",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Nicaragua"
+    }
+   ]
+ }, 
   {
     "State": "Niger",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -1841,9 +3591,28 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/niger1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Regard sur le Systeme Juridique et Judiciaire du Niger"
+     },
+    {
+       "href": "https://guides.loc.gov/law-niger",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Niger"
+    }
+   ]
+ }, 
   {
     "State": "Nigeria",
     "Legal System": "Mixed Common Law, Customary Law, Muslim Law",
@@ -1853,8 +3622,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/nigeria1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Nigerian Legal Information"
+     },
+    {
+       "href": "https://guides.loc.gov/law-nigeria",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Nigeria"
+    }
+   ]
+ }, 
   {
     "State": "Norway",
     "Legal System": "Civil Law",
@@ -1864,8 +3651,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Norwegian"
-  },
+    "Official Languages": "Norwegian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/norway1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Norway"
+     },
+    {
+       "href": "https://guides.loc.gov/law-norway",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Norway"
+    }
+   ]
+ }, 
   {
     "State": "New Zealand",
     "Legal System": "Common Law",
@@ -1875,8 +3680,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/new_zealand1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the New Zealand Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-new-zealand",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: New Zealand"
+    }
+   ]
+ }, 
   {
     "State": "Oman",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -1886,8 +3709,26 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/oman1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Legal System and Research in the Sultanate of Oman"
+     },
+    {
+       "href": "https://guides.loc.gov/law-oman",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Oman"
+    }
+   ]
+ }, 
   {
     "State": "Uganda",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1897,8 +3738,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian (dir. et Indirect) + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/uganda1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Uganda's Legal System and Legal Sector"
+     },
+    {
+       "href": "https://guides.loc.gov/law-uganda",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Uganda"
+    }
+   ]
+ }, 
   {
     "State": "Uzbekistan",
     "Legal System": "Civil Law",
@@ -1908,8 +3767,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Uzbek, +"
-  },
+    "Official Languages": "Uzbek, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/uzbekistan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Uzbekistan"
+     },
+    {
+       "href": "https://guides.loc.gov/law-uzbekistan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Uzbekistan"
+    }
+   ]
+ }, 
   {
     "State": "Pakistan",
     "Legal System": "Mixed Common Law, Muslim Law",
@@ -1919,8 +3796,34 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Urdu"
-  },
+    "Official Languages": "English, Urdu",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/pakistan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Legal Research Guide to Pakistan"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/pakistan_adr1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Alternative Dispute Resolution in Pakistan"
+     },
+    {
+       "href": "https://guides.loc.gov/law-pakistan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Pakistan"
+    }
+   ]
+ }, 
   {
     "State": "Palau",
     "Legal System": "Common Law",
@@ -1930,8 +3833,18 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-palau",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Palau"
+    }
+   ]
+ }, 
   {
     "State": "Palestine (Authority)",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -1941,8 +3854,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+    {
+       "href": "https://guides.lib.uchicago.edu/c.php?g=1399350&p=10354248",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "University of Chicago: Palestine Studies: Government Documents"
+    }
+   ]
+ }, 
   {
     "State": "Panama",
     "Legal System": "Civil Law",
@@ -1952,8 +3875,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/panama1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Panama's Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-panama",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Panama"
+    }
+   ]
+ }, 
   {
     "State": "Papua New Guinea",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -1963,8 +3904,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-papua-new-guinea",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Papua New Guinea"
+    }
+   ]
+ }, 
   {
     "State": "Paraguay",
     "Legal System": "Civil Law",
@@ -1974,8 +3925,26 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Spanish, Guarani"
-  },
+    "Official Languages": "Spanish, Guarani",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/paraguay1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal System and Legal Research in Paraguay"
+     },
+    {
+       "href": "https://guides.loc.gov/law-paraguay",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Paraguay"
+    }
+   ]
+ }, 
   {
     "State": "Netherlands",
     "Legal System": "Civil Law",
@@ -1985,8 +3954,26 @@
     "Parliamentary Upper House / Senate": "Indirect Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Dutch"
-  },
+    "Official Languages": "Dutch",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/netherlands1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Dutch Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-netherlands",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Netherlands"
+    }
+   ]
+ }, 
   {
     "State": "Peru",
     "Legal System": "Civil Law",
@@ -1996,8 +3983,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish, +"
-  },
+    "Official Languages": "Spanish, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/peru1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Essential Issues of the Peruvian Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-peru",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Peru"
+    }
+   ]
+ }, 
   {
     "State": "Philippines",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -2005,9 +4010,28 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": "Majoritarian",
-    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Plurilingual",
-    "Official Languages": "English, Tagalog (Filipino)"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
+    "Language Category": "Plurilingual",
+    "Official Languages": "English, Tagalog (Filipino)",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/philippines1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Philippine Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-philippines",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Philippines"
+    }
+   ]
+ }, 
   {
     "State": "Poland",
     "Legal System": "Civil Law",
@@ -2017,8 +4041,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Polish"
-  },
+    "Official Languages": "Polish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/poland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Overview of Polish Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-poland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Poland"
+    }
+   ]
+ }, 
   {
     "State": "Portugal",
     "Legal System": "Civil Law",
@@ -2028,8 +4070,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese"
-  },
+    "Official Languages": "Portuguese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/portugal1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal System and Research in Portugal"
+     },
+    {
+       "href": "https://guides.loc.gov/law-portugal",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Portugal"
+    }
+   ]
+ }, 
   {
     "State": "Qatar",
     "Legal System": "Mixed Muslim Law, Civil Law, Common Law, Customary Law",
@@ -2039,8 +4099,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/qatar1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Qatar's Legal System Governance and Business"
+     },
+    {
+       "href": "https://guides.loc.gov/law-qatar",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Qatar"
+    }
+   ]
+ }, 
   {
     "State": "Democratic Republic of Congo",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2050,9 +4128,27 @@
     "Parliamentary Upper House / Senate": "Indirect Proportional Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French, +"
-  },
-  {
+    "Official Languages": "French, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/democratic_republic_congo1.html#historical-background",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of the Legal System of the Democratic Republic of the Congo (DRC) and Research"
+     },
+     {
+       "href": "https://guides.loc.gov/law-democratic-republic-congo",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Democratic Republic of the Congo"
+     }
+    ]
+},
+    {
     "State": "Dominican Republic",
     "Legal System": "Civil Law",
     "Form of State": "Unitary",
@@ -2061,8 +4157,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/dominican_republic1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in the Dominican Republic"
+     },
+    {
+       "href": "https://guides.loc.gov/law-dominican-republic",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress:Guide to Law Online: Dominican Republic"
+    }
+   ]
+ }, 
   {
     "State": "Czech Republic",
     "Legal System": "Civil Law",
@@ -2072,8 +4186,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Czech"
-  },
+    "Official Languages": "Czech",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/czech_republic1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Introduction to the Czech Legal System and Legal Resources Online"
+     },
+    {
+       "href": "https://guides.loc.gov/law-czechia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Czechia"
+    }
+   ]
+ }, 
   {
     "State": "Romania",
     "Legal System": "Civil Law",
@@ -2083,8 +4215,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Proportional",
     "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Romanian"
-  },
+    "Official Languages": "Romanian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/romania1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Romania"
+     },
+    {
+       "href": "https://guides.loc.gov/law-romania",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Romania"
+    }
+   ]
+ }, 
   {
     "State": "United Kingdom",
     "Legal System": "Common Law (except Scotland: Civil Law, Common Law and Guernsey and Jersey: Customary Law)",
@@ -2094,8 +4244,58 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/united_kingdom1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Law of the United Kingdom"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/scottish_legal_history1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Scottish Legal History"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/wales1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Applicable Law in Wales – What is Unique in Wales?"
+     },
+    {
+       "href": "https://guides.loc.gov/law-united-kingdom",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: United Kingdom"
+     },
+    {
+       "href": "https://guides.loc.gov/law-scotland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Scotland"
+     },
+    {
+       "href": "https://guides.loc.gov/law-wales",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Wales"
+    }
+   ]
+ }, 
   {
     "State": "Russia",
     "Legal System": "Civil Law",
@@ -2105,8 +4305,34 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Russian, +"
-  },
+    "Official Languages": "Russian, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/russia_legal_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Guide to Legal Research in Russia"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/russia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Guide to Russian Federation Law in English: Selection of Sources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-russia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Russia"
+    }
+   ]
+ }, 
   {
     "State": "Rwanda",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2116,8 +4342,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian . Nominations",
     "Parliamentary Lower House / National Assembly": "Proportional Indirect Majoritarian ",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, French, Kinyarwanda"
-  },
+    "Official Languages": "English, French, Kinyarwanda",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/rwanda1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Rwanda's Legal System and Legal Materials"
+     },
+    {
+       "href": "https://guides.loc.gov/law-rwanda",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Rwanda"
+    }
+   ]
+ }, 
   {
     "State": "Saint Kitts and Nevis",
     "Legal System": "Common Law",
@@ -2127,8 +4371,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-saint-kitts-and-nevis",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Saint Kitts and Nevis"
+    }
+   ]
+ }, 
   {
     "State": "San Marino",
     "Legal System": "Civil Law",
@@ -2138,8 +4392,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Italian"
-  },
+    "Official Languages": "Italian",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-san-marino",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: San Marino"
+    }
+   ]
+ }, 
   {
     "State": "St. Vincent and the Grenadines",
     "Legal System": "Common Law",
@@ -2149,8 +4413,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-saint-vincent-and-the-grenadines",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Saint Vincent and the Grenadines"
+    }
+   ]
+ }, 
   {
     "State": "St. Lucia",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -2160,8 +4434,18 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-saint-lucia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Saint Lucia"
+    }
+   ]
+ }, 
   {
     "State": "Solomon Islands",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -2171,8 +4455,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-solomon-Islands",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Solomon Islands"
+    }
+   ]
+ },
   {
     "State": "Samoa",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -2182,8 +4476,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Samoan"
-  },
+    "Official Languages": "English, Samoan",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-samoa",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Samoa"
+    }
+   ]
+ },
   {
     "State": "Sao Tome and Principe",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2193,8 +4497,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Portuguese"
-  },
+    "Official Languages": "Portuguese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sao_tome_principe1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: São Tomé and Príncipe Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-sao-tome-and-principe",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Sao Tome and Principe"
+    }
+   ]
+ }, 
   {
     "State": "Senegal",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2204,8 +4526,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/senegal.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Visiting the Senegalese Legal System and Legal Research: A Human Rights Perspective"
+     },
+    {
+       "href": "https://guides.loc.gov/law-senegal",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Senegal"
+    }
+   ]
+ }, 
   {
     "State": "Serbia",
     "Legal System": "Civil Law",
@@ -2215,8 +4555,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Serbian"
-  },
+    "Official Languages": "Serbian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/serbia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Serbia"
+     },
+    {
+       "href": "https://guides.loc.gov/law-serbia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Serbia"
+    }
+   ]
+ }, 
   {
     "State": "Seychelles",
     "Legal System": "Mixed Civil Law, Common Law",
@@ -2224,9 +4582,28 @@
     "Form of Government": "Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Plurilingual",
-    "Official Languages": "English, Creole, French"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Plurilingual",
+    "Official Languages": "English, Creole, French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/seychelles1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex:Finding the Law in Seychelles"
+     },
+    {
+       "href": "https://guides.loc.gov/law-seychelles",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress:"
+    }
+   ]
+ }, 
   {
     "State": "Sierra Leone",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -2236,8 +4613,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sierra_leone1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Sierra Leone Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-sierra-leone",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Sierra Leone"
+    }
+   ]
+ }, 
   {
     "State": "Singapore",
     "Legal System": "Mixed Common Law, Muslim Law",
@@ -2247,8 +4642,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Chinese, Malay, Tamil"
-  },
+    "Official Languages": "English, Chinese, Malay, Tamil",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/singapore1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Guide to the Singapore Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-singapore",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Singapore"
+    }
+   ]
+ }, 
   {
     "State": "Slovakia",
     "Legal System": "Civil Law",
@@ -2258,8 +4671,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Slovak"
-  },
+    "Official Languages": "Slovak",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/slovakia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Overview of Slovak Political and Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-slovakia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Slovakia"
+    }
+   ]
+ }, 
   {
     "State": "Slovenia",
     "Legal System": "Civil Law",
@@ -2269,10 +4700,28 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian ",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Slovenian"
-  },
+    "Official Languages": "Slovenian",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/slovenia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal System and Legal Research in the Republic of Slovenia"
+     },
+    {
+       "href": "https://guides.loc.gov/law-slovenia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Slovenia"
+    }
+   ]
+ }, 
   {
-    "State": "Somalia (in transition)",
+    "State": "Somalia",
     "Legal System": null,
     "Form of State": null,
     "Form of Government": null,
@@ -2280,8 +4729,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Plurilingual",
-    "Official Languages": "Somali, Arabic"
-  },
+    "Official Languages": "Somali, Arabic",
+    "Research Guides": [
+     {
+       "href": "https://guides.loc.gov/law-somalia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Somalia"
+    }
+   ]
+ }, 
   {
     "State": "Sudan",
     "Legal System": "Mixed Common Law, Muslim Law",
@@ -2291,10 +4750,36 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sudan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Legal System of the Republic of Sudan"
+     },
+    {
+       "href": "https://www.nyulawglobal.org/globalex/darfur_crisis_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Crisis in Darfur – Researching the Legal Issues"
+    },
+     {
+       "href": "https://guides.loc.gov/law-sudan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Sudan"
+     }
+   ]
+ }, 
   {
-    "State": "South Sudan (in transition)",
+    "State": "South Sudan",
     "Legal System": null,
     "Form of State": null,
     "Form of Government": null,
@@ -2302,8 +4787,34 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "English, +"
-  },
+    "Official Languages": "English, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/south_sudan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Overview of the Legal System of South Sudan"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/darfur_crisis_research1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Crisis in Darfur – Researching the Legal Issues"
+     },
+    {
+       "href": "https://guides.loc.gov/law-south-sudan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: South Sudan"
+    }
+   ]
+ }, 
   {
     "State": "Sri Lanka",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -2313,8 +4824,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Sinhalese, Tamil"
-  },
+    "Official Languages": "Sinhalese, Tamil",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sri_lanka1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research and Legal System in Sri Lanka"
+     },
+    {
+       "href": "https://guides.loc.gov/law-sri-lanka",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Sri Lanka"
+    }
+   ]
+ }, 
   {
     "State": "Sweden",
     "Legal System": "Civil Law",
@@ -2324,10 +4853,28 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Swedish"
-  },
+    "Official Languages": "Swedish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/sweden1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex:"
+     },
+    {
+       "href": "https://guides.loc.gov/law-sweden",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Sweden"
+    }
+   ]
+ }, 
   {
-    "State": "Swiss",
+    "State": "Switzerland",
     "Legal System": "Civil Law",
     "Form of State": "Federal",
     "Form of Government": "Directorial",
@@ -2335,8 +4882,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Proportional",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "German, French, Italian, +"
-  },
+    "Official Languages": "German, French, Italian, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/switzerland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Swiss Legal System and Research"
+     },
+    {
+       "href": "​​https://guides.loc.gov/law-switzerland",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Switzerland"
+    }
+   ]
+ }, 
   {
     "State": "Suriname",
     "Legal System": "Civil Law",
@@ -2346,8 +4911,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Dutch"
-  },
+    "Official Languages": "Dutch",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-suriname",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Suriname"
+    }
+   ]
+ }, 
   {
     "State": "Eswatini",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2357,8 +4932,26 @@
     "Parliamentary Upper House / Senate": "Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Indirect Majoritarian Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swazi"
-  },
+    "Official Languages": "English, Swazi",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/swaziland1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Law and Legal Research in Eswatini"
+     },
+    {
+       "href": "https://guides.loc.gov/law-eswatini",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Eswatini"
+    }
+   ]
+ }, 
   {
     "State": "Syria",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -2368,8 +4961,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/syria1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Current Constitutional Law and Court System in the Syrian Arab Republic"
+     },
+    {
+       "href": "https://guides.loc.gov/law-syria",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Syria"
+    }
+   ]
+ }, 
   {
     "State": "Tajikistan",
     "Legal System": "Civil Law",
@@ -2379,8 +4990,26 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian + Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Tajik"
-  },
+    "Official Languages": "Tajik",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/tajikistan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Laws of the Republic of Tajikistan Using Web Based Resources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-tajikistan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Tajikistan"
+    }
+   ]
+ }, 
   {
     "State": "Taiwan",
     "Legal System": "Civil Law",
@@ -2388,9 +5017,28 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "Chinese"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "Chinese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/taiwan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Taiwan Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-taiwan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Taiwan"
+    }
+   ]
+ }, 
   {
     "State": "Tanzania",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -2400,8 +5048,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Swahili"
-  },
+    "Official Languages": "English, Swahili",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/tanzania1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Tanzanian Legal System and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-tanzania",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Tanzania"
+    }
+   ]
+ }, 
   {
     "State": "Chad",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2409,9 +5075,28 @@
     "Form of Government": "Semi-Presidential",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": null,
-    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",    "Language Category": "Plurilingual",
-    "Official Languages": "French Arabic"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
+    "Language Category": "Plurilingual",
+    "Official Languages": "French Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/chad1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Introduction to the Legal System and Legal Research in Chad"
+     },
+    {
+       "href": "https://guides.loc.gov/law-chad",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Chad"
+    }
+   ]
+ }, 
   {
     "State": "Thailand",
     "Legal System": "Civil Law",
@@ -2419,9 +5104,28 @@
     "Form of Government": "Parliamentary",
     "Constitutional Control": "Centralized",
     "Parliamentary Upper House / Senate": "Majoritarian",
-    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",    "Language Category": "Unilingual",
-    "Official Languages": "Thai"
-  },
+    "Parliamentary Lower House / National Assembly": "Majoritarian Proportional",
+    "Language Category": "Unilingual",
+    "Official Languages": "Thai",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/thailand1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Summary of the Thai Law and Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-thailand",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Thailand"
+    }
+   ]
+ }, 
   {
     "State": "East Timor",
     "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
@@ -2431,8 +5135,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "Portuguese, Tetum"
-  },
+    "Official Languages": "Portuguese, Tetum",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/timor_leste1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Legal Research in Timor-Leste"
+     },
+    {
+       "href": "https://guides.loc.gov/law-timor-leste",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Timor-Leste"
+    }
+   ]
+ }, 
   {
     "State": "Togo",
     "Legal System": "Mixed Civil Law, Customary Law",
@@ -2442,8 +5164,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "French"
-  },
+    "Official Languages": "French",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/togo1_eng.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Brief Overview of the Togolese Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-togo",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Togo"
+    }
+   ]
+ }, 
   {
     "State": "Tonga",
     "Legal System": "Common Law",
@@ -2453,8 +5193,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Tongan"
-  },
+    "Official Languages": "English, Tongan",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-tonga",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Tonga"
+    }
+   ]
+ }, 
   {
     "State": "Trinidad and Tobago",
     "Legal System": "Common Law",
@@ -2464,8 +5214,26 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/trinidad_tobago1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Trinidad & Tobago Law and Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-trinidad-and-tobago",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Trinidad and Tobago"
+    }
+   ]
+ }, 
   {
     "State": "Tunisia",
     "Legal System": "Mixed Civil Law, Muslim Law",
@@ -2475,8 +5243,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/tunisia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: A Guide to the Tunisian Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-tunisia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Tunisia"
+    }
+   ]
+ }, 
   {
     "State": "Turkmenistan",
     "Legal System": "Civil Law",
@@ -2486,8 +5272,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "Russian, Turkmen"
-  },
+    "Official Languages": "Russian, Turkmen",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/turkmenistan1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Turkmenistan Legal System"
+     },
+    {
+       "href": "https://guides.loc.gov/law-turkmenistan",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Turkmenistan"
+    }
+   ]
+ }, 
   {
     "State": "Turkey",
     "Legal System": "Civil Law",
@@ -2497,8 +5301,34 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Turkish"
-  },
+    "Official Languages": "Turkish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/turkey1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Turkish Public Law and Legal Research"
+     },
+     {
+       "href": "https://www.nyulawglobal.org/globalex/2017_turkey_constitution_amendments.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Constitutional Amendments of 2017: Transition to Presidentialism in Turkey"
+     },
+    {
+       "href": "https://guides.loc.gov/law-turkey",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Turkey"
+    }
+   ]
+ }, 
   {
     "State": "Tuvalu",
     "Legal System": "Common Law",
@@ -2508,8 +5338,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Tuvalian"
-  },
+    "Official Languages": "English, Tuvalian",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-tuvalu",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress:Guide to Law Online: Tuvalu"
+    }
+   ]
+ }, 
   {
     "State": "Ukraine",
     "Legal System": "Civil Law",
@@ -2519,8 +5359,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Ukrainian, +"
-  },
+    "Official Languages": "Ukrainian, +",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/ukraine1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching Ukrainian Law"
+     },
+    {
+       "href": "https://guides.loc.gov/law-ukraine",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Ukraine"
+    }
+   ]
+ }, 
   {
     "State": "Uruguay",
     "Legal System": "Civil Law",
@@ -2530,8 +5388,26 @@
     "Parliamentary Upper House / Senate": "Proportional",
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/uruguay1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Uruguay's Legal System and Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-uruguay",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Uruguay"
+    }
+   ]
+ }, 
   {
     "State": "Vanuatu",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -2541,8 +5417,18 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "English, Bichelamar, French"
-  },
+    "Official Languages": "English, Bichelamar, French",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-vanuatu",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Vanuatu"
+    }
+   ]
+ }, 
   {
     "State": "Vatican/Holy See",
     "Legal System": "Civil Law",
@@ -2552,8 +5438,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Nominations",
     "Language Category": "Plurilingual",
-    "Official Languages": "Italian, Latin,+"
-  },
+    "Official Languages": "Italian, Latin,+",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/vatican1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Researching the Law of the Vatican City State"
+     },
+    {
+       "href": "https://guides.loc.gov/law-holy-see",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Holy See (Vatican City)"
+    }
+   ]
+ }, 
   {
     "State": "Venezuela",
     "Legal System": "Civil Law",
@@ -2563,8 +5467,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "Spanish"
-  },
+    "Official Languages": "Spanish",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/venezuela1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: An Introduction to Venezuelan Governmental Institutions and Primary Legal Sources"
+     },
+    {
+       "href": "https://guides.loc.gov/law-venezuela",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Venezuela"
+    }
+   ]
+ }, 
   {
     "State": "Vietnam",
     "Legal System": "Civil Law",
@@ -2574,8 +5496,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "Vietnamese"
-  },
+    "Official Languages": "Vietnamese",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/vietnam1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: Vietnam Legal Research"
+     },
+    {
+       "href": "https://guides.loc.gov/law-vietnam",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Vietnam"
+    }
+   ]
+ }, 
   {
   "State": "Western Sahara",
   "Legal System": "Mixed Civil Law, Muslim Law",
@@ -2596,8 +5536,18 @@
     "Parliamentary Upper House / Senate": "Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian ",
     "Language Category": "Unilingual",
-    "Official Languages": "Arabic"
-  },
+    "Official Languages": "Arabic",
+    "Research Guides": [
+    {
+       "href": "https://guides.loc.gov/law-yemen",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Yemen"
+    }
+   ]
+ }, 
   {
     "State": "Zambia",
     "Legal System": "Mixed Common Law, Customary Law",
@@ -2607,8 +5557,26 @@
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": "Majoritarian",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
-  },
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/zambia1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Law and Legal Research in Zambia"
+     },
+    {
+       "href": "https://guides.loc.gov/law-zambia",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Zambia"
+    }
+   ]
+ }, 
   {
     "State": "Zimbabwe",
     "Legal System": "Mixed Civil Law, Common Law, Customary Law",
@@ -2618,7 +5586,25 @@
     "Parliamentary Upper House / Senate": "Proportional + Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian .Proportional",
     "Language Category": "Unilingual",
-    "Official Languages": "English"
+    "Official Languages": "English",
+    "Research Guides": [
+     {
+       "href": "https://www.nyulawglobal.org/globalex/zimbabwe1.html",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "GlobaLex: The Law in Zimbabwe"
+     },
+    {
+       "href": "https://guides.loc.gov/law-zimbabwe",
+       "target": "_blank",
+       "rel": "noopener noreferrer",
+       "aria-label": "Open the Link (Link, opens in a new tab)",
+       "title": "Open the Link",
+       "text": "Library of Congress: Guide to Law Online: Zimbabwe"
+    }
+    ]
   }
 ]
 
