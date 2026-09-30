@@ -2,6 +2,8 @@ import './App.css';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
+import CountryOverlay from './components/CountryOverlay/CountryOverlay';
+import LegalSystems, { legalSystemColors } from './components/LegalSystems/LegalSystems';
 
 const MIN_SCALE = 2;
 const MAX_SCALE = 12;
@@ -62,22 +64,6 @@ const canonicalCountryName = (value) => {
   return COUNTRY_ALIASES[normalized] || normalized;
 };
 
-const legalSystemCounts = nationIndex.reduce((counts, country) => {
-  const legalSystem = country['Legal System'];
-
-  if (legalSystem) {
-    counts[legalSystem] = (counts[legalSystem] || 0) + 1;
-  }
-
-  return counts;
-}, {});
-
-const legalSystems = Object.keys(legalSystemCounts).sort((first, second) => first.localeCompare(second));
-const legalSystemColors = legalSystems.reduce((colors, legalSystem, index) => {
-  colors[legalSystem] = `hsl(${Math.round((index * 360) / legalSystems.length)} 72% 58%)`;
-  return colors;
-}, {});
-
 const getCountryMatchKey = (value) => {
   if (!value) {
     return null;
@@ -130,10 +116,10 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState(nationIndex[0]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isCountryListOpen, setIsCountryListOpen] = useState(false);
-  const [isLegendOpen, setIsLegendOpen] = useState(true);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
   const [detailsLegalSystem, setDetailsLegalSystem] = useState(null);
+  const [overlayCountry, setOverlayCountry] = useState(null);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
     const map = new Map();
@@ -386,6 +372,31 @@ function App() {
     return countryId || 'Unknown country';
   }, []);
 
+  const handleOpenCountryOverlay = () => {
+    if (!selectedCountry) {
+      return;
+    }
+
+    const mapSvg = containerRef.current?.querySelector('.App-map');
+    const pathData = Array.from(mapSvg?.querySelectorAll('path[data-name]') || [])
+      .filter((path) => {
+        const country = resolveCountry(getCountryLabel(path))
+          || resolveCountry(path.getAttribute('id'));
+        return country?.State === selectedCountry.State;
+      })
+      .map((path) => path.getAttribute('d'))
+      .filter(Boolean)
+      .join(' ');
+
+    if (pathData) {
+      setOverlayCountry({
+        countryName: selectedCountry.State,
+        pathData,
+        fillColor: legalSystemColors[selectedCountry['Legal System']] || '#dadada',
+      });
+    }
+  };
+
   useEffect(() => {
     const svg = containerRef.current?.querySelector('svg');
 
@@ -479,40 +490,10 @@ function App() {
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
       <h1 className="App-title">The Law Lense</h1>
-      <aside className="App-legend" aria-label="Legal system legend">
-        <div className="App-legendHeader">
-          <div className="App-menuTitle">Legal systems</div>
-          <button
-            className={`App-legendToggle${isLegendOpen ? '' : ' is-collapsed'}`}
-            type="button"
-            onClick={() => setIsLegendOpen((isOpen) => !isOpen)}
-            aria-controls="legal-system-legend-list"
-            aria-expanded={isLegendOpen}
-            aria-label={isLegendOpen ? 'Collapse legal systems legend' : 'Expand legal systems legend'}
-          />
-        </div>
-        {isLegendOpen ? (
-          <div className="App-legendList" id="legal-system-legend-list">
-            {legalSystems.map((legalSystem) => (
-              <button
-                className={`App-legendItem${selectedLegalSystem === legalSystem ? ' is-selected' : ''}`}
-                key={legalSystem}
-                type="button"
-                onClick={() => handleLegalSystemSelect(legalSystem)}
-                aria-pressed={selectedLegalSystem === legalSystem}
-              >
-                <span
-                  className="App-legendSwatch"
-                  style={{ backgroundColor: legalSystemColors[legalSystem] }}
-                  aria-hidden="true"
-                />
-                <span className="App-legendLabel">{legalSystem}</span>
-                <span className="App-legendCount">{legalSystemCounts[legalSystem]}</span>
-              </button>
-            ))}
-          </div>
-        ) : null}
-      </aside>
+      <LegalSystems
+        selectedLegalSystem={selectedLegalSystem}
+        onSelect={handleLegalSystemSelect}
+      />
       <div className={`App-sidebar${isSidebarCollapsed ? ' is-collapsed' : ''}`}>
         <div className="App-toolbar">
           <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
@@ -591,16 +572,27 @@ function App() {
             <>
               <div className="App-detailsHeader">
                 <div className="App-menuTitle">Country details</div>
-                {detailsLegalSystem ? (
+                <div className="App-detailsActions">
                   <button
-                    className="App-backButton"
+                    className="App-mapButton"
                     type="button"
-                    onClick={handleBackToLegalSystem}
-                    aria-label={`Back to ${detailsLegalSystem} countries`}
+                    onClick={handleOpenCountryOverlay}
+                    aria-label="View country map"
+                    disabled={!selectedCountry}
                   >
-                    <span aria-hidden="true">←</span>
+                    View map
                   </button>
-                ) : null}
+                  {detailsLegalSystem ? (
+                    <button
+                      className="App-backButton"
+                      type="button"
+                      onClick={handleBackToLegalSystem}
+                      aria-label={`Back to ${detailsLegalSystem} countries`}
+                    >
+                      <span aria-hidden="true">←</span>
+                    </button>
+                  ) : null}
+                </div>
               </div>
               {selectedCountry ? (
                 <div className="App-detailGrid">
@@ -661,6 +653,14 @@ function App() {
         >
           {hoveredCountry.name}
         </div>
+      ) : null}
+      {overlayCountry ? (
+        <CountryOverlay
+          countryName={overlayCountry.countryName}
+          pathData={overlayCountry.pathData}
+          fillColor={overlayCountry.fillColor}
+          onClose={() => setOverlayCountry(null)}
+        />
       ) : null}
       <div className="App-logoGroup" aria-label="Partner institutions">
         <p className="App-attribution">

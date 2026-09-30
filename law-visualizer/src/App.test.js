@@ -2,6 +2,18 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 import nationIndex from './assets/nationIndex.json';
 
+test('opens and closes the selected country map overlay', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByRole('button', { name: 'View country map' }));
+
+  expect(screen.getByRole('dialog', { name: /Expanded country map:/ })).toBeInTheDocument();
+
+  fireEvent.keyDown(document, { key: 'Escape' });
+
+  expect(screen.queryByRole('dialog', { name: /Expanded country map:/ })).not.toBeInTheDocument();
+});
+
 test('selects Ivory Coast from the map when the CI path is clicked', () => {
   render(<App />);
 

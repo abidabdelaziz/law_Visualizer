@@ -1,0 +1,139 @@
+.App-legend {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: min(270px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  padding: 9px;
+  border: 1px solid var(--dashboard-border, rgba(211, 224, 235, 0.28));
+  border-radius: 7px;
+  background: var(--dashboard-panel, rgba(44, 60, 77, 0.9));
+  box-shadow: var(--dashboard-shadow, 0 10px 28px rgba(6, 14, 24, 0.34));
+  color: var(--dashboard-ink, #e8eef4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.App-legendHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.App-legendToggle {
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.App-legendToggle::before {
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 9px auto 0;
+  border-right: 2px solid #dce7ef;
+  border-bottom: 2px solid #dce7ef;
+  transform: rotate(225deg);
+  content: '';
+}
+
+.App-legendToggle.is-collapsed::before {
+  margin-top: 6px;
+  transform: rotate(45deg);
+}
+
+.App-legendToggle:hover,
+.App-legendToggle:focus-visible {
+  background: rgba(220, 231, 239, 0.12);
+  outline: none;
+}
+
+.App-legendList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 0;
+  max-height: calc(100vh - 104px);
+  margin-top: 8px;
+  overflow: auto;
+  scrollbar-color: rgba(211, 224, 235, 0.42) transparent;
+  scrollbar-width: thin;
+}
+
+.App-legendItem {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
+  gap: 6px;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 5px 6px;
+  border: 1px solid rgba(220, 231, 239, 0.16);
+  border-radius: 4px;
+  color: #edf3f7;
+  font-size: 10px;
+  line-height: 1.3;
+  text-align: left;
+  font-family: inherit;
+  background: rgba(90, 108, 124, 0.38);
+  cursor: pointer;
+}
+
+.App-legendItem:hover,
+.App-legendItem:focus-visible,
+.App-legendItem.is-selected {
+  color: #ffffff;
+  border-color: rgba(220, 237, 248, 0.68);
+  background: rgba(136, 158, 174, 0.58);
+  outline: none;
+}
+
+.App-legendItem:focus-visible {
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px rgba(220, 237, 248, 0.75);
+}
+
+.App-legendSwatch {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.App-legendLabel {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.App-legendCount {
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #eaf1f5;
+  background: rgba(15, 26, 38, 0.42);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 760px) {
+  .App-legend {
+    top: auto;
+    right: 8px;
+    bottom: 8px;
+    width: min(270px, calc(100vw - 16px));
+    max-height: 42vh;
+  }
+
+  .App-legendList {
+    max-height: calc(42vh - 52px);
+  }
+}
