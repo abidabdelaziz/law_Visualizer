@@ -1,143 +1,85 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './CountryOverlay.css';
 
-const MAP_VIEW_BOX = '-2 17.68 964 924.64';
-const MAP_LEFT = -2;
-const MAP_WIDTH = 964;
-const EDGE_MARGIN = MAP_WIDTH * 0.035;
-
-const getSegmentPoints = (pathData) => {
-  const values = pathData
-    .replace(/[MLZ]/gi, ' ')
-    .match(/[-+]?(?:\d*\.)?\d+(?:e[-+]?\d+)?/gi);
-  const numbers = (values || []).map(Number);
-  const points = [];
-
-  for (let index = 0; index + 1 < numbers.length; index += 2) {
-    points.push({ x: numbers[index], y: numbers[index + 1] });
+const getPolygonRings = (geometry) => {
+  if (geometry?.type === 'Polygon') {
+    return geometry.coordinates;
   }
 
-  return points;
+  if (geometry?.type === 'MultiPolygon') {
+    return geometry.coordinates.flat();
+  }
+
+  return [];
 };
 
-const getSegmentBounds = (segment) => {
-  const points = getSegmentPoints(segment.pathData);
-  const xs = points.map(({ x }) => x);
-  const ys = points.map(({ y }) => y);
+export const buildCountrySvgGeometry = (geoJson) => {
+  const points = [];
+  const pathParts = [];
 
-  return {
-    minX: Math.min(...xs),
-    maxX: Math.max(...xs),
-    minY: Math.min(...ys),
-    maxY: Math.max(...ys),
-  };
-};
+  geoJson?.features?.forEach(({ geometry }) => {
+    getPolygonRings(geometry).forEach((ring) => {
+      const validPoints = ring.filter(([x, y]) => Number.isFinite(x) && Number.isFinite(y));
 
-const getPaddedBounds = (segmentBounds) => {
-  const minX = Math.min(...segmentBounds.map(({ minX: value }) => value));
-  const maxX = Math.max(...segmentBounds.map(({ maxX: value }) => value));
-  const minY = Math.min(...segmentBounds.map(({ minY: value }) => value));
-  const maxY = Math.max(...segmentBounds.map(({ maxY: value }) => value));
+      if (validPoints.length < 3) {
+        return;
+      }
+
+      points.push(...validPoints);
+      pathParts.push(`M ${validPoints.map(([x, y]) => `${x} ${-y}`).join(' L ')} Z`);
+    });
+  });
+
+  if (points.length === 0) {
+    return null;
+  }
+
+  const xs = points.map(([x]) => x);
+  const ys = points.map(([, y]) => -y);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
   const padding = Math.max(2, Math.max(maxX - minX, maxY - minY) * 0.025);
 
   return {
-    x: minX - padding,
-    y: minY - padding,
-    width: maxX - minX + padding * 2,
-    height: maxY - minY + padding * 2,
+    pathData: pathParts.join(' '),
+    viewBox: `${minX - padding} ${minY - padding} ${maxX - minX + padding * 2} ${maxY - minY + padding * 2}`,
   };
 };
 
-export const prepareOverlayGeometry = (pathData, bounds) => {
-  const segments = (pathData.match(/M[^M]*/gi) || [])
-    .map((segmentPath) => ({ pathData: segmentPath.trim(), offsetX: 0 }))
-    .filter((segment) => getSegmentPoints(segment.pathData).length > 0);
-
-  if (segments.length === 0) {
-    return { segments, bounds };
-  }
-
-  const segmentBounds = segments.map(getSegmentBounds);
-
-  if (segments.length < 2) {
-    return { segments, bounds: bounds || getPaddedBounds(segmentBounds) };
-  }
-
-  const minX = Math.min(...segmentBounds.map(({ minX: value }) => value));
-  const maxX = Math.max(...segmentBounds.map(({ maxX: value }) => value));
-  const leftEdgeIndices = [];
-  const rightEdgeIndices = [];
-
-  segmentBounds.forEach((segment, index) => {
-    if (segment.maxX <= MAP_LEFT + EDGE_MARGIN) {
-      leftEdgeIndices.push(index);
-    } else if (segment.minX >= MAP_LEFT + MAP_WIDTH - EDGE_MARGIN) {
-      rightEdgeIndices.push(index);
-    }
-  });
-
-  if (
-    maxX - minX < MAP_WIDTH * 0.75
-    || leftEdgeIndices.length === 0
-    || rightEdgeIndices.length === 0
-  ) {
-    return { segments, bounds: bounds || getPaddedBounds(segmentBounds) };
-  }
-
-  const edgeIndices = new Set([...leftEdgeIndices, ...rightEdgeIndices]);
-  const centralBounds = segmentBounds.filter((_, index) => !edgeIndices.has(index));
-
-  if (centralBounds.length === 0) {
-    return { segments, bounds: bounds || getPaddedBounds(segmentBounds) };
-  }
-
-  const anchorCenter = (
-    Math.min(...centralBounds.map(({ minX: value }) => value))
-    + Math.max(...centralBounds.map(({ maxX: value }) => value))
-  ) / 2;
-
-  leftEdgeIndices.forEach((index) => {
-    const center = (segmentBounds[index].minX + segmentBounds[index].maxX) / 2;
-    if (Math.abs(center + MAP_WIDTH - anchorCenter) < Math.abs(center - anchorCenter)) {
-      segments[index].offsetX = MAP_WIDTH;
-    }
-  });
-
-  rightEdgeIndices.forEach((index) => {
-    const center = (segmentBounds[index].minX + segmentBounds[index].maxX) / 2;
-    if (Math.abs(center - MAP_WIDTH - anchorCenter) < Math.abs(center - anchorCenter)) {
-      segments[index].offsetX = -MAP_WIDTH;
-    }
-  });
-
-  const shiftedBounds = segments.map((segment, index) => ({
-    ...segmentBounds[index],
-    minX: segmentBounds[index].minX + segment.offsetX,
-    maxX: segmentBounds[index].maxX + segment.offsetX,
-  }));
-  return {
-    segments,
-    bounds: getPaddedBounds(shiftedBounds),
-  };
-};
-
-function CountryOverlay({ countryName, pathData, bounds, fillColor, onClose }) {
+function CountryOverlay({ countryName, countryCode, fillColor, onClose }) {
   const closeButtonRef = useRef(null);
-  const overlayGeometry = prepareOverlayGeometry(pathData, bounds);
-  const pathGroups = overlayGeometry.segments.reduce((groups, segment) => {
-    const group = groups.find(({ offsetX }) => offsetX === segment.offsetX);
+  const [countryGeometry, setCountryGeometry] = useState(null);
+  const [loadError, setLoadError] = useState(false);
 
-    if (group) {
-      group.pathData.push(segment.pathData);
-    } else {
-      groups.push({ offsetX: segment.offsetX, pathData: [segment.pathData] });
+  useEffect(() => {
+    let isMounted = true;
+    setCountryGeometry(null);
+    setLoadError(false);
+
+    async function loadMapData() {
+      try {
+        const code = countryCode.toLowerCase();
+        const mapModule = await import(
+          `@highcharts/map-collection/countries/${code}/${code}-all.geo.json`
+        );
+
+        if (isMounted) {
+          setCountryGeometry(buildCountrySvgGeometry(mapModule.default));
+        }
+      } catch (error) {
+        if (isMounted) {
+          setLoadError(true);
+        }
+      }
     }
 
-    return groups;
-  }, []);
-  const viewBox = overlayGeometry.bounds
-    ? `${overlayGeometry.bounds.x} ${overlayGeometry.bounds.y} ${overlayGeometry.bounds.width} ${overlayGeometry.bounds.height}`
-    : MAP_VIEW_BOX;
+    loadMapData();
+    return () => {
+      isMounted = false;
+    };
+  }, [countryCode]);
 
   useEffect(() => {
     closeButtonRef.current?.focus();
@@ -180,27 +122,30 @@ function CountryOverlay({ countryName, pathData, bounds, fillColor, onClose }) {
             title="Close"
           />
         </header>
-        <div className="CountryOverlay-imageFrame">
-          <svg
-            className="CountryOverlay-image"
-            viewBox={viewBox}
-            role="img"
-            aria-label={`${countryName} outline`}
-            preserveAspectRatio="xMidYMid meet"
-          >
-            {pathGroups.map(({ pathData: groupPathData, offsetX }) => (
+        <div className="CountryOverlay-imageFrame" aria-busy={!countryGeometry && !loadError}>
+          {countryGeometry ? (
+            <svg
+              className="CountryOverlay-image"
+              viewBox={countryGeometry.viewBox}
+              role="img"
+              aria-label={`${countryName} outline`}
+              preserveAspectRatio="xMidYMid meet"
+            >
               <path
-                key={offsetX}
-                d={groupPathData.join(' ')}
-                transform={offsetX ? `translate(${offsetX} 0)` : undefined}
+                d={countryGeometry.pathData}
                 fill={fillColor}
+                fillRule="evenodd"
                 stroke="#eaf1f5"
                 strokeWidth="1.5"
                 vectorEffect="non-scaling-stroke"
                 strokeLinejoin="round"
               />
-            ))}
-          </svg>
+            </svg>
+          ) : (
+            <p className="CountryOverlay-status" role={loadError ? 'alert' : 'status'}>
+              {loadError ? 'Map data unavailable for this country.' : 'Loading country map...'}
+            </p>
+          )}
         </div>
       </section>
     </div>

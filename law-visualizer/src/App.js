@@ -378,20 +378,22 @@ function App() {
     }
 
     const mapSvg = containerRef.current?.querySelector('.App-map');
-    const pathData = Array.from(mapSvg?.querySelectorAll('path[data-name]') || [])
+    const countryPaths = Array.from(mapSvg?.querySelectorAll('path[data-name]') || [])
       .filter((path) => {
         const country = resolveCountry(getCountryLabel(path))
           || resolveCountry(path.getAttribute('id'));
         return country?.State === selectedCountry.State;
-      })
-      .map((path) => path.getAttribute('d'))
-      .filter(Boolean)
-      .join(' ');
+      });
+    const primaryCountryPath = countryPaths.find((path) => (
+      canonicalCountryName(getCountryLabel(path))
+      === canonicalCountryName(selectedCountry.State)
+    )) || countryPaths[0];
+    const countryCode = primaryCountryPath?.getAttribute('id');
 
-    if (pathData) {
+    if (countryCode) {
       setOverlayCountry({
         countryName: selectedCountry.State,
-        pathData,
+        countryCode,
         fillColor: legalSystemColors[selectedCountry['Legal System']] || '#dadada',
       });
     }
@@ -657,7 +659,7 @@ function App() {
       {overlayCountry ? (
         <CountryOverlay
           countryName={overlayCountry.countryName}
-          pathData={overlayCountry.pathData}
+          countryCode={overlayCountry.countryCode}
           fillColor={overlayCountry.fillColor}
           onClose={() => setOverlayCountry(null)}
         />
