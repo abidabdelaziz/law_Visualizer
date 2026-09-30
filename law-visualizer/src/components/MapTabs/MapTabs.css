@@ -1,0 +1,77 @@
+.MapTabs {
+  display: flex;
+  flex: 1 1 0;
+  gap: 6px;
+  min-width: 0;
+  max-width: none;
+  overflow-x: auto;
+  padding: 4px;
+  border-radius: 5px;
+  background: rgba(24, 38, 52, 0.78);
+  box-shadow: var(--dashboard-shadow);
+  scrollbar-width: thin;
+  overscroll-behavior-x: contain;
+}
+
+.MapTabs-tab {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: stretch;
+  max-width: 220px;
+  border: 1px solid rgba(220, 231, 239, 0.2);
+  border-radius: 4px;
+  background: rgba(90, 108, 124, 0.48);
+}
+
+.MapTabs-restore,
+.MapTabs-close {
+  min-height: 30px;
+  border: 0;
+  color: #edf3f7;
+  background: transparent;
+  cursor: pointer;
+}
+
+.MapTabs-restore {
+  min-width: 0;
+  overflow: hidden;
+  padding: 5px 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: inherit;
+  font-size: 11px;
+}
+
+.MapTabs-close {
+  position: relative;
+  width: 28px;
+  flex: 0 0 28px;
+  border-left: 1px solid rgba(220, 231, 239, 0.16);
+}
+
+.MapTabs-close::before,
+.MapTabs-close::after {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  width: 10px;
+  height: 1px;
+  background: #edf3f7;
+  content: '';
+}
+
+.MapTabs-close::before {
+  transform: rotate(45deg);
+}
+
+.MapTabs-close::after {
+  transform: rotate(-45deg);
+}
+
+.MapTabs-restore:hover,
+.MapTabs-restore:focus-visible,
+.MapTabs-close:hover,
+.MapTabs-close:focus-visible {
+  background: rgba(220, 231, 239, 0.16);
+  outline: none;
+}

@@ -4,6 +4,7 @@ import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
 import CountryOverlay from './components/CountryOverlay/CountryOverlay';
 import LegalSystems, { legalSystemColors } from './components/LegalSystems/LegalSystems';
+import MapTabs from './components/MapTabs/MapTabs';
 
 const MIN_SCALE = 2;
 const MAX_SCALE = 12;
@@ -241,7 +242,7 @@ function App() {
   const handleWheel = (event) => {
     if (
       event.target instanceof Element
-      && event.target.closest('.App-menuList, .App-details, .App-legend')
+      && event.target.closest('.App-menuList, .App-details, .App-legend, .MapTabs')
     ) {
       return;
     }
@@ -376,6 +377,15 @@ function App() {
 
   const handleOpenCountryOverlay = () => {
     if (!selectedCountry) {
+      return;
+    }
+
+    const existingOverlay = minimizedCountryOverlays.find(({ countryName }) => (
+      canonicalCountryName(countryName) === canonicalCountryName(selectedCountry.State)
+    ));
+
+    if (existingOverlay) {
+      handleRestoreCountryOverlay(existingOverlay.id);
       return;
     }
 
@@ -695,38 +705,21 @@ function App() {
           onMinimize={handleMinimizeCountryOverlay}
         />
       ) : null}
-      {minimizedCountryOverlays.length > 0 ? (
-        <div className="App-minimizedMaps" role="group" aria-label="Minimized country maps">
-          {minimizedCountryOverlays.map((overlay) => (
-            <div className="App-minimizedMap" key={overlay.id}>
-              <button
-                className="App-minimizedMapRestore"
-                type="button"
-                onClick={() => handleRestoreCountryOverlay(overlay.id)}
-                aria-label={`Restore map for ${overlay.countryName}`}
-                title={`Restore ${overlay.countryName} map`}
-              >
-                {overlay.countryName}
-              </button>
-              <button
-                className="App-minimizedMapClose"
-                type="button"
-                onClick={() => setMinimizedCountryOverlays((overlays) => (
-                  overlays.filter(({ id }) => id !== overlay.id)
-                ))}
-                aria-label={`Close minimized map for ${overlay.countryName}`}
-                title={`Close ${overlay.countryName} map`}
-              />
-            </div>
+      <footer className="App-footer">
+        <MapTabs
+          overlays={minimizedCountryOverlays}
+          onRestore={handleRestoreCountryOverlay}
+          onClose={(overlayId) => setMinimizedCountryOverlays((overlays) => (
+            overlays.filter(({ id }) => id !== overlayId)
           ))}
-        </div>
-      ) : null}
-      <div className="App-logoGroup" aria-label="Partner institutions">
-        <p className="App-attribution">
-          This data visualization was made with data from the <a href="https://juri-globe.ca/en/allcategories-en-gb/3350-category-en-gb/index-of-states-and-their-corresponding-legal-and-constitutional-systems" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
+        />
+        <div className="App-logoGroup" aria-label="Partner institutions">
+          <p className="App-attribution">
+            This data visualization was made with data from the <a href="https://juri-globe.ca/en/allcategories-en-gb/3350-category-en-gb/index-of-states-and-their-corresponding-legal-and-constitutional-systems" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
              published by JuriGlobe and the Faculty of Law at the University of Ottawa.
-        </p>
-      </div>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

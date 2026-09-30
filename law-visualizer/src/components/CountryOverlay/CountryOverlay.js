@@ -164,3 +164,5 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
 }
 
 export default CountryOverlay;
+
+// St Vincent and the Grenadines, Palestine, Marshall Islands, fijji islands are not available in the Highcharts map collection, so we need to use a fallback for that country.

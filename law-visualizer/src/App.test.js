@@ -14,6 +14,28 @@ test('opens and closes the selected country map overlay', () => {
   expect(screen.queryByRole('dialog', { name: /Expanded country map:/ })).not.toBeInTheDocument();
 });
 
+test('scrolls minimized map tabs over the close button without zooming the map', () => {
+  render(<App />);
+
+  fireEvent.click(document.querySelector('path[id="CI"]'));
+  fireEvent.click(screen.getByRole('button', { name: 'View country map' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Minimize map for Ivory Coast' }));
+
+  const map = document.querySelector('.App-map');
+  const mapTransform = map.style.transform;
+  const mapTabs = screen.getByRole('group', { name: 'Minimized country maps' });
+
+  const closeButton = screen.getByRole('button', { name: 'Close minimized map for Ivory Coast' });
+  fireEvent.wheel(closeButton, { deltaY: 100 });
+
+  expect(map.style.transform).toBe(mapTransform);
+  expect(mapTabs.scrollLeft).toBe(100);
+
+  fireEvent.click(closeButton);
+
+  expect(screen.queryByRole('button', { name: 'Close minimized map for Ivory Coast' })).not.toBeInTheDocument();
+});
+
 test('selects Ivory Coast from the map when the CI path is clicked', () => {
   render(<App />);
 
