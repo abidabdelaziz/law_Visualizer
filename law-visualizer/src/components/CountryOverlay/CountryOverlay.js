@@ -169,7 +169,7 @@ function CountryOverlay({ countryName, pathData, bounds, fillColor, onClose }) {
       >
         <header className="CountryOverlay-header">
           <h2 className="CountryOverlay-title" id="country-overlay-title">
-            Expanded country map: {countryName}
+            Expanded Country Map: {countryName}
           </h2>
           <button
             className="CountryOverlay-close"
