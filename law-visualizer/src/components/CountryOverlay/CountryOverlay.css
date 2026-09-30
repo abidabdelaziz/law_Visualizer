@@ -6,9 +6,7 @@
   place-items: center;
   box-sizing: border-box;
   padding: 20px;
-  background: rgba(8, 16, 25, 0.76);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: transparent;
 }
 
 .CountryOverlay-dialog {
@@ -32,6 +30,12 @@
   min-height: 30px;
 }
 
+.CountryOverlay-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .CountryOverlay-title {
   margin: 0;
   color: #f0f4f7;
@@ -41,6 +45,7 @@
   text-transform: uppercase;
 }
 
+.CountryOverlay-minimize,
 .CountryOverlay-close {
   position: relative;
   width: 30px;
@@ -53,10 +58,11 @@
   cursor: pointer;
 }
 
+.CountryOverlay-minimize::before,
 .CountryOverlay-close::before,
 .CountryOverlay-close::after {
   position: absolute;
-  top: 13px;
+  top: 14px;
   left: 8px;
   width: 12px;
   height: 1px;
@@ -73,7 +79,9 @@
 }
 
 .CountryOverlay-close:hover,
-.CountryOverlay-close:focus-visible {
+.CountryOverlay-minimize:hover,
+.CountryOverlay-close:focus-visible,
+.CountryOverlay-minimize:focus-visible {
   border-color: rgba(220, 237, 248, 0.75);
   background: rgba(102, 126, 146, 0.7);
   outline: none;

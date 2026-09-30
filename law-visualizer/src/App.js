@@ -112,6 +112,7 @@ const getCountryMatchKey = (value) => {
 function App() {
   const containerRef = useRef(null);
   const dragRef = useRef(null);
+  const nextOverlayIdRef = useRef(0);
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(nationIndex[0]);
   const [searchQuery, setSearchQuery] = useState('');
@@ -120,6 +121,7 @@ function App() {
   const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
   const [detailsLegalSystem, setDetailsLegalSystem] = useState(null);
   const [overlayCountry, setOverlayCountry] = useState(null);
+  const [minimizedCountryOverlays, setMinimizedCountryOverlays] = useState([]);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
     const map = new Map();
@@ -391,12 +393,40 @@ function App() {
     const countryCode = primaryCountryPath?.getAttribute('id');
 
     if (countryCode) {
+      if (overlayCountry) {
+        setMinimizedCountryOverlays((overlays) => [...overlays, overlayCountry]);
+      }
+
       setOverlayCountry({
+        id: nextOverlayIdRef.current++,
         countryName: selectedCountry.State,
         countryCode,
         fillColor: legalSystemColors[selectedCountry['Legal System']] || '#dadada',
       });
     }
+  };
+
+  const handleMinimizeCountryOverlay = () => {
+    if (!overlayCountry) {
+      return;
+    }
+
+    setMinimizedCountryOverlays((overlays) => [...overlays, overlayCountry]);
+    setOverlayCountry(null);
+  };
+
+  const handleRestoreCountryOverlay = (overlayId) => {
+    const overlayToRestore = minimizedCountryOverlays.find(({ id }) => id === overlayId);
+
+    if (!overlayToRestore) {
+      return;
+    }
+
+    setMinimizedCountryOverlays((overlays) => [
+      ...overlays.filter(({ id }) => id !== overlayId),
+      ...(overlayCountry ? [overlayCountry] : []),
+    ]);
+    setOverlayCountry(overlayToRestore);
   };
 
   useEffect(() => {
@@ -662,7 +692,34 @@ function App() {
           countryCode={overlayCountry.countryCode}
           fillColor={overlayCountry.fillColor}
           onClose={() => setOverlayCountry(null)}
+          onMinimize={handleMinimizeCountryOverlay}
         />
+      ) : null}
+      {minimizedCountryOverlays.length > 0 ? (
+        <div className="App-minimizedMaps" role="group" aria-label="Minimized country maps">
+          {minimizedCountryOverlays.map((overlay) => (
+            <div className="App-minimizedMap" key={overlay.id}>
+              <button
+                className="App-minimizedMapRestore"
+                type="button"
+                onClick={() => handleRestoreCountryOverlay(overlay.id)}
+                aria-label={`Restore map for ${overlay.countryName}`}
+                title={`Restore ${overlay.countryName} map`}
+              >
+                {overlay.countryName}
+              </button>
+              <button
+                className="App-minimizedMapClose"
+                type="button"
+                onClick={() => setMinimizedCountryOverlays((overlays) => (
+                  overlays.filter(({ id }) => id !== overlay.id)
+                ))}
+                aria-label={`Close minimized map for ${overlay.countryName}`}
+                title={`Close ${overlay.countryName} map`}
+              />
+            </div>
+          ))}
+        </div>
       ) : null}
       <div className="App-logoGroup" aria-label="Partner institutions">
         <p className="App-attribution">

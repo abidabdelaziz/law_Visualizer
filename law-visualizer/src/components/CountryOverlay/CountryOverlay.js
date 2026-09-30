@@ -48,7 +48,7 @@ export const buildCountrySvgGeometry = (geoJson) => {
   };
 };
 
-function CountryOverlay({ countryName, countryCode, fillColor, onClose }) {
+function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimize }) {
   const closeButtonRef = useRef(null);
   const [countryGeometry, setCountryGeometry] = useState(null);
   const [loadError, setLoadError] = useState(false);
@@ -113,14 +113,25 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose }) {
           <h2 className="CountryOverlay-title" id="country-overlay-title">
             Expanded Country Map: {countryName}
           </h2>
-          <button
-            className="CountryOverlay-close"
-            ref={closeButtonRef}
-            type="button"
-            onClick={onClose}
-            aria-label="Close country image"
-            title="Close"
-          />
+          <div className="CountryOverlay-actions">
+            {onMinimize ? (
+              <button
+                className="CountryOverlay-minimize"
+                type="button"
+                onClick={onMinimize}
+                aria-label={`Minimize map for ${countryName}`}
+                title="Minimize"
+              />
+            ) : null}
+            <button
+              className="CountryOverlay-close"
+              ref={closeButtonRef}
+              type="button"
+              onClick={onClose}
+              aria-label="Close country image"
+              title="Close"
+            />
+          </div>
         </header>
         <div className="CountryOverlay-imageFrame" aria-busy={!countryGeometry && !loadError}>
           {countryGeometry ? (

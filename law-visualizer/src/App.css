@@ -676,8 +676,11 @@
 }
 
 .App-logoGroup {
-  left: 14px;
+  right: 14px;
+  left: auto;
   bottom: 12px;
+  z-index: 3;
+  max-width: min(620px, calc(100vw - 40px));
   padding: 8px 10px;
   border: 1px solid rgba(220, 231, 239, 0.16);
   border-radius: 5px;
@@ -686,7 +689,7 @@
 }
 
 .App-attribution {
-  width: min(620px, calc(100vw - 40px));
+  width: min(620px, calc(100vw - 64px));
   color: #b9c7d2;
   font-size: 11px;
   line-height: 1.35;
@@ -694,6 +697,85 @@
 
 .App-attribution a {
   color: #d3e4ef;
+}
+
+.App-minimizedMaps {
+  position: fixed;
+  bottom: 12px;
+  left: 14px;
+  z-index: 4;
+  display: flex;
+  gap: 6px;
+  max-width: calc(100vw - 28px);
+  overflow-x: auto;
+  padding: 4px;
+  border-radius: 5px;
+  background: rgba(24, 38, 52, 0.78);
+  box-shadow: var(--dashboard-shadow);
+  scrollbar-width: thin;
+}
+
+.App-minimizedMap {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: stretch;
+  max-width: 220px;
+  border: 1px solid rgba(220, 231, 239, 0.2);
+  border-radius: 4px;
+  background: rgba(90, 108, 124, 0.48);
+}
+
+.App-minimizedMapRestore,
+.App-minimizedMapClose {
+  min-height: 30px;
+  border: 0;
+  color: #edf3f7;
+  background: transparent;
+  cursor: pointer;
+}
+
+.App-minimizedMapRestore {
+  min-width: 0;
+  overflow: hidden;
+  padding: 5px 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: inherit;
+  font-size: 11px;
+}
+
+.App-minimizedMapClose {
+  position: relative;
+  width: 28px;
+  flex: 0 0 28px;
+  border-left: 1px solid rgba(220, 231, 239, 0.16);
+}
+
+.App-minimizedMapClose::before,
+.App-minimizedMapClose::after {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  width: 10px;
+  height: 1px;
+  background: #edf3f7;
+  content: '';
+}
+
+.App-minimizedMapClose::before {
+  transform: rotate(45deg);
+}
+
+.App-minimizedMapClose::after {
+  transform: rotate(-45deg);
+}
+
+.App-minimizedMapRestore:hover,
+.App-minimizedMapRestore:focus-visible,
+.App-minimizedMapClose:hover,
+.App-minimizedMapClose:focus-visible {
+  background: rgba(220, 231, 239, 0.16);
+  outline: none;
 }
 
 @media (max-width: 760px) {
@@ -720,6 +802,23 @@
   }
 
   .App-logoGroup {
-    display: none;
+    right: 8px;
+    bottom: 8px;
+    max-width: min(240px, calc(100vw - 32px));
+    padding: 6px 8px;
+  }
+
+  .App-attribution {
+    width: min(240px, calc(100vw - 48px));
+    font-size: 10px;
+  }
+
+  .App-minimizedMaps {
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    max-width: none;
+    width: max-content;
+    max-width: calc(100vw - 16px);
   }
 }
