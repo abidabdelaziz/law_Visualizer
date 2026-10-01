@@ -16,8 +16,11 @@ const getPolygonRings = (geometry) => {
 export const buildCountrySvgGeometry = (geoJson) => {
   const points = [];
   const pathParts = [];
+  const outlineParts = [];
 
   geoJson?.features?.forEach(({ geometry }) => {
+    const featurePathParts = [];
+
     getPolygonRings(geometry).forEach((ring) => {
       const validPoints = ring.filter(([x, y]) => Number.isFinite(x) && Number.isFinite(y));
 
@@ -26,8 +29,11 @@ export const buildCountrySvgGeometry = (geoJson) => {
       }
 
       points.push(...validPoints);
-      pathParts.push(`M ${validPoints.map(([x, y]) => `${x} ${-y}`).join(' L ')} Z`);
+      featurePathParts.push(`M ${validPoints.map(([x, y]) => `${x} ${-y}`).join(' L ')} Z`);
     });
+
+    pathParts.push(...featurePathParts);
+    outlineParts.push(featurePathParts.join(' '));
   });
 
   if (points.length === 0) {
@@ -44,6 +50,7 @@ export const buildCountrySvgGeometry = (geoJson) => {
 
   return {
     pathData: pathParts.join(' '),
+    outlinePathData: outlineParts.filter(Boolean).join(' '),
     viewBox: `${minX - padding} ${minY - padding} ${maxX - minX + padding * 2} ${maxY - minY + padding * 2}`,
   };
 };
@@ -147,6 +154,15 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
                 fill={fillColor}
                 fillRule="evenodd"
                 style={{ filter: 'drop-shadow(0 0 1px #eaf1f5)' }}
+              />
+              <path
+                d={countryGeometry.outlinePathData}
+                fill="none"
+                stroke="#ffffff"
+                strokeWidth="0.7"
+                strokeLinejoin="round"
+                vectorEffect="non-scaling-stroke"
+                aria-hidden="true"
               />
             </svg>
           ) : (

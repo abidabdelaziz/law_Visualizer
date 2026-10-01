@@ -44,7 +44,7 @@ test('combines adjacent regional polygons into a single filled country shape', (
   });
 
   expect(geometry.pathData.match(/M /g)).toHaveLength(2);
-  expect(geometry).not.toHaveProperty('outlinePathData');
+  expect(geometry.outlinePathData.match(/M /g)).toHaveLength(2);
 });
 
 test('ignores non-polygon features and returns null when no country shapes exist', () => {
