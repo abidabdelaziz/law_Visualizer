@@ -471,6 +471,7 @@ function App() {
         path.removeAttribute('data-selected');
       }
     });
+
   }, [selectedCountry, resolveCountry, getCountryLabel]);
 
   const updateHoveredCountry = (event) => {
@@ -715,7 +716,7 @@ function App() {
         />
         <div className="App-logoGroup" aria-label="Partner institutions">
           <p className="App-attribution">
-            This data visualization was made with data from the <a href="https://juri-globe.ca/en/allcategories-en-gb/3350-category-en-gb/index-of-states-and-their-corresponding-legal-and-constitutional-systems" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a> ,
+            This data visualization was made with data from the <a href="https://juri-globe.ca/en/allcategories-en-gb/3350-category-en-gb/index-of-states-and-their-corresponding-legal-and-constitutional-systems" target="_blank" rel="noopener noreferrer">Index of States and Their Corresponding Legal and Constitutional Systems</a>,
              published by JuriGlobe and the Faculty of Law at the University of Ottawa.
           </p>
         </div>

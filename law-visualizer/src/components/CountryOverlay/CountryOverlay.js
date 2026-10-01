@@ -146,10 +146,7 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
                 d={countryGeometry.pathData}
                 fill={fillColor}
                 fillRule="evenodd"
-                stroke="#eaf1f5"
-                strokeWidth="1.5"
-                vectorEffect="non-scaling-stroke"
-                strokeLinejoin="round"
+                style={{ filter: 'drop-shadow(0 0 1px #eaf1f5)' }}
               />
             </svg>
           ) : (

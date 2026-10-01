@@ -2835,7 +2835,7 @@
  }, 
   {
     "State": "Libya",
-    "Legal System": null,
+    "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
     "Form of State": null,
     "Form of Government": null,
     "Constitutional Control": null,
@@ -2979,7 +2979,7 @@
     "Parliamentary Upper House / Senate": "Indirect Majoritarian Nominations",
     "Parliamentary Lower House / National Assembly": "Majoritarian + Proportional",
     "Language Category": "Plurilingual",
-    "Official Languages": "French, Malagasy",
+    "Official Languages": "Malagasy, French",
     "Research Guides": [
      {
        "href": "https://www.nyulawglobal.org/globalex/madagascar1.html",
@@ -4722,7 +4722,7 @@
  }, 
   {
     "State": "Somalia",
-    "Legal System": null,
+    "Legal System": "Mixed Civil Law, Customary Law, Muslim Law",
     "Form of State": null,
     "Form of Government": null,
     "Constitutional Control": null,
@@ -4780,14 +4780,14 @@
  }, 
   {
     "State": "South Sudan",
-    "Legal System": null,
+    "Legal System": "Common Law",
     "Form of State": null,
     "Form of Government": null,
     "Constitutional Control": null,
     "Parliamentary Upper House / Senate": null,
     "Parliamentary Lower House / National Assembly": null,
     "Language Category": "Unilingual",
-    "Official Languages": "English, +",
+    "Official Languages": "English",
     "Research Guides": [
      {
        "href": "https://www.nyulawglobal.org/globalex/south_sudan1.html",

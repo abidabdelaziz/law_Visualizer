@@ -41,6 +41,8 @@
 .App-map path[data-name] {
   cursor: pointer;
   pointer-events: all;
+  stroke-width: 0.35px;
+  vector-effect: non-scaling-stroke;
 }
 
 .App-map path[data-selected='true'] {
