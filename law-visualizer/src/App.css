@@ -473,9 +473,8 @@ body,
 }
 
 .App-toolbar .App-helpButton {
-  position: absolute;
-  top: 8px;
-  right: 38px;
+  position: static;
+  flex: 0 0 26px;
   width: 26px;
   min-width: 26px;
   height: 26px;

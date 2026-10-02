@@ -532,25 +532,12 @@ function App() {
     : [];
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
-      <h1 className="App-title">The Law Lense</h1>
       <LegalSystems
         selectedLegalSystem={selectedLegalSystem}
         onSelect={handleLegalSystemSelect}
       />
       <div className={`App-sidebar${isSidebarCollapsed ? ' is-collapsed' : ''}`}>
         <div className="App-toolbar">
-          <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
-            -
-          </button>
-          <button type="button" onClick={handleReset} aria-label="Reset zoom">
-            Reset
-          </button>
-          <button type="button" onClick={handleCenter} aria-label="Center map">
-            Center
-          </button>
-          <button type="button" onClick={handleZoomIn} aria-label="Zoom in">
-            +
-          </button>
           <button
             className="App-helpButton"
             type="button"
@@ -559,6 +546,18 @@ function App() {
             title="Help"
           >
             ?
+          </button>
+          <button type="button" onClick={handleReset} aria-label="Reset zoom">
+            Reset
+          </button>
+          <button type="button" onClick={handleCenter} aria-label="Center map">
+            Center
+          </button>
+          <button type="button" onClick={handleZoomOut} aria-label="Zoom out">
+            -
+          </button>
+          <button type="button" onClick={handleZoomIn} aria-label="Zoom in">
+            +
           </button>
           <button
             className="App-collapseButton"
