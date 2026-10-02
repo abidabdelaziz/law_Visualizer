@@ -1,0 +1,145 @@
+[
+  {
+    "State": "Alberta",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "British Columbia",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Manitoba",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "New Brunswick",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Bilingual",
+    "Official Languages": "English, French"
+  },
+  {
+    "State": "Newfoundland and Labrador",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Northwest Territories",
+    "Legal System": "Common Law",
+    "Form of State": "Territory",
+    "Form of Government": "Consensus Governance",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Multilingual",
+    "Official Languages": "Chipewyan, Cree, English, French, Gwich'in, Inuinnaqtun, Inuktitut, Inuvialuktun, North Slavey, South Slavey, Tłı̨chǫ"
+  },
+  {
+    "State": "Nova Scotia",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Nunavut",
+    "Legal System": "Common Law",
+    "Form of State": "Territory",
+    "Form of Government": "Consensus Governance",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Multilingual",
+    "Official Languages": "Inuktitut, Inuinnaqtun, English, French"
+  },
+  {
+    "State": "Ontario",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Prince Edward Island",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Quebec",
+    "Legal System": "Civil Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "French"
+  },
+  {
+    "State": "Saskatchewan",
+    "Legal System": "Common Law",
+    "Form of State": "Federated State",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Monolingual",
+    "Official Languages": "English"
+  },
+  {
+    "State": "Yukon",
+    "Legal System": "Common Law",
+    "Form of State": "Territory",
+    "Form of Government": "Parliamentary",
+    "Constitutional Control": "Decentralized",
+    "Parliamentary Upper House / Senate": "None",
+    "Parliamentary Lower House / National Assembly": "Majoritarian",
+    "Language Category": "Bilingual",
+    "Official Languages": "English, French"
+  }
+]

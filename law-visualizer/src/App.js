@@ -2,6 +2,7 @@ import './App.css';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
+import CountryDetails from './components/CountryDetails/CountryDetails';
 import CountryOverlay from './components/CountryOverlay/CountryOverlay';
 import HelpOverlay from './components/HelpOverlay/HelpOverlay';
 import LegalSystems, { legalSystemColors } from './components/LegalSystems/LegalSystems';
@@ -9,8 +10,7 @@ import MapTabs from './components/MapTabs/MapTabs';
 
 const MIN_SCALE = 2;
 const MAX_SCALE = 12;
-const INITIAL_SCALE = 2;
-const INITIAL_Y_OFFSET = 200;
+const INITIAL_SCALE = 1.5;
 const ZOOM_STEP = 1.15;
 const REGION_CODE_PATTERN = /^[A-Z]{2}$/;
 const regionNames = typeof Intl !== 'undefined' && Intl.DisplayNames
@@ -210,7 +210,7 @@ function App() {
 
     const rect = container.getBoundingClientRect();
     const x = (rect.width - rect.width * scale) / 2;
-    const y = (rect.height - rect.height * scale) / 2 + INITIAL_Y_OFFSET;
+    const y = (rect.height - rect.height * scale) / 2;
 
     return { scale, x, y };
   };
@@ -244,7 +244,7 @@ function App() {
   const handleWheel = (event) => {
     if (
       event.target instanceof Element
-      && event.target.closest('.App-menuList, .App-details, .App-legend, .MapTabs, .HelpOverlay')
+      && event.target.closest('.App-menuList, .App-details, .App-legend, .MapTabs, .HelpOverlay, .CountryOverlay-dialog')
     ) {
       return;
     }
@@ -292,13 +292,7 @@ function App() {
       return;
     }
 
-    const rect = container.getBoundingClientRect();
-
-    setView((currentView) => ({
-      scale: currentView.scale,
-      x: (rect.width - rect.width * currentView.scale) / 2,
-      y: (rect.height - rect.height * currentView.scale) / 2 + 200,
-    }));
+    setView((currentView) => getCenteredView(currentView.scale));
   };
 
   const handleCountrySelect = (country) => {
@@ -529,9 +523,6 @@ function App() {
   const legalSystemCountries = selectedLegalSystem
     ? nationIndex.filter((country) => country['Legal System'] === selectedLegalSystem)
     : [];
-
-  const detailEntries = selectedCountry ? Object.entries(selectedCountry) : [];
-
   return (
     <div className="App" ref={containerRef} onWheel={handleWheel}>
       <h1 className="App-title">The Law Lense</h1>
@@ -649,34 +640,7 @@ function App() {
                 </div>
               </div>
               {selectedCountry ? (
-                <div className="App-detailGrid">
-                  {detailEntries.map(([label, value]) => (
-                    <div className="App-detailRow" key={label}>
-                      <div className="App-detailLabel">{label}</div>
-                      <div className="App-detailValue">
-                        {label === 'Research Guides' && Array.isArray(value) ? (
-                          <ul className="App-researchGuides">
-                            {value.map((guide) => (
-                              <li key={guide.href}>
-                                <a
-                                  href={guide.href}
-                                  target={guide.target}
-                                  rel={guide.rel}
-                                  aria-label={guide['aria-label']}
-                                  title={guide.title}
-                                >
-                                  {guide.text}
-                                </a>
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
-                          value ?? 'N/A'
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                <CountryDetails country={selectedCountry} className="App-detailGrid" />
               ) : (
                 <div className="App-empty">Select a state to view its data.</div>
               )}
@@ -684,27 +648,20 @@ function App() {
           )}
         </div>
       </div>
-      <WorldHigh
-        className="App-map"
-        role="img"
-        aria-label="world map"
-        onPointerDown={handlePointerDown}
-        onPointerMove={updateHoveredCountry}
-        onPointerLeave={() => setHoveredCountry(null)}
-        onClick={handleMapClick}
-        style={{
-          transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})`,
-          cursor: view.scale > 1 ? 'grab' : 'default',
-        }}
-      />
+
+      <div className="App-mapViewport" aria-label="World map">
+        <WorldHigh
+          className="App-map"
+          onPointerDown={handlePointerDown}
+          onPointerMove={updateHoveredCountry}
+          onPointerLeave={() => setHoveredCountry(null)}
+          onClick={handleMapClick}
+          style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}
+        />
+      </div>
+
       {hoveredCountry ? (
-        <div
-          className="App-tooltip"
-          style={{
-            left: hoveredCountry.x + 12,
-            top: hoveredCountry.y + 12,
-          }}
-        >
+        <div className="App-tooltip" style={{ left: hoveredCountry.x + 12, top: hoveredCountry.y + 12 }}>
           {hoveredCountry.name}
         </div>
       ) : null}

@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import usIndex from '../../assets/usIndex.json';
+import CountryDetails from '../CountryDetails/CountryDetails';
 import './CountryOverlay.css';
 
 const getPolygonRings = (geometry) => {
@@ -17,8 +19,9 @@ export const buildCountrySvgGeometry = (geoJson) => {
   const points = [];
   const pathParts = [];
   const outlineParts = [];
+  const regions = [];
 
-  geoJson?.features?.forEach(({ geometry }) => {
+  geoJson?.features?.forEach(({ geometry, properties }) => {
     const featurePathParts = [];
 
     getPolygonRings(geometry).forEach((ring) => {
@@ -34,6 +37,12 @@ export const buildCountrySvgGeometry = (geoJson) => {
 
     pathParts.push(...featurePathParts);
     outlineParts.push(featurePathParts.join(' '));
+    if (featurePathParts.length > 0) {
+      regions.push({
+        name: properties?.name,
+        pathData: featurePathParts.join(' '),
+      });
+    }
   });
 
   if (points.length === 0) {
@@ -51,6 +60,7 @@ export const buildCountrySvgGeometry = (geoJson) => {
   return {
     pathData: pathParts.join(' '),
     outlinePathData: outlineParts.filter(Boolean).join(' '),
+    regions,
     viewBox: `${minX - padding} ${minY - padding} ${maxX - minX + padding * 2} ${maxY - minY + padding * 2}`,
   };
 };
@@ -59,11 +69,15 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
   const closeButtonRef = useRef(null);
   const [countryGeometry, setCountryGeometry] = useState(null);
   const [loadError, setLoadError] = useState(false);
+  const [selectedState, setSelectedState] = useState(null);
+  const isUnitedStates = countryCode.toLowerCase() === 'us';
+  const stateByName = new Map(usIndex.map((state) => [state.State, state]));
 
   useEffect(() => {
     let isMounted = true;
     setCountryGeometry(null);
     setLoadError(false);
+    setSelectedState(null);
 
     async function loadMapData() {
       try {
@@ -106,12 +120,12 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
       className="CountryOverlay"
       onClick={(event) => {
         if (event.target === event.currentTarget) {
-          onClose();
+          onMinimize ? onMinimize() : onClose();
         }
       }}
     >
       <section
-        className="CountryOverlay-dialog"
+        className={`CountryOverlay-dialog${isUnitedStates ? ' is-united-states' : ''}`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="country-overlay-title"
@@ -140,36 +154,81 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
             />
           </div>
         </header>
-        <div className="CountryOverlay-imageFrame" aria-busy={!countryGeometry && !loadError}>
-          {countryGeometry ? (
-            <svg
-              className="CountryOverlay-image"
-              viewBox={countryGeometry.viewBox}
-              role="img"
-              aria-label={`${countryName} outline`}
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <path
-                d={countryGeometry.pathData}
-                fill={fillColor}
-                fillRule="evenodd"
-                style={{ filter: 'drop-shadow(0 0 1px #eaf1f5)' }}
-              />
-              <path
-                d={countryGeometry.outlinePathData}
-                fill="none"
-                stroke="#ffffff"
-                strokeWidth="0.7"
-                strokeLinejoin="round"
-                vectorEffect="non-scaling-stroke"
-                aria-hidden="true"
-              />
-            </svg>
-          ) : (
-            <p className="CountryOverlay-status" role={loadError ? 'alert' : 'status'}>
-              {loadError ? 'Map data unavailable for this country.' : 'Loading country map...'}
-            </p>
-          )}
+        <div className="CountryOverlay-body">
+          {isUnitedStates ? (
+            <aside className="CountryOverlay-statePanel" aria-live="polite">
+              <h3 className="CountryOverlay-stateHeading">
+                {selectedState?.State || 'State details'}
+              </h3>
+              {selectedState ? (
+                <CountryDetails country={selectedState} className="CountryOverlay-stateDetails" />
+              ) : (
+                <p className="CountryOverlay-statePrompt">Select a state on the map.</p>
+              )}
+            </aside>
+          ) : null}
+          <div className="CountryOverlay-imageFrame" aria-busy={!countryGeometry && !loadError}>
+            {countryGeometry ? (
+              <svg
+                className="CountryOverlay-image"
+                viewBox={countryGeometry.viewBox}
+                role={isUnitedStates ? 'group' : 'img'}
+                aria-label={`${countryName} outline`}
+                preserveAspectRatio="xMidYMid meet"
+              >
+                {isUnitedStates ? countryGeometry.regions.map((region) => {
+                  const state = stateByName.get(region.name);
+
+                  return (
+                    <path
+                      key={`${region.name}-${region.pathData.slice(0, 20)}`}
+                      className={`CountryOverlay-region${state ? ' is-selectable' : ''}${selectedState?.State === region.name ? ' is-selected' : ''}`}
+                      d={region.pathData}
+                      fill={selectedState?.State === region.name ? '#e5b65c' : fillColor}
+                      fillRule="evenodd"
+                      stroke="#ffffff"
+                      strokeWidth="0.7"
+                      strokeLinejoin="round"
+                      vectorEffect="non-scaling-stroke"
+                      role={state ? 'button' : undefined}
+                      tabIndex={state ? 0 : undefined}
+                      aria-label={state ? `Select ${region.name}` : undefined}
+                      aria-pressed={state ? selectedState?.State === region.name : undefined}
+                      onClick={state ? () => setSelectedState(state) : undefined}
+                      onKeyDown={state ? (event) => {
+                        if (event.key === 'Enter' || event.key === ' ') {
+                          event.preventDefault();
+                          setSelectedState(state);
+                        }
+                      } : undefined}
+                    />
+                  );
+                }) : (
+                  <>
+                    <path
+                      d={countryGeometry.pathData}
+                      fill={fillColor}
+                      fillRule="evenodd"
+                      style={{ filter: 'drop-shadow(0 0 1px #eaf1f5)' }}
+                    />
+                    <path
+                      d={countryGeometry.outlinePathData}
+                      fill="none"
+                      stroke="#ffffff"
+                      strokeWidth="0.7"
+                      strokeLinejoin="round"
+                      vectorEffect="non-scaling-stroke"
+                      aria-hidden="true"
+                    />
+                  </>
+                )}
+              </svg>
+            ) : (
+              <p className="CountryOverlay-status" role={loadError ? 'alert' : 'status'}>
+                {loadError ? 'Map data unavailable for this country.' : 'Loading country map...'}
+              </p>
+            )}
+          </div>
         </div>
       </section>
     </div>

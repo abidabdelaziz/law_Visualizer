@@ -14,6 +14,41 @@ test('opens and closes the selected country map overlay', () => {
   expect(screen.queryByRole('dialog', { name: /Expanded country map:/ })).not.toBeInTheDocument();
 });
 
+test('minimizes the country map when clicking outside the overlay', () => {
+  render(<App />);
+
+  fireEvent.click(document.querySelector('path[id="CI"]'));
+  fireEvent.click(screen.getByRole('button', { name: 'View country map' }));
+  fireEvent.click(document.querySelector('.CountryOverlay'));
+
+  expect(screen.queryByRole('dialog', { name: /Expanded country map:/ })).not.toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Restore map for Ivory Coast' })).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: 'Restore map for Ivory Coast' }));
+
+  expect(screen.getByRole('dialog', { name: /Expanded country map: Ivory Coast/ })).toBeInTheDocument();
+});
+
+test('only disables world-map wheel zoom over the country overlay dialog', () => {
+  render(<App />);
+
+  const map = document.querySelector('.App-map');
+  const initialTransform = map.style.transform;
+  fireEvent.wheel(map, { deltaY: -100 });
+  expect(map.style.transform).not.toBe(initialTransform);
+
+  fireEvent.click(screen.getByRole('button', { name: 'View country map' }));
+
+  const transformWithOverlayOpen = map.style.transform;
+  fireEvent.wheel(document.querySelector('.CountryOverlay-dialog'), { deltaY: -100 });
+
+  expect(map.style.transform).toBe(transformWithOverlayOpen);
+
+  fireEvent.wheel(document.querySelector('.CountryOverlay'), { deltaY: -100 });
+
+  expect(map.style.transform).not.toBe(transformWithOverlayOpen);
+});
+
 test('opens and closes the help overlay', () => {
   render(<App />);
 
