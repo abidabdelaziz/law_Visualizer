@@ -29,6 +29,24 @@ test('minimizes the country map when clicking outside the overlay', () => {
   expect(screen.getByRole('dialog', { name: /Expanded country map: Ivory Coast/ })).toBeInTheDocument();
 });
 
+test('preserves selected state details when minimizing and restoring the US map', async () => {
+  render(<App />);
+
+  fireEvent.click(document.querySelector('path[id="US"]'));
+  fireEvent.click(screen.getByRole('button', { name: 'View country map' }));
+  fireEvent.click(await screen.findByRole('button', { name: 'Select California' }));
+
+  expect(screen.getByRole('heading', { name: 'California' })).toBeInTheDocument();
+  expect(screen.getByText('Official Languages')).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: 'Minimize map for United States' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Restore map for United States' }));
+
+  expect(screen.getByRole('heading', { name: 'California' })).toBeInTheDocument();
+  expect(screen.getByText('Official Languages')).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Select California' })).toHaveAttribute('aria-pressed', 'true');
+});
+
 test('only disables world-map wheel zoom over the country overlay dialog', () => {
   render(<App />);
 

@@ -65,11 +65,18 @@ export const buildCountrySvgGeometry = (geoJson) => {
   };
 };
 
-function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimize }) {
+function CountryOverlay({
+  countryName,
+  countryCode,
+  fillColor,
+  selectedState,
+  onSelectState,
+  onClose,
+  onMinimize,
+}) {
   const closeButtonRef = useRef(null);
   const [countryGeometry, setCountryGeometry] = useState(null);
   const [loadError, setLoadError] = useState(false);
-  const [selectedState, setSelectedState] = useState(null);
   const isUnitedStates = countryCode.toLowerCase() === 'us';
   const stateByName = new Map(usIndex.map((state) => [state.State, state]));
 
@@ -77,7 +84,6 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
     let isMounted = true;
     setCountryGeometry(null);
     setLoadError(false);
-    setSelectedState(null);
 
     async function loadMapData() {
       try {
@@ -194,11 +200,11 @@ function CountryOverlay({ countryName, countryCode, fillColor, onClose, onMinimi
                       tabIndex={state ? 0 : undefined}
                       aria-label={state ? `Select ${region.name}` : undefined}
                       aria-pressed={state ? selectedState?.State === region.name : undefined}
-                      onClick={state ? () => setSelectedState(state) : undefined}
+                      onClick={state ? () => onSelectState(state) : undefined}
                       onKeyDown={state ? (event) => {
                         if (event.key === 'Enter' || event.key === ' ') {
                           event.preventDefault();
-                          setSelectedState(state);
+                          onSelectState(state);
                         }
                       } : undefined}
                     />

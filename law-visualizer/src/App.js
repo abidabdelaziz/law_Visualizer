@@ -408,8 +408,15 @@ function App() {
         countryName: selectedCountry.State,
         countryCode,
         fillColor: legalSystemColors[selectedCountry['Legal System']] || '#dadada',
+        selectedState: null,
       });
     }
+  };
+
+  const handleSelectOverlayState = (selectedState) => {
+    setOverlayCountry((overlay) => (
+      overlay ? { ...overlay, selectedState } : overlay
+    ));
   };
 
   const handleMinimizeCountryOverlay = () => {
@@ -670,6 +677,8 @@ function App() {
           countryName={overlayCountry.countryName}
           countryCode={overlayCountry.countryCode}
           fillColor={overlayCountry.fillColor}
+          selectedState={overlayCountry.selectedState}
+          onSelectState={handleSelectOverlayState}
           onClose={() => setOverlayCountry(null)}
           onMinimize={handleMinimizeCountryOverlay}
         />
