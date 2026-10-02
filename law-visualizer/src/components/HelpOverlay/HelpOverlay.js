@@ -48,6 +48,32 @@ function HelpOverlay({ onClose }) {
             <h3>Explore the map</h3>
             <p>Select a state on the map or from the States list to view its legal system and country details.</p>
             <p>Drag the map to move it. Use the zoom controls or your mouse wheel to change its scale.</p>
+            <div className="HelpOverlay-controls" aria-label="Map controls">
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample" type="button" disabled aria-label="Zoom out example">−</button>
+                <span>Zoom out to see more of the map.</span>
+              </div>
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample" type="button" disabled>Reset</button>
+                <span>Return to the map's original scale and position.</span>
+              </div>
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample" type="button" disabled>Center</button>
+                <span>Center the map in the current view.</span>
+              </div>
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample" type="button" disabled aria-label="Zoom in example">+</button>
+                <span>Zoom in for a closer view.</span>
+              </div>
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample HelpOverlay-helpSample" type="button" disabled aria-label="Help example">?</button>
+                <span>Open this help panel.</span>
+              </div>
+              <div className="HelpOverlay-controlRow">
+                <button className="HelpOverlay-controlSample HelpOverlay-collapseSample" type="button" disabled aria-label="Collapse controls example" />
+                <span>Hide or show the map controls and States list.</span>
+              </div>
+            </div>
           </section>
           <section>
             <h3>Compare legal systems</h3>

@@ -21,6 +21,9 @@ test('opens and closes the help overlay', () => {
 
   expect(screen.getByRole('dialog', { name: 'Help' })).toBeInTheDocument();
   expect(screen.getByText(/Drag the map to move it/)).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Zoom out example' })).toBeDisabled();
+  expect(screen.getByRole('button', { name: 'Reset' })).toBeDisabled();
+  expect(screen.getByText('Return to the map\'s original scale and position.')).toBeInTheDocument();
 
   const map = document.querySelector('.App-map');
   const mapTransform = map.style.transform;

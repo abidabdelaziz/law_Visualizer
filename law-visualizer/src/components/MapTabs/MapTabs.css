@@ -6,6 +6,7 @@
   max-width: none;
   overflow-x: auto;
   padding: 4px;
+  border: 1px solid rgba(220, 231, 239, 0.16);
   border-radius: 5px;
   background: rgba(24, 38, 52, 0.78);
   box-shadow: var(--dashboard-shadow);
