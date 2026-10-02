@@ -26,34 +26,37 @@
 }
 
 .App-legendToggle {
+  position: relative;
+  box-sizing: border-box;
   width: 26px;
   height: 26px;
   flex: 0 0 26px;
-  border: 0;
+  border: 1px solid rgba(220, 231, 239, 0.22);
   border-radius: 4px;
-  background: transparent;
+  background: rgba(19, 31, 44, 0.62);
   cursor: pointer;
 }
 
 .App-legendToggle::before {
-  display: block;
+  position: absolute;
+  top: 9px;
+  left: 9px;
   width: 7px;
   height: 7px;
-  margin: 9px auto 0;
-  border-right: 2px solid #dce7ef;
-  border-bottom: 2px solid #dce7ef;
+  border-right: 1px solid #dce7ef;
+  border-bottom: 1px solid #dce7ef;
   transform: rotate(225deg);
   content: '';
 }
 
 .App-legendToggle.is-collapsed::before {
-  margin-top: 6px;
+  top: 7px;
   transform: rotate(45deg);
 }
 
 .App-legendToggle:hover,
 .App-legendToggle:focus-visible {
-  background: rgba(220, 231, 239, 0.12);
+  background: rgba(102, 126, 146, 0.7);
   outline: none;
 }
 
