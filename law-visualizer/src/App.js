@@ -3,6 +3,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import { ReactComponent as WorldHigh } from './assets/worldHigh.svg';
 import nationIndex from './assets/nationIndex.json';
 import CountryOverlay from './components/CountryOverlay/CountryOverlay';
+import HelpOverlay from './components/HelpOverlay/HelpOverlay';
 import LegalSystems, { legalSystemColors } from './components/LegalSystems/LegalSystems';
 import MapTabs from './components/MapTabs/MapTabs';
 
@@ -122,6 +123,7 @@ function App() {
   const [selectedLegalSystem, setSelectedLegalSystem] = useState(null);
   const [detailsLegalSystem, setDetailsLegalSystem] = useState(null);
   const [overlayCountry, setOverlayCountry] = useState(null);
+  const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [minimizedCountryOverlays, setMinimizedCountryOverlays] = useState([]);
   const [view, setView] = useState({ scale: INITIAL_SCALE, x: 0, y: 0 });
   const countryByName = useMemo(() => {
@@ -242,7 +244,7 @@ function App() {
   const handleWheel = (event) => {
     if (
       event.target instanceof Element
-      && event.target.closest('.App-menuList, .App-details, .App-legend, .MapTabs')
+      && event.target.closest('.App-menuList, .App-details, .App-legend, .MapTabs, .HelpOverlay')
     ) {
       return;
     }
@@ -552,6 +554,15 @@ function App() {
             +
           </button>
           <button
+            className="App-helpButton"
+            type="button"
+            onClick={() => setIsHelpOpen(true)}
+            aria-label="Open help"
+            title="Help"
+          >
+            ?
+          </button>
+          <button
             className="App-collapseButton"
             type="button"
             onClick={() => setIsSidebarCollapsed((isCollapsed) => !isCollapsed)}
@@ -706,6 +717,7 @@ function App() {
           onMinimize={handleMinimizeCountryOverlay}
         />
       ) : null}
+      {isHelpOpen ? <HelpOverlay onClose={() => setIsHelpOpen(false)} /> : null}
       <footer className="App-footer">
         <MapTabs
           overlays={minimizedCountryOverlays}

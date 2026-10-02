@@ -481,6 +481,17 @@
   padding: 4px 0 !important;
 }
 
+.App-toolbar .App-helpButton {
+  position: absolute;
+  top: 8px;
+  right: 38px;
+  width: 26px;
+  min-width: 26px;
+  height: 26px;
+  padding: 0;
+  line-height: 1;
+}
+
 .App-collapseButton::before {
   position: absolute;
   top: 9px;

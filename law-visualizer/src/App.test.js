@@ -14,6 +14,24 @@ test('opens and closes the selected country map overlay', () => {
   expect(screen.queryByRole('dialog', { name: /Expanded country map:/ })).not.toBeInTheDocument();
 });
 
+test('opens and closes the help overlay', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Open help' }));
+
+  expect(screen.getByRole('dialog', { name: 'Help' })).toBeInTheDocument();
+  expect(screen.getByText(/Drag the map to move it/)).toBeInTheDocument();
+
+  const map = document.querySelector('.App-map');
+  const mapTransform = map.style.transform;
+  fireEvent.wheel(document.querySelector('.HelpOverlay-content'), { deltaY: 100 });
+  expect(map.style.transform).toBe(mapTransform);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Close help' }));
+
+  expect(screen.queryByRole('dialog', { name: 'Help' })).not.toBeInTheDocument();
+});
+
 test('scrolls minimized map tabs over the close button without zooming the map', () => {
   render(<App />);
 
